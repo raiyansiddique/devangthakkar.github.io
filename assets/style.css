@@ -889,34 +889,18 @@ a:hover {
 }
 
 .chart.world_image1 {
-	position: fixed;
-	right: 0;
-	top: 0;
-	background-color: #927086;
 	display: none;
 }
 
 .chart.world_image2 {
-	position: fixed;
-	right: 0;
-	top: 0;
-	background-color: #927086;
 	display: none;
 }
 
 .chart.world_image3 {
-	position: fixed;
-	right: 0;
-	top: 0;
-	background-color: #927086;
 	display: none;
 }
 
 .chart.world_image4 {
-	position: fixed;
-	right: 0;
-	top: 0;
-	background-color: #927086;
 	display: none;
 }
 
