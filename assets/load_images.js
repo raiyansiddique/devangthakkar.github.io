@@ -8,8 +8,12 @@ for(var i=0;i<img_ids.length;i++) {
 	var image = document.getElementById(img_ids[i]);
 	var downloadingImage = new Image();
 	downloadingImage.onload = function(){
-		image.src = downloadingImage.src;   
+		image.src = downloadingImage.src;
+		console.log("inside");
+		console.log(image.id);
+		console.log(image.src));
 	};
-	console.log(i)
+	console.log("outside");
+	console.log(i);
 	downloadingImage.src = "https:/devangthakkar.github.io/assets/chain_images/chain_".concat(lang_codes[i].concat(".svg"));
 }
