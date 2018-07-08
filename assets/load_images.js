@@ -5,15 +5,14 @@ var img_ids = ["img2", "img3", "img4", "img5", "img6", "img7", "img8", "img9", "
 var lang_codes = ["am", "ar", "az", "be", "bg", "bn", "bs", "ca", "ceb", "co", "cs", "cy", "da", "de", "el", "eo", "es", "et", "eu", "fa", "fi", "fr", "fy", "ga", "gd", "gl", "gu", "ha", "haw", "hi", "hmn", "hr", "ht", "hu", "hy", "id", "ig", "is", "it", "iw", "ja", "jw", "ka", "kk", "km", "kn", "ko", "ku", "ky", "la", "lb", "lo", "lt", "lv", "mg", "mi", "mk", "ml", "mn", "mr", "ms", "mt", "my", "ne", "nl", "no", "ny", "pa", "pl", "ps", "pt", "ro", "ru", "sd", "si", "sk", "sl", "sm", "sn", "so", "sq", "sr", "st", "su", "sv", "sw", "ta", "te", "tg", "th", "tl", "tr", "uk", "ur", "uz", "vi", "xh", "yi", "yo", "zh-CN", "zh-TW","zu"];
 
 for(var i=0;i<img_ids.length;i++) {
-	var image = document.getElementById(img_ids[i]);
 	var downloadingImage = new Image();
 	downloadingImage.onload = function(){
-		image.src = downloadingImage.src;
+		document.getElementById(img_ids[i]).src = downloadingImage.src;
 		console.log("inside");
-		console.log(image.id);
-		console.log(image.src);
+		console.log(document.getElementById(img_ids[i]).id);
+		console.log(document.getElementById(img_ids[i]).src);
 	};
 	console.log("outside");
-	console.log(i);
+	console.log(img_ids[i]);
 	downloadingImage.src = "https:/devangthakkar.github.io/assets/chain_images/chain_".concat(lang_codes[i].concat(".svg"));
 }
