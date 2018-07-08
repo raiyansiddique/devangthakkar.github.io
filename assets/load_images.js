@@ -11,7 +11,7 @@ for(var i=0;i<img_ids.length;i++) {
 		image.src = downloadingImage.src;
 		console.log("inside");
 		console.log(image.id);
-		console.log(image.src));
+		console.log(image.src);
 	};
 	console.log("outside");
 	console.log(i);
