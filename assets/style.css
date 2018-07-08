@@ -893,7 +893,7 @@ a:hover {
 	right: 0;
 	top: 0;
 	background-color: #927086;
-	visibility: hidden;
+	display: none;
 }
 
 .chart.world_image2 {
@@ -901,7 +901,7 @@ a:hover {
 	right: 0;
 	top: 0;
 	background-color: #927086;
-	visibility: hidden;
+	display: none;
 }
 
 .chart.world_image3 {
@@ -909,7 +909,7 @@ a:hover {
 	right: 0;
 	top: 0;
 	background-color: #927086;
-	visibility: hidden;
+	display: none;
 }
 
 .chart.world_image4 {
@@ -917,7 +917,7 @@ a:hover {
 	right: 0;
 	top: 0;
 	background-color: #927086;
-	visibility: hidden;
+	display: none;
 }
 
 .scroll__text {
