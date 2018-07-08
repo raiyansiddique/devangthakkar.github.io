@@ -10,5 +10,5 @@ for(var i=0;i<img_ids.length;i++) {
 	downloadingImage.onload = function(){
 		image.src = this.src;   
 	};
-	downloadingImage.src = "http://home.iitb.ac.in/~devangthakkar/chain_images/chain_".concat(lang_codes[i].concat(".svg"));
+	downloadingImage.src = "https:/devangthakkar.github.io/assets/chain_images/chain_".concat(lang_codes[i].concat(".svg"));
 }
