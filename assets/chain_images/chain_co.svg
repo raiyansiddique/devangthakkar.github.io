@@ -561,11 +561,11 @@ var svg = document.getElementById('Layer_1');
 // console.log(svg);
 var tooltip = svg.getElementById('tooltip');
 var tooltipText = tooltip.getElementsByTagName('text')[0];
-console.log(tooltipText.firstChild);
+// console.log(tooltipText.firstChild);
 var triggers_rect = svg.getElementsByClassName('r');
 var triggers_dots = svg.getElementsByClassName('n');
-console.log(triggers_rect);
-console.log(triggers_dots);
+// console.log(triggers_rect);
+// console.log(triggers_dots);
 for (var i = 0; i < triggers_rect.length; i++) {
 	triggers_rect[i].addEventListener('mousemove', showTooltip);
 	triggers_rect[i].addEventListener('mouseout', hideTooltip);
