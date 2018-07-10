@@ -177,6 +177,11 @@
 			var dots_array = activeSvg.getElementsByClassName('n');
 			console.log(rect_array);
 
+			rect_array[0].onclick = function() {
+					console.log(toString(i)+" clicked rect");
+					jumpImage(i);
+				};
+
 			for (var i=0; i<rect_array.length; i++) {
 				rect_array[i].onclick = function() {
 					console.log(toString(i)+" clicked rect");
