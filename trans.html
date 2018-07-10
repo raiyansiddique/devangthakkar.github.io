@@ -287,7 +287,7 @@
 				document.getElementById(current_image_click).style.visibility = "hidden";
 				console.log("current "+current_image_num_click);
 				var new_image_num_click = i;
-				document.getElementById("chain_pointer_id").innerHTML = new_image_num_click;
+				parseInt(document.getElementById("chain_pointer_id").innerHTML)+1 = new_image_num_click;
 				var new_image_click = "img".concat(new_image_num_click);
 				document.getElementById(new_image_click).style.visibility = "visible";
 				console.log("new "+i);
