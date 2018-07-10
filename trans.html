@@ -133,7 +133,7 @@
 	</section>
 
 	<script type="text/javascript">
-		console.log("First script");
+
 		function changeImage(dir) {
 
 			var current_image_num = document.getElementById("chain_pointer_id").innerHTML;
@@ -167,7 +167,7 @@
 	</script>
 
 	<script type="text/javascript">
-		console.log("Second script");
+
 		var activeSvgId = "img".concat(document.getElementById("chain_pointer_id").innerHTML);
 		window.addEventListener("load", findSVGElements, false);
 
@@ -178,17 +178,17 @@
 			console.log(rect_array);
 
 			rect_array[0].onclick = function() {
-					console.log(toString(i)+" clicked rect");
+					console.log(i+" clicked rect");
 					jumpImage(i);
 				};
 
 			for (var i=0; i<rect_array.length; i++) {
 				rect_array[i].onclick = function() {
-					console.log(toString(i)+" clicked rect");
+					console.log(i+" clicked rect");
 					jumpImage(i);
 				};
 				dots_array[i].onclick = function() {
-					console.log(toString(i)+" clicked rect");
+					console.log(i+" clicked dot");
 					jumpImage(i);
 				};
 			};
@@ -197,12 +197,12 @@
 				var current_image_num_click = document.getElementById("chain_pointer_id").innerHTML;
 				var current_image_click = "img".concat(current_image_num_click);
 				document.getElementById(current_image_click).style.visibility = "hidden";
-				console.log("current "+toString(current_image_num_click));
+				console.log("current "+current_image_num_click);
 				var new_image_num_click = i;
 				document.getElementById("chain_pointer_id").innerHTML = new_image_num_click;
 				var new_image_click = "img".concat(new_image_num_click);
 				document.getElementById(new_image_click).style.visibility = "visible";
-				console.log("new "+toString(i));
+				console.log("new "+i);
 			}
 		}
 
