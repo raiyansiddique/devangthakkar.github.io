@@ -769,133 +769,252 @@ dominant-baseline: hanging;
 <circle class="w" id="w998" opacity="0.25" cx="588.74" cy="377.25" r="5.5"/>
 <circle class="w" id="w1000" opacity="0.25" cx="590.9" cy="360.04" r="5.5"/>
 </g>
+<g opacity="1.0" fill="#927086">
+<rect class="r" id="r1" x="82" y="65" width="10" height="10" t="Afrikaans (af)"/>
+<rect class="r" id="r2" x="92" y="65" width="10" height="10" t="Albanian (sq)"/>
+<rect class="r" id="r3" x="102" y="65" width="10" height="10" t="Amharic (am)"/>
+<rect class="r" id="r4" x="112" y="65" width="10" height="10" t="Arabic (ar)"/>
+<rect class="r" id="r5" x="122" y="65" width="10" height="10" t="Armenian (hy)"/>
+<rect class="r" id="r6" x="132" y="65" width="10" height="10" t="Azerbaijani (az)"/>
+<rect class="r" id="r7" x="142" y="65" width="10" height="10" t="Basque (eu)"/>
+<rect class="r" id="r8" x="152" y="65" width="10" height="10" t="Belarusian (be)"/>
+<rect class="r" id="r9" x="162" y="65" width="10" height="10" t="Bengali (bn)"/>
+<rect class="r" id="r10" x="172" y="65" width="10" height="10" t="Bosnian (bs)"/>
+<rect class="r" id="r11" x="182" y="65" width="10" height="10" t="Bulgarian (bg)"/>
+<rect class="r" id="r12" x="192" y="65" width="10" height="10" t="Catalan (ca)"/>
+<rect class="r" id="r13" x="202" y="65" width="10" height="10" t="Cebuano (ceb)"/>
+<rect class="r" id="r14" x="212" y="65" width="10" height="10" t="Chichewa (ny)"/>
+<rect class="r" id="r15" x="222" y="65" width="10" height="10" t="Chinese (zh-CN)"/>
+<rect class="r" id="r16" x="232" y="65" width="10" height="10" t="Chinese Traditional (zh-TW)"/>
+<rect class="r" id="r17" x="242" y="65" width="10" height="10" t="Corsican (co)"/>
+<rect class="r" id="r18" x="252" y="65" width="10" height="10" t="Croatian (hr)"/>
+<rect class="r" id="r19" x="262" y="65" width="10" height="10" t="Czech (cs)"/>
+<rect class="r" id="r20" x="272" y="65" width="10" height="10" t="Danish (da)"/>
+<rect class="r" id="r21" x="282" y="65" width="10" height="10" t="Dutch (nl)"/>
+<rect class="r" id="r22" x="292" y="65" width="10" height="10" t="Esperanto (eo)"/>
+<rect class="r" id="r23" x="302" y="65" width="10" height="10" t="Estonian (et)"/>
+<rect class="r" id="r24" x="312" y="65" width="10" height="10" t="Filipino (tl)"/>
+<rect class="r" id="r25" x="322" y="65" width="10" height="10" t="Finnish (fi)"/>
+<rect class="r" id="r26" x="332" y="65" width="10" height="10" t="French (fr)"/>
+<rect class="r" id="r27" x="342" y="65" width="10" height="10" t="Frisian (fy)"/>
+<rect class="r" id="r28" x="352" y="65" width="10" height="10" t="Galician (gl)"/>
+<rect class="r" id="r29" x="362" y="65" width="10" height="10" t="Georgian (ka)"/>
+<rect class="r" id="r30" x="372" y="65" width="10" height="10" t="German (de)"/>
+<rect class="r" id="r31" x="382" y="65" width="10" height="10" t="Greek (el)"/>
+<rect class="r" id="r32" x="392" y="65" width="10" height="10" t="Gujarati (gu)"/>
+<rect class="r" id="r33" x="402" y="65" width="10" height="10" t="Haitian Creole (ht)"/>
+<rect class="r" id="r34" x="412" y="65" width="10" height="10" t="Hausa (ha)"/>
+<rect class="r" id="r35" x="422" y="65" width="10" height="10" t="Hawaiian (haw)"/>
+<rect class="r" id="r36" x="432" y="65" width="10" height="10" t="Hebrew (iw)"/>
+<rect class="r" id="r37" x="442" y="65" width="10" height="10" t="Hindi (hi)"/>
+<rect class="r" id="r38" x="452" y="65" width="10" height="10" t="Hmong (hmn)"/>
+<rect class="r" id="r39" x="462" y="65" width="10" height="10" t="Hungarian (hu)"/>
+<rect class="r" id="r40" x="472" y="65" width="10" height="10" t="Icelandic (is)"/>
+<rect class="r" id="r41" x="482" y="65" width="10" height="10" t="Igbo (ig)"/>
+<rect class="r" id="r42" x="492" y="65" width="10" height="10" t="Indonesian (id)"/>
+<rect class="r" id="r43" x="502" y="65" width="10" height="10" t="Irish (ga)"/>
+<rect class="r" id="r44" x="512" y="65" width="10" height="10" t="Italian (it)"/>
+<rect class="r" id="r45" x="522" y="65" width="10" height="10" t="Japanese (ja)"/>
+<rect class="r" id="r46" x="532" y="65" width="10" height="10" t="Javanese (jw)"/>
+<rect class="r" id="r47" x="542" y="65" width="10" height="10" t="Kannada (kn)"/>
+<rect class="r" id="r48" x="552" y="65" width="10" height="10" t="Kazakh (kk)"/>
+<rect class="r" id="r49" x="562" y="65" width="10" height="10" t="Khmer (km)"/>
+<rect class="r" id="r50" x="572" y="65" width="10" height="10" t="Korean (ko)"/>
+<rect class="r" id="r51" x="582" y="65" width="10" height="10" t="Kurdish (Kurmanji) (ku)"/>
+<rect class="r" id="r52" x="592" y="65" width="10" height="10" t="Kyrgyz (ky)"/>
+<rect class="r" id="r53" x="82" y="620" width="10" height="10" t="Lao (lo)"/>
+<rect class="r" id="r54" x="92" y="620" width="10" height="10" t="Latin (la)"/>
+<rect class="r" id="r55" x="102" y="620" width="10" height="10" t="Latvian (lv)"/>
+<rect class="r" id="r56" x="112" y="620" width="10" height="10" t="Lithuanian (lt)"/>
+<rect class="r" id="r57" x="122" y="620" width="10" height="10" t="Luxembourgish (lb)"/>
+<rect class="r" id="r58" x="132" y="620" width="10" height="10" t="Macedonian (mk)"/>
+<rect class="r" id="r59" x="142" y="620" width="10" height="10" t="Malagasy (mg)"/>
+<rect class="r" id="r60" x="152" y="620" width="10" height="10" t="Malay (ms)"/>
+<rect class="r" id="r61" x="162" y="620" width="10" height="10" t="Malayalam (ml)"/>
+<rect class="r" id="r62" x="172" y="620" width="10" height="10" t="Maltese (mt)"/>
+<rect class="r" id="r63" x="182" y="620" width="10" height="10" t="Maori (mi)"/>
+<rect class="r" id="r64" x="192" y="620" width="10" height="10" t="Marathi (mr)"/>
+<rect class="r" id="r65" x="202" y="620" width="10" height="10" t="Mongolian (mn)"/>
+<rect class="r" id="r66" x="212" y="620" width="10" height="10" t="Myanmar (Burmese) (my)"/>
+<rect class="r" id="r67" x="222" y="620" width="10" height="10" t="Nepali (ne)"/>
+<rect class="r" id="r68" x="232" y="620" width="10" height="10" t="Norwegian (no)"/>
+<rect class="r" id="r69" x="242" y="620" width="10" height="10" t="Pashto (ps)"/>
+<rect class="r" id="r70" x="252" y="620" width="10" height="10" t="Persian (fa)"/>
+<rect class="r" id="r71" x="262" y="620" width="10" height="10" t="Polish (pl)"/>
+<rect class="r" id="r72" x="272" y="620" width="10" height="10" t="Portuguese (pt)"/>
+<rect class="r" id="r73" x="282" y="620" width="10" height="10" t="Punjabi (pa)"/>
+<rect class="r" id="r74" x="292" y="620" width="10" height="10" t="Romanian (ro)"/>
+<rect class="r" id="r75" x="302" y="620" width="10" height="10" t="Russian (ru)"/>
+<rect class="r" id="r76" x="312" y="620" width="10" height="10" t="Samoan (sm)"/>
+<rect class="r" id="r77" x="322" y="620" width="10" height="10" t="Scots Gaelic (gd)"/>
+<rect class="r" id="r78" x="332" y="620" width="10" height="10" t="Serbian (sr)"/>
+<rect class="r" id="r79" x="342" y="620" width="10" height="10" t="Sesotho (st)"/>
+<rect class="r" id="r80" x="352" y="620" width="10" height="10" t="Shona (sn)"/>
+<rect class="r" id="r81" x="362" y="620" width="10" height="10" t="Sindhi (sd)"/>
+<rect class="r" id="r82" x="372" y="620" width="10" height="10" t="Sinhala (si)"/>
+<rect class="r" id="r83" x="382" y="620" width="10" height="10" t="Slovak (sk)"/>
+<rect class="r" id="r84" x="392" y="620" width="10" height="10" t="Slovenian (sl)"/>
+<rect class="r" id="r85" x="402" y="620" width="10" height="10" t="Somali (so)"/>
+<rect class="r" id="r86" x="412" y="620" width="10" height="10" t="Spanish (es)"/>
+<rect class="r" id="r87" x="422" y="620" width="10" height="10" t="Sundanese (su)"/>
+<rect class="r" id="r88" x="432" y="620" width="10" height="10" t="Swahili (sw)"/>
+<rect class="r" id="r89" x="442" y="620" width="10" height="10" t="Swedish (sv)"/>
+<rect class="r" id="r90" x="452" y="620" width="10" height="10" t="Tajik (tg)"/>
+<rect class="r" id="r91" x="462" y="620" width="10" height="10" t="Tamil (ta)"/>
+<rect class="r" id="r92" x="472" y="620" width="10" height="10" t="Telugu (te)"/>
+<rect class="r" id="r93" x="482" y="620" width="10" height="10" t="Thai (th)"/>
+<rect class="r" id="r94" x="492" y="620" width="10" height="10" t="Turkish (tr)"/>
+<rect class="r" id="r95" x="502" y="620" width="10" height="10" t="Ukrainian (uk)"/>
+<rect class="r" id="r96" x="512" y="620" width="10" height="10" t="Urdu (ur)"/>
+<rect class="r" id="r97" x="522" y="620" width="10" height="10" t="Uzbek (uz)"/>
+<rect class="r" id="r98" x="532" y="620" width="10" height="10" t="Vietnamese (vi)"/>
+<rect class="r" id="r99" x="542" y="620" width="10" height="10" t="Welsh (cy)"/>
+<rect class="r" id="r100" x="552" y="620" width="10" height="10" t="Xhosa (xh)"/>
+<rect class="r" id="r101" x="562" y="620" width="10" height="10" t="Yiddish (yi)"/>
+<rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
+<rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
+</g>
 <text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Hawaiian (haw)</text>
-<g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" data-tooltip-text="Tooltip">
-<circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5"/>
-<circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5"/>
-<circle class="n" id="n3" opacity="0.5" cx="107" cy="70" r="2.5"/>
-<circle class="n" id="n4" opacity="0.5" cx="117" cy="70" r="2.5"/>
-<circle class="n" id="n5" opacity="0.5" cx="127" cy="70" r="2.5"/>
-<circle class="n" id="n6" opacity="0.5" cx="137" cy="70" r="2.5"/>
-<circle class="n" id="n7" opacity="0.5" cx="147" cy="70" r="2.5"/>
-<circle class="n" id="n8" opacity="0.5" cx="157" cy="70" r="2.5"/>
-<circle class="n" id="n9" opacity="0.5" cx="167" cy="70" r="2.5"/>
-<circle class="n" id="n10" opacity="0.5" cx="177" cy="70" r="2.5"/>
-<circle class="n" id="n11" opacity="0.5" cx="187" cy="70" r="2.5"/>
-<circle class="n" id="n12" opacity="0.5" cx="197" cy="70" r="2.5"/>
-<circle class="n" id="n13" opacity="0.5" cx="207" cy="70" r="2.5"/>
-<circle class="n" id="n14" opacity="0.5" cx="217" cy="70" r="2.5"/>
-<circle class="n" id="n15" opacity="0.5" cx="227" cy="70" r="2.5"/>
-<circle class="n" id="n16" opacity="0.5" cx="237" cy="70" r="2.5"/>
-<circle class="n" id="n17" opacity="0.5" cx="247" cy="70" r="2.5"/>
-<circle class="n" id="n18" opacity="0.5" cx="257" cy="70" r="2.5"/>
-<circle class="n" id="n19" opacity="0.5" cx="267" cy="70" r="2.5"/>
-<circle class="n" id="n20" opacity="0.5" cx="277" cy="70" r="2.5"/>
-<circle class="n" id="n21" opacity="0.5" cx="287" cy="70" r="2.5"/>
-<circle class="n" id="n22" opacity="0.5" cx="297" cy="70" r="2.5"/>
-<circle class="n" id="n23" opacity="0.5" cx="307" cy="70" r="2.5"/>
-<circle class="n" id="n24" opacity="0.5" cx="317" cy="70" r="2.5"/>
-<circle class="n" id="n25" opacity="0.5" cx="327" cy="70" r="2.5"/>
-<circle class="n" id="n26" opacity="0.5" cx="337" cy="70" r="2.5"/>
-<circle class="n" id="n27" opacity="0.5" cx="347" cy="70" r="2.5"/>
-<circle class="n" id="n28" opacity="0.5" cx="357" cy="70" r="2.5"/>
-<circle class="n" id="n29" opacity="0.5" cx="367" cy="70" r="2.5"/>
-<circle class="n" id="n30" opacity="1.0" cx="377" cy="70" r="2.5"/>
-<circle class="n" id="n31" opacity="0.5" cx="387" cy="70" r="2.5"/>
-<circle class="n" id="n32" opacity="0.5" cx="397" cy="70" r="2.5"/>
-<circle class="n" id="n33" opacity="0.5" cx="407" cy="70" r="2.5"/>
-<circle class="n" id="n34" opacity="0.5" cx="417" cy="70" r="2.5"/>
-<circle class="n" id="n35" opacity="0.5" cx="427" cy="70" r="2.5"/>
-<circle class="n" id="n36" opacity="0.5" cx="437" cy="70" r="2.5"/>
-<circle class="n" id="n37" opacity="0.5" cx="447" cy="70" r="2.5"/>
-<circle class="n" id="n38" opacity="0.5" cx="457" cy="70" r="2.5"/>
-<circle class="n" id="n39" opacity="0.5" cx="467" cy="70" r="2.5"/>
-<circle class="n" id="n40" opacity="0.5" cx="477" cy="70" r="2.5"/>
-<circle class="n" id="n41" opacity="0.5" cx="487" cy="70" r="2.5"/>
-<circle class="n" id="n42" opacity="0.5" cx="497" cy="70" r="2.5"/>
-<circle class="n" id="n43" opacity="0.5" cx="507" cy="70" r="2.5"/>
-<circle class="n" id="n44" opacity="0.5" cx="517" cy="70" r="2.5"/>
-<circle class="n" id="n45" opacity="0.5" cx="527" cy="70" r="2.5"/>
-<circle class="n" id="n46" opacity="0.5" cx="537" cy="70" r="2.5"/>
-<circle class="n" id="n47" opacity="0.5" cx="547" cy="70" r="2.5"/>
-<circle class="n" id="n48" opacity="0.5" cx="557" cy="70" r="2.5"/>
-<circle class="n" id="n49" opacity="0.5" cx="567" cy="70" r="2.5"/>
-<circle class="n" id="n50" opacity="0.5" cx="577" cy="70" r="2.5"/>
-<circle class="n" id="n51" opacity="0.5" cx="587" cy="70" r="2.5"/>
-<circle class="n" id="n52" opacity="0.5" cx="597" cy="70" r="2.5"/>
-<circle class="n" id="n53" opacity="0.5" cx="87" cy="625" r="2.5"/>
-<circle class="n" id="n54" opacity="0.5" cx="97" cy="625" r="2.5"/>
-<circle class="n" id="n55" opacity="0.5" cx="107" cy="625" r="2.5"/>
-<circle class="n" id="n56" opacity="0.5" cx="117" cy="625" r="2.5"/>
-<circle class="n" id="n57" opacity="0.5" cx="127" cy="625" r="2.5"/>
-<circle class="n" id="n58" opacity="0.5" cx="137" cy="625" r="2.5"/>
-<circle class="n" id="n59" opacity="0.5" cx="147" cy="625" r="2.5"/>
-<circle class="n" id="n60" opacity="0.5" cx="157" cy="625" r="2.5"/>
-<circle class="n" id="n61" opacity="0.5" cx="167" cy="625" r="2.5"/>
-<circle class="n" id="n62" opacity="0.5" cx="177" cy="625" r="2.5"/>
-<circle class="n" id="n63" opacity="0.5" cx="187" cy="625" r="2.5"/>
-<circle class="n" id="n64" opacity="0.5" cx="197" cy="625" r="2.5"/>
-<circle class="n" id="n65" opacity="0.5" cx="207" cy="625" r="2.5"/>
-<circle class="n" id="n66" opacity="0.5" cx="217" cy="625" r="2.5"/>
-<circle class="n" id="n67" opacity="0.5" cx="227" cy="625" r="2.5"/>
-<circle class="n" id="n68" opacity="0.5" cx="237" cy="625" r="2.5"/>
-<circle class="n" id="n69" opacity="0.5" cx="247" cy="625" r="2.5"/>
-<circle class="n" id="n70" opacity="0.5" cx="257" cy="625" r="2.5"/>
-<circle class="n" id="n71" opacity="0.5" cx="267" cy="625" r="2.5"/>
-<circle class="n" id="n72" opacity="0.5" cx="277" cy="625" r="2.5"/>
-<circle class="n" id="n73" opacity="0.5" cx="287" cy="625" r="2.5"/>
-<circle class="n" id="n74" opacity="0.5" cx="297" cy="625" r="2.5"/>
-<circle class="n" id="n75" opacity="0.5" cx="307" cy="625" r="2.5"/>
-<circle class="n" id="n76" opacity="0.5" cx="317" cy="625" r="2.5"/>
-<circle class="n" id="n77" opacity="0.5" cx="327" cy="625" r="2.5"/>
-<circle class="n" id="n78" opacity="0.5" cx="337" cy="625" r="2.5"/>
-<circle class="n" id="n79" opacity="0.5" cx="347" cy="625" r="2.5"/>
-<circle class="n" id="n80" opacity="0.5" cx="357" cy="625" r="2.5"/>
-<circle class="n" id="n81" opacity="0.5" cx="367" cy="625" r="2.5"/>
-<circle class="n" id="n82" opacity="0.5" cx="377" cy="625" r="2.5"/>
-<circle class="n" id="n83" opacity="0.5" cx="387" cy="625" r="2.5"/>
-<circle class="n" id="n84" opacity="0.5" cx="397" cy="625" r="2.5"/>
-<circle class="n" id="n85" opacity="0.5" cx="407" cy="625" r="2.5"/>
-<circle class="n" id="n86" opacity="0.5" cx="417" cy="625" r="2.5"/>
-<circle class="n" id="n87" opacity="0.5" cx="427" cy="625" r="2.5"/>
-<circle class="n" id="n88" opacity="0.5" cx="437" cy="625" r="2.5"/>
-<circle class="n" id="n89" opacity="0.5" cx="447" cy="625" r="2.5"/>
-<circle class="n" id="n90" opacity="0.5" cx="457" cy="625" r="2.5"/>
-<circle class="n" id="n91" opacity="0.5" cx="467" cy="625" r="2.5"/>
-<circle class="n" id="n92" opacity="0.5" cx="477" cy="625" r="2.5"/>
-<circle class="n" id="n93" opacity="0.5" cx="487" cy="625" r="2.5"/>
-<circle class="n" id="n94" opacity="0.5" cx="497" cy="625" r="2.5"/>
-<circle class="n" id="n95" opacity="0.5" cx="507" cy="625" r="2.5"/>
-<circle class="n" id="n96" opacity="0.5" cx="517" cy="625" r="2.5"/>
-<circle class="n" id="n97" opacity="0.5" cx="527" cy="625" r="2.5"/>
-<circle class="n" id="n98" opacity="0.5" cx="537" cy="625" r="2.5"/>
-<circle class="n" id="n99" opacity="0.5" cx="547" cy="625" r="2.5"/>
-<circle class="n" id="n100" opacity="0.5" cx="557" cy="625" r="2.5"/>
-<circle class="n" id="n101" opacity="0.5" cx="567" cy="625" r="2.5"/>
-<circle class="n" id="n102" opacity="0.5" cx="577" cy="625" r="2.5"/>
-<circle class="n" id="n103" opacity="0.5" cx="587" cy="625" r="2.5"/>
+<g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
+<circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
+<circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
+<circle class="n" id="n3" opacity="0.5" cx="107" cy="70" r="2.5" t="Amharic (am)"/>
+<circle class="n" id="n4" opacity="0.5" cx="117" cy="70" r="2.5" t="Arabic (ar)"/>
+<circle class="n" id="n5" opacity="0.5" cx="127" cy="70" r="2.5" t="Armenian (hy)"/>
+<circle class="n" id="n6" opacity="0.5" cx="137" cy="70" r="2.5" t="Azerbaijani (az)"/>
+<circle class="n" id="n7" opacity="0.5" cx="147" cy="70" r="2.5" t="Basque (eu)"/>
+<circle class="n" id="n8" opacity="0.5" cx="157" cy="70" r="2.5" t="Belarusian (be)"/>
+<circle class="n" id="n9" opacity="0.5" cx="167" cy="70" r="2.5" t="Bengali (bn)"/>
+<circle class="n" id="n10" opacity="0.5" cx="177" cy="70" r="2.5" t="Bosnian (bs)"/>
+<circle class="n" id="n11" opacity="0.5" cx="187" cy="70" r="2.5" t="Bulgarian (bg)"/>
+<circle class="n" id="n12" opacity="0.5" cx="197" cy="70" r="2.5" t="Catalan (ca)"/>
+<circle class="n" id="n13" opacity="0.5" cx="207" cy="70" r="2.5" t="Cebuano (ceb)"/>
+<circle class="n" id="n14" opacity="0.5" cx="217" cy="70" r="2.5" t="Chichewa (ny)"/>
+<circle class="n" id="n15" opacity="0.5" cx="227" cy="70" r="2.5" t="Chinese (zh-CN)"/>
+<circle class="n" id="n16" opacity="0.5" cx="237" cy="70" r="2.5" t="Chinese Traditional (zh-TW)"/>
+<circle class="n" id="n17" opacity="0.5" cx="247" cy="70" r="2.5" t="Corsican (co)"/>
+<circle class="n" id="n18" opacity="0.5" cx="257" cy="70" r="2.5" t="Croatian (hr)"/>
+<circle class="n" id="n19" opacity="0.5" cx="267" cy="70" r="2.5" t="Czech (cs)"/>
+<circle class="n" id="n20" opacity="0.5" cx="277" cy="70" r="2.5" t="Danish (da)"/>
+<circle class="n" id="n21" opacity="0.5" cx="287" cy="70" r="2.5" t="Dutch (nl)"/>
+<circle class="n" id="n22" opacity="0.5" cx="297" cy="70" r="2.5" t="Esperanto (eo)"/>
+<circle class="n" id="n23" opacity="0.5" cx="307" cy="70" r="2.5" t="Estonian (et)"/>
+<circle class="n" id="n24" opacity="0.5" cx="317" cy="70" r="2.5" t="Filipino (tl)"/>
+<circle class="n" id="n25" opacity="0.5" cx="327" cy="70" r="2.5" t="Finnish (fi)"/>
+<circle class="n" id="n26" opacity="0.5" cx="337" cy="70" r="2.5" t="French (fr)"/>
+<circle class="n" id="n27" opacity="0.5" cx="347" cy="70" r="2.5" t="Frisian (fy)"/>
+<circle class="n" id="n28" opacity="0.5" cx="357" cy="70" r="2.5" t="Galician (gl)"/>
+<circle class="n" id="n29" opacity="0.5" cx="367" cy="70" r="2.5" t="Georgian (ka)"/>
+<circle class="n" id="n30" opacity="1.0" cx="377" cy="70" r="2.5" t="German (de)"/>
+<circle class="n" id="n31" opacity="0.5" cx="387" cy="70" r="2.5" t="Greek (el)"/>
+<circle class="n" id="n32" opacity="0.5" cx="397" cy="70" r="2.5" t="Gujarati (gu)"/>
+<circle class="n" id="n33" opacity="0.5" cx="407" cy="70" r="2.5" t="Haitian Creole (ht)"/>
+<circle class="n" id="n34" opacity="0.5" cx="417" cy="70" r="2.5" t="Hausa (ha)"/>
+<circle class="n" id="n35" opacity="0.5" cx="427" cy="70" r="2.5" t="Hawaiian (haw)"/>
+<circle class="n" id="n36" opacity="0.5" cx="437" cy="70" r="2.5" t="Hebrew (iw)"/>
+<circle class="n" id="n37" opacity="0.5" cx="447" cy="70" r="2.5" t="Hindi (hi)"/>
+<circle class="n" id="n38" opacity="0.5" cx="457" cy="70" r="2.5" t="Hmong (hmn)"/>
+<circle class="n" id="n39" opacity="0.5" cx="467" cy="70" r="2.5" t="Hungarian (hu)"/>
+<circle class="n" id="n40" opacity="0.5" cx="477" cy="70" r="2.5" t="Icelandic (is)"/>
+<circle class="n" id="n41" opacity="0.5" cx="487" cy="70" r="2.5" t="Igbo (ig)"/>
+<circle class="n" id="n42" opacity="0.5" cx="497" cy="70" r="2.5" t="Indonesian (id)"/>
+<circle class="n" id="n43" opacity="0.5" cx="507" cy="70" r="2.5" t="Irish (ga)"/>
+<circle class="n" id="n44" opacity="0.5" cx="517" cy="70" r="2.5" t="Italian (it)"/>
+<circle class="n" id="n45" opacity="0.5" cx="527" cy="70" r="2.5" t="Japanese (ja)"/>
+<circle class="n" id="n46" opacity="0.5" cx="537" cy="70" r="2.5" t="Javanese (jw)"/>
+<circle class="n" id="n47" opacity="0.5" cx="547" cy="70" r="2.5" t="Kannada (kn)"/>
+<circle class="n" id="n48" opacity="0.5" cx="557" cy="70" r="2.5" t="Kazakh (kk)"/>
+<circle class="n" id="n49" opacity="0.5" cx="567" cy="70" r="2.5" t="Khmer (km)"/>
+<circle class="n" id="n50" opacity="0.5" cx="577" cy="70" r="2.5" t="Korean (ko)"/>
+<circle class="n" id="n51" opacity="0.5" cx="587" cy="70" r="2.5" t="Kurdish (Kurmanji) (ku)"/>
+<circle class="n" id="n52" opacity="0.5" cx="597" cy="70" r="2.5" t="Kyrgyz (ky)"/>
+<circle class="n" id="n53" opacity="0.5" cx="87" cy="625" r="2.5" t="Lao (lo)"/>
+<circle class="n" id="n54" opacity="0.5" cx="97" cy="625" r="2.5" t="Latin (la)"/>
+<circle class="n" id="n55" opacity="0.5" cx="107" cy="625" r="2.5" t="Latvian (lv)"/>
+<circle class="n" id="n56" opacity="0.5" cx="117" cy="625" r="2.5" t="Lithuanian (lt)"/>
+<circle class="n" id="n57" opacity="0.5" cx="127" cy="625" r="2.5" t="Luxembourgish (lb)"/>
+<circle class="n" id="n58" opacity="0.5" cx="137" cy="625" r="2.5" t="Macedonian (mk)"/>
+<circle class="n" id="n59" opacity="0.5" cx="147" cy="625" r="2.5" t="Malagasy (mg)"/>
+<circle class="n" id="n60" opacity="0.5" cx="157" cy="625" r="2.5" t="Malay (ms)"/>
+<circle class="n" id="n61" opacity="0.5" cx="167" cy="625" r="2.5" t="Malayalam (ml)"/>
+<circle class="n" id="n62" opacity="0.5" cx="177" cy="625" r="2.5" t="Maltese (mt)"/>
+<circle class="n" id="n63" opacity="0.5" cx="187" cy="625" r="2.5" t="Maori (mi)"/>
+<circle class="n" id="n64" opacity="0.5" cx="197" cy="625" r="2.5" t="Marathi (mr)"/>
+<circle class="n" id="n65" opacity="0.5" cx="207" cy="625" r="2.5" t="Mongolian (mn)"/>
+<circle class="n" id="n66" opacity="0.5" cx="217" cy="625" r="2.5" t="Myanmar (Burmese) (my)"/>
+<circle class="n" id="n67" opacity="0.5" cx="227" cy="625" r="2.5" t="Nepali (ne)"/>
+<circle class="n" id="n68" opacity="0.5" cx="237" cy="625" r="2.5" t="Norwegian (no)"/>
+<circle class="n" id="n69" opacity="0.5" cx="247" cy="625" r="2.5" t="Pashto (ps)"/>
+<circle class="n" id="n70" opacity="0.5" cx="257" cy="625" r="2.5" t="Persian (fa)"/>
+<circle class="n" id="n71" opacity="0.5" cx="267" cy="625" r="2.5" t="Polish (pl)"/>
+<circle class="n" id="n72" opacity="0.5" cx="277" cy="625" r="2.5" t="Portuguese (pt)"/>
+<circle class="n" id="n73" opacity="0.5" cx="287" cy="625" r="2.5" t="Punjabi (pa)"/>
+<circle class="n" id="n74" opacity="0.5" cx="297" cy="625" r="2.5" t="Romanian (ro)"/>
+<circle class="n" id="n75" opacity="0.5" cx="307" cy="625" r="2.5" t="Russian (ru)"/>
+<circle class="n" id="n76" opacity="0.5" cx="317" cy="625" r="2.5" t="Samoan (sm)"/>
+<circle class="n" id="n77" opacity="0.5" cx="327" cy="625" r="2.5" t="Scots Gaelic (gd)"/>
+<circle class="n" id="n78" opacity="0.5" cx="337" cy="625" r="2.5" t="Serbian (sr)"/>
+<circle class="n" id="n79" opacity="0.5" cx="347" cy="625" r="2.5" t="Sesotho (st)"/>
+<circle class="n" id="n80" opacity="0.5" cx="357" cy="625" r="2.5" t="Shona (sn)"/>
+<circle class="n" id="n81" opacity="0.5" cx="367" cy="625" r="2.5" t="Sindhi (sd)"/>
+<circle class="n" id="n82" opacity="0.5" cx="377" cy="625" r="2.5" t="Sinhala (si)"/>
+<circle class="n" id="n83" opacity="0.5" cx="387" cy="625" r="2.5" t="Slovak (sk)"/>
+<circle class="n" id="n84" opacity="0.5" cx="397" cy="625" r="2.5" t="Slovenian (sl)"/>
+<circle class="n" id="n85" opacity="0.5" cx="407" cy="625" r="2.5" t="Somali (so)"/>
+<circle class="n" id="n86" opacity="0.5" cx="417" cy="625" r="2.5" t="Spanish (es)"/>
+<circle class="n" id="n87" opacity="0.5" cx="427" cy="625" r="2.5" t="Sundanese (su)"/>
+<circle class="n" id="n88" opacity="0.5" cx="437" cy="625" r="2.5" t="Swahili (sw)"/>
+<circle class="n" id="n89" opacity="0.5" cx="447" cy="625" r="2.5" t="Swedish (sv)"/>
+<circle class="n" id="n90" opacity="0.5" cx="457" cy="625" r="2.5" t="Tajik (tg)"/>
+<circle class="n" id="n91" opacity="0.5" cx="467" cy="625" r="2.5" t="Tamil (ta)"/>
+<circle class="n" id="n92" opacity="0.5" cx="477" cy="625" r="2.5" t="Telugu (te)"/>
+<circle class="n" id="n93" opacity="0.5" cx="487" cy="625" r="2.5" t="Thai (th)"/>
+<circle class="n" id="n94" opacity="0.5" cx="497" cy="625" r="2.5" t="Turkish (tr)"/>
+<circle class="n" id="n95" opacity="0.5" cx="507" cy="625" r="2.5" t="Ukrainian (uk)"/>
+<circle class="n" id="n96" opacity="0.5" cx="517" cy="625" r="2.5" t="Urdu (ur)"/>
+<circle class="n" id="n97" opacity="0.5" cx="527" cy="625" r="2.5" t="Uzbek (uz)"/>
+<circle class="n" id="n98" opacity="0.5" cx="537" cy="625" r="2.5" t="Vietnamese (vi)"/>
+<circle class="n" id="n99" opacity="0.5" cx="547" cy="625" r="2.5" t="Welsh (cy)"/>
+<circle class="n" id="n100" opacity="0.5" cx="557" cy="625" r="2.5" t="Xhosa (xh)"/>
+<circle class="n" id="n101" opacity="0.5" cx="567" cy="625" r="2.5" t="Yiddish (yi)"/>
+<circle class="n" id="n102" opacity="0.5" cx="577" cy="625" r="2.5" t="Yoruba (yo)"/>
+<circle class="n" id="n103" opacity="0.5" cx="587" cy="625" r="2.5" t="Zulu (zu)"/>
 </g>
 <g id="tooltip" visibility="hidden" >
-<rect width="80" height="24" fill="white" rx="2" ry="2"/>
-<text x="3" y="6" id="tooltip-text">Tooltip</text>
+<rect width="40" height="24" fill="#ffb" rx="2" ry="2" id="tooltip-box"/>
+<text x="3" y="6" id="tooltip-text" font-family="'Roboto'" fill="#927086">Tooltip</text>
 </g>
 <script type="text/ecmascript"><![CDATA[
 (function() {
 var svg = document.getElementById('Layer_1');
+// console.log(svg);
 var tooltip = svg.getElementById('tooltip');
-var tooltipText = tooltip.getElementsById('tooltip-text')[0].firstChild;
-var triggers = svg.getElementsByClassName('n');
-for (var i = 0; i < triggers.length; i++) {
-	triggers[i].addEventListener('mousemove', showTooltip);
-	triggers[i].addEventListener('mouseout', hideTooltip);
+var tooltipText = tooltip.getElementsByTagName('text')[0];
+console.log(tooltipText.firstChild);
+var triggers_rect = svg.getElementsByClassName('r');
+var triggers_dots = svg.getElementsByClassName('n');
+console.log(triggers_rect);
+console.log(triggers_dots);
+for (var i = 0; i < triggers_rect.length; i++) {
+	triggers_rect[i].addEventListener('mousemove', showTooltip);
+	triggers_rect[i].addEventListener('mouseout', hideTooltip);
+}
+for (var i = 0; i < triggers_dots.length; i++) {
+	triggers_dots[i].addEventListener('mousemove', showTooltip);
+	triggers_dots[i].addEventListener('mouseout', hideTooltip);
 }
 function showTooltip(evt) {
 	var CTM = svg.getScreenCTM();
-	var x = (evt.clientX - CTM.e + 6) / CTM.a;
-	var y = (evt.clientY - CTM.f + 20) / CTM.d;
+	var length = tooltipText.getComputedTextLength();
+	var x = (evt.clientX - CTM.e - length/2) / CTM.a;
+	var y = (evt.clientY - CTM.f - 35) / CTM.d;
 	tooltip.setAttributeNS(null, "transform", "translate(" + x + " " + y + ")");
 	tooltip.setAttributeNS(null, "visibility", "visible");
-	tooltipText.data = evt.target.getAttributeNS(null, "data-tooltip-text");
+	tooltipText.firstChild.data = evt.target.getAttributeNS(null, "t");
+	var tooltipRects = tooltip.getElementsByTagName('rect');
+	for (var i = 0; i < tooltipRects.length; i++) {
+		tooltipRects[i].setAttributeNS(null, "width", length + 8);
+	}
 }
 function hideTooltip(evt) {
 	tooltip.setAttributeNS(null, "visibility", "hidden");
