@@ -329,7 +329,7 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Irish (ga)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Irish [ga]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
@@ -355,7 +355,7 @@ dominant-baseline: hanging;
 <circle class="n" id="n22" opacity="0.5" cx="297" cy="70" r="2.5" t="Esperanto (eo)"/>
 <circle class="n" id="n23" opacity="0.5" cx="307" cy="70" r="2.5" t="Estonian (et)"/>
 <circle class="n" id="n24" opacity="0.5" cx="317" cy="70" r="2.5" t="Filipino (tl)"/>
-<circle class="n" id="n25" opacity="1.0" cx="327" cy="70" r="2.5" t="Finnish (fi)"/>
+<circle class="n" id="n25" opacity="0.5" cx="327" cy="70" r="2.5" t="Finnish (fi)"/>
 <circle class="n" id="n26" opacity="0.5" cx="337" cy="70" r="2.5" t="French (fr)"/>
 <circle class="n" id="n27" opacity="0.5" cx="347" cy="70" r="2.5" t="Frisian (fy)"/>
 <circle class="n" id="n28" opacity="0.5" cx="357" cy="70" r="2.5" t="Galician (gl)"/>
@@ -373,7 +373,7 @@ dominant-baseline: hanging;
 <circle class="n" id="n40" opacity="0.5" cx="477" cy="70" r="2.5" t="Icelandic (is)"/>
 <circle class="n" id="n41" opacity="0.5" cx="487" cy="70" r="2.5" t="Igbo (ig)"/>
 <circle class="n" id="n42" opacity="0.5" cx="497" cy="70" r="2.5" t="Indonesian (id)"/>
-<circle class="n" id="n43" opacity="0.5" cx="507" cy="70" r="2.5" t="Irish (ga)"/>
+<circle class="n" id="n43" opacity="1.0" cx="507" cy="70" r="2.5" t="Irish (ga)"/>
 <circle class="n" id="n44" opacity="0.5" cx="517" cy="70" r="2.5" t="Italian (it)"/>
 <circle class="n" id="n45" opacity="0.5" cx="527" cy="70" r="2.5" t="Japanese (ja)"/>
 <circle class="n" id="n46" opacity="0.5" cx="537" cy="70" r="2.5" t="Javanese (jw)"/>

@@ -378,7 +378,7 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Korean (ko)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Korean [ko]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
@@ -427,9 +427,9 @@ dominant-baseline: hanging;
 <circle class="n" id="n45" opacity="0.5" cx="527" cy="70" r="2.5" t="Japanese (ja)"/>
 <circle class="n" id="n46" opacity="0.5" cx="537" cy="70" r="2.5" t="Javanese (jw)"/>
 <circle class="n" id="n47" opacity="0.5" cx="547" cy="70" r="2.5" t="Kannada (kn)"/>
-<circle class="n" id="n48" opacity="1.0" cx="557" cy="70" r="2.5" t="Kazakh (kk)"/>
+<circle class="n" id="n48" opacity="0.5" cx="557" cy="70" r="2.5" t="Kazakh (kk)"/>
 <circle class="n" id="n49" opacity="0.5" cx="567" cy="70" r="2.5" t="Khmer (km)"/>
-<circle class="n" id="n50" opacity="0.5" cx="577" cy="70" r="2.5" t="Korean (ko)"/>
+<circle class="n" id="n50" opacity="1.0" cx="577" cy="70" r="2.5" t="Korean (ko)"/>
 <circle class="n" id="n51" opacity="0.5" cx="587" cy="70" r="2.5" t="Kurdish (Kurmanji) (ku)"/>
 <circle class="n" id="n52" opacity="0.5" cx="597" cy="70" r="2.5" t="Kyrgyz (ky)"/>
 <circle class="n" id="n53" opacity="0.5" cx="87" cy="625" r="2.5" t="Lao (lo)"/>

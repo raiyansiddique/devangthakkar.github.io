@@ -317,19 +317,19 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Bulgarian (bg)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Bulgarian [bg]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
 <circle class="n" id="n3" opacity="0.5" cx="107" cy="70" r="2.5" t="Amharic (am)"/>
 <circle class="n" id="n4" opacity="0.5" cx="117" cy="70" r="2.5" t="Arabic (ar)"/>
 <circle class="n" id="n5" opacity="0.5" cx="127" cy="70" r="2.5" t="Armenian (hy)"/>
-<circle class="n" id="n6" opacity="1.0" cx="137" cy="70" r="2.5" t="Azerbaijani (az)"/>
+<circle class="n" id="n6" opacity="0.5" cx="137" cy="70" r="2.5" t="Azerbaijani (az)"/>
 <circle class="n" id="n7" opacity="0.5" cx="147" cy="70" r="2.5" t="Basque (eu)"/>
 <circle class="n" id="n8" opacity="0.5" cx="157" cy="70" r="2.5" t="Belarusian (be)"/>
 <circle class="n" id="n9" opacity="0.5" cx="167" cy="70" r="2.5" t="Bengali (bn)"/>
 <circle class="n" id="n10" opacity="0.5" cx="177" cy="70" r="2.5" t="Bosnian (bs)"/>
-<circle class="n" id="n11" opacity="0.5" cx="187" cy="70" r="2.5" t="Bulgarian (bg)"/>
+<circle class="n" id="n11" opacity="1.0" cx="187" cy="70" r="2.5" t="Bulgarian (bg)"/>
 <circle class="n" id="n12" opacity="0.5" cx="197" cy="70" r="2.5" t="Catalan (ca)"/>
 <circle class="n" id="n13" opacity="0.5" cx="207" cy="70" r="2.5" t="Cebuano (ceb)"/>
 <circle class="n" id="n14" opacity="0.5" cx="217" cy="70" r="2.5" t="Chichewa (ny)"/>

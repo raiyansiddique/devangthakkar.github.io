@@ -400,7 +400,7 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Telugu (te)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Telugu [te]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
@@ -490,10 +490,10 @@ dominant-baseline: hanging;
 <circle class="n" id="n86" opacity="0.5" cx="417" cy="625" r="2.5" t="Spanish (es)"/>
 <circle class="n" id="n87" opacity="0.5" cx="427" cy="625" r="2.5" t="Sundanese (su)"/>
 <circle class="n" id="n88" opacity="0.5" cx="437" cy="625" r="2.5" t="Swahili (sw)"/>
-<circle class="n" id="n89" opacity="1.0" cx="447" cy="625" r="2.5" t="Swedish (sv)"/>
+<circle class="n" id="n89" opacity="0.5" cx="447" cy="625" r="2.5" t="Swedish (sv)"/>
 <circle class="n" id="n90" opacity="0.5" cx="457" cy="625" r="2.5" t="Tajik (tg)"/>
 <circle class="n" id="n91" opacity="0.5" cx="467" cy="625" r="2.5" t="Tamil (ta)"/>
-<circle class="n" id="n92" opacity="0.5" cx="477" cy="625" r="2.5" t="Telugu (te)"/>
+<circle class="n" id="n92" opacity="1.0" cx="477" cy="625" r="2.5" t="Telugu (te)"/>
 <circle class="n" id="n93" opacity="0.5" cx="487" cy="625" r="2.5" t="Thai (th)"/>
 <circle class="n" id="n94" opacity="0.5" cx="497" cy="625" r="2.5" t="Turkish (tr)"/>
 <circle class="n" id="n95" opacity="0.5" cx="507" cy="625" r="2.5" t="Ukrainian (uk)"/>

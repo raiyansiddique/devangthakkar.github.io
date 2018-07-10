@@ -383,7 +383,7 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Haitian Creole (ht)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Haitian Creole [ht]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
@@ -417,8 +417,8 @@ dominant-baseline: hanging;
 <circle class="n" id="n30" opacity="0.5" cx="377" cy="70" r="2.5" t="German (de)"/>
 <circle class="n" id="n31" opacity="0.5" cx="387" cy="70" r="2.5" t="Greek (el)"/>
 <circle class="n" id="n32" opacity="0.5" cx="397" cy="70" r="2.5" t="Gujarati (gu)"/>
-<circle class="n" id="n33" opacity="0.5" cx="407" cy="70" r="2.5" t="Haitian Creole (ht)"/>
-<circle class="n" id="n34" opacity="1.0" cx="417" cy="70" r="2.5" t="Hausa (ha)"/>
+<circle class="n" id="n33" opacity="1.0" cx="407" cy="70" r="2.5" t="Haitian Creole (ht)"/>
+<circle class="n" id="n34" opacity="0.5" cx="417" cy="70" r="2.5" t="Hausa (ha)"/>
 <circle class="n" id="n35" opacity="0.5" cx="427" cy="70" r="2.5" t="Hawaiian (haw)"/>
 <circle class="n" id="n36" opacity="0.5" cx="437" cy="70" r="2.5" t="Hebrew (iw)"/>
 <circle class="n" id="n37" opacity="0.5" cx="447" cy="70" r="2.5" t="Hindi (hi)"/>

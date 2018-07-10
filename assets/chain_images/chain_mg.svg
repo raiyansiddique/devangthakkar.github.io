@@ -580,7 +580,7 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Malagasy (mg)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Malagasy [mg]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
@@ -637,10 +637,10 @@ dominant-baseline: hanging;
 <circle class="n" id="n53" opacity="0.5" cx="87" cy="625" r="2.5" t="Lao (lo)"/>
 <circle class="n" id="n54" opacity="0.5" cx="97" cy="625" r="2.5" t="Latin (la)"/>
 <circle class="n" id="n55" opacity="0.5" cx="107" cy="625" r="2.5" t="Latvian (lv)"/>
-<circle class="n" id="n56" opacity="1.0" cx="117" cy="625" r="2.5" t="Lithuanian (lt)"/>
+<circle class="n" id="n56" opacity="0.5" cx="117" cy="625" r="2.5" t="Lithuanian (lt)"/>
 <circle class="n" id="n57" opacity="0.5" cx="127" cy="625" r="2.5" t="Luxembourgish (lb)"/>
 <circle class="n" id="n58" opacity="0.5" cx="137" cy="625" r="2.5" t="Macedonian (mk)"/>
-<circle class="n" id="n59" opacity="0.5" cx="147" cy="625" r="2.5" t="Malagasy (mg)"/>
+<circle class="n" id="n59" opacity="1.0" cx="147" cy="625" r="2.5" t="Malagasy (mg)"/>
 <circle class="n" id="n60" opacity="0.5" cx="157" cy="625" r="2.5" t="Malay (ms)"/>
 <circle class="n" id="n61" opacity="0.5" cx="167" cy="625" r="2.5" t="Malayalam (ml)"/>
 <circle class="n" id="n62" opacity="0.5" cx="177" cy="625" r="2.5" t="Maltese (mt)"/>

@@ -566,7 +566,7 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Somali (so)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Somali [so]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
@@ -648,11 +648,11 @@ dominant-baseline: hanging;
 <circle class="n" id="n78" opacity="0.5" cx="337" cy="625" r="2.5" t="Serbian (sr)"/>
 <circle class="n" id="n79" opacity="0.5" cx="347" cy="625" r="2.5" t="Sesotho (st)"/>
 <circle class="n" id="n80" opacity="0.5" cx="357" cy="625" r="2.5" t="Shona (sn)"/>
-<circle class="n" id="n81" opacity="1.0" cx="367" cy="625" r="2.5" t="Sindhi (sd)"/>
+<circle class="n" id="n81" opacity="0.5" cx="367" cy="625" r="2.5" t="Sindhi (sd)"/>
 <circle class="n" id="n82" opacity="0.5" cx="377" cy="625" r="2.5" t="Sinhala (si)"/>
 <circle class="n" id="n83" opacity="0.5" cx="387" cy="625" r="2.5" t="Slovak (sk)"/>
 <circle class="n" id="n84" opacity="0.5" cx="397" cy="625" r="2.5" t="Slovenian (sl)"/>
-<circle class="n" id="n85" opacity="0.5" cx="407" cy="625" r="2.5" t="Somali (so)"/>
+<circle class="n" id="n85" opacity="1.0" cx="407" cy="625" r="2.5" t="Somali (so)"/>
 <circle class="n" id="n86" opacity="0.5" cx="417" cy="625" r="2.5" t="Spanish (es)"/>
 <circle class="n" id="n87" opacity="0.5" cx="427" cy="625" r="2.5" t="Sundanese (su)"/>
 <circle class="n" id="n88" opacity="0.5" cx="437" cy="625" r="2.5" t="Swahili (sw)"/>

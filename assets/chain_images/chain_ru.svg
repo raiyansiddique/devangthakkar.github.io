@@ -406,7 +406,7 @@ dominant-baseline: hanging;
 <rect class="r" id="r102" x="572" y="620" width="10" height="10" t="Yoruba (yo)"/>
 <rect class="r" id="r103" x="582" y="620" width="10" height="10" t="Zulu (zu)"/>
 </g>
-<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Russian (ru)</text>
+<text x="84" y="600" fill="#FFFF99" font-family="'Roboto'" font-size="18" stroke="none" stroke-miterlimit="10" id="language">Russian [ru]</text>
 <g fill="#ffb" stroke="#ffb" stroke-miterlimit="10" stroke-width=".5" font-family="'Roboto'">
 <circle class="n" id="n1" opacity="0.5" cx="87" cy="70" r="2.5" t="Afrikaans (af)"/>
 <circle class="n" id="n2" opacity="0.5" cx="97" cy="70" r="2.5" t="Albanian (sq)"/>
@@ -481,8 +481,8 @@ dominant-baseline: hanging;
 <circle class="n" id="n71" opacity="0.5" cx="267" cy="625" r="2.5" t="Polish (pl)"/>
 <circle class="n" id="n72" opacity="0.5" cx="277" cy="625" r="2.5" t="Portuguese (pt)"/>
 <circle class="n" id="n73" opacity="0.5" cx="287" cy="625" r="2.5" t="Punjabi (pa)"/>
-<circle class="n" id="n74" opacity="1.0" cx="297" cy="625" r="2.5" t="Romanian (ro)"/>
-<circle class="n" id="n75" opacity="0.5" cx="307" cy="625" r="2.5" t="Russian (ru)"/>
+<circle class="n" id="n74" opacity="0.5" cx="297" cy="625" r="2.5" t="Romanian (ro)"/>
+<circle class="n" id="n75" opacity="1.0" cx="307" cy="625" r="2.5" t="Russian (ru)"/>
 <circle class="n" id="n76" opacity="0.5" cx="317" cy="625" r="2.5" t="Samoan (sm)"/>
 <circle class="n" id="n77" opacity="0.5" cx="327" cy="625" r="2.5" t="Scots Gaelic (gd)"/>
 <circle class="n" id="n78" opacity="0.5" cx="337" cy="625" r="2.5" t="Serbian (sr)"/>
