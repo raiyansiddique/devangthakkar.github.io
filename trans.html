@@ -294,9 +294,12 @@
 				console.log("new "+i);
 			}
 		}
-		if(document.getElementById("if_loaded_id").innerHTML == 1) {
+		document.onclick = function() {
 			console.log("Hopefully loaded");
-			document.onclick = function() {findSVGElements();};
+			if(document.getElementById("if_loaded_id").innerHTML == 1) {
+				console.log("Confirmed loaded");
+				findSVGElements();
+			}
 		}
 
 	</script>
