@@ -133,19 +133,6 @@
 	</section>
 
 	<script type="text/javascript">
-		window.addEventListener("load", findSVGElements, false);
-		function findSVGElements()
-		{
-			console.log(document.getElementById("img1").src);
-			// console.log(theSvgDocument.getElementById("language").innerHTML);
-			console.log(document.getElementById("img1"));
-			console.log(document.getElementById("img1").getSVGDocument().getElementById("language").innerHTML);
-			console.log(document.getElementById("img1").contentDocument);
-			console.log(theSvgDocument);
-			console.log(theSvgLayer);
-			console.log(document.getElementById("img1").getElementById("Layer_1"))
-			// console.log(document.getElementById("img1").ownerDocument.documentElement.getElementById("language").innerHTML);
-		}
 
 		function changeImage(dir) {
 
@@ -177,6 +164,42 @@
 				changeImage("1")
 			}
 		}
+	</script>
+
+	<script type="text/javascript">
+		var activeSvgId = "img".concat(document.getElementById("chain_pointer_id").innerHTML);
+		window.addEventListener("load", findSVGElements, false);
+		var activeSvg = "";
+		var rect_array = [];
+		var dots_array = [];
+
+		function findSVGElements() {
+			activeSvg = document.getElementById(activeSvgId).getSVGDocument();
+			rect_array = activeSvg.getElementsByClassName('r');
+			dots_array = activeSvg.getElementsByClassName('n');
+		}
+
+		for (var i=0; i<rect_array.length; i++) {
+			rect_array[i].onclick = function() {
+				jumpImage(i);
+			};
+			dots_array[i].onclick = function() {
+				jumpImage(i);
+			};
+		};
+
+		function jumpImage(i) {
+			var current_image_num = document.getElementById("chain_pointer_id").innerHTML;
+			var current_image = "img".concat(current_image_num);
+			document.getElementById(current_image).style.visibility = "hidden";
+
+			var new_image_num = i;
+			document.getElementById("chain_pointer_id").innerHTML = new_image_num;
+			var new_image = "img".concat(new_image_num);
+			document.getElementById(new_image).style.visibility = "visible";
+
+		}
+
 	</script>
 
 	<section id="white_space">
