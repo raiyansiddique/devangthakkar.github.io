@@ -182,6 +182,14 @@
 			dots_array = activeSvg.getElementsByClassName('n');
 			console.log(rect_array);
 			console.log(dots_array);
+			multiClick();
+		}
+
+		if (document.getElementById("if_loaded_id").innerHTML == 1) {
+			multiClick();
+		}
+
+		function multiClick() {
 
 			rect_array[0].addEventListener('click', function() {console.log("rect");jump(1)});
 			dots_array[0].addEventListener('click', function() {console.log("dot");jump(1)});
