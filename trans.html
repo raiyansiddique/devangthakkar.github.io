@@ -133,7 +133,7 @@
 	</section>
 
 	<script type="text/javascript">
-
+		console.log("First script");
 		function changeImage(dir) {
 
 			var current_image_num = document.getElementById("chain_pointer_id").innerHTML;
@@ -167,6 +167,7 @@
 	</script>
 
 	<script type="text/javascript">
+		console.log("Second script");
 		var activeSvgId = "img".concat(document.getElementById("chain_pointer_id").innerHTML);
 		window.addEventListener("load", findSVGElements, false);
 		var activeSvg = "";
@@ -180,7 +181,7 @@
 		}
 
 		console.log(rect_array);
-		
+
 		for (var i=0; i<rect_array.length; i++) {
 			rect_array[i].onclick = function() {
 				console.log(toString(i)+" clicked rect");
