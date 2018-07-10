@@ -652,7 +652,7 @@ dominant-baseline: hanging;
 <circle class="n" id="n103" opacity="0.5" cx="587" cy="625" r="2.5" t="Zulu (zu)"/>
 </g>
 <g id="tooltip" visibility="hidden" >
-<rect width="40" height="24" fill="#ffb" rx="2" ry="2" id="tooltip-box"/>
+<rect width="40" height="24" fill="#ffb" rx="4" ry="4" id="tooltip-box"/>
 <text x="3" y="6" id="tooltip-text" font-family="'Roboto'" fill="#927086">Tooltip</text>
 </g>
 <script type="text/ecmascript"><![CDATA[
