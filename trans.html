@@ -180,11 +180,12 @@
 			activeSvg = document.getElementById(activeSvgId).getSVGDocument();
 			rect_array = activeSvg.getElementsByClassName('r');
 			dots_array = activeSvg.getElementsByClassName('n');
+			console.log(rect_array);
+			console.log(dots_array);
 		}
 
 		document.onload = function() {
-			console.log(rect_array);
-			console.log(dots_array);
+
 			rect_array[0].addEventListener('click', function() {console.log("rect");jump(1)});
 			dots_array[0].addEventListener('click', function() {console.log("dot");jump(1)});
 			rect_array[1].addEventListener('click', function() {console.log("rect");jump(2)});
