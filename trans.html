@@ -182,7 +182,7 @@
 			dots_array = activeSvg.getElementsByClassName('n');
 		}
 
-		document.onclick = function() {
+		document.onload = function() {
 			if(document.getElementById("if_loaded_id").innerHTML==1) {
 				console.log("Loaded");
 				rect_array[0].addEventListener('click', function() {console.log("rect");jump(1)});
