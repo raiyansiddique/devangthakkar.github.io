@@ -179,6 +179,8 @@
 			dots_array = activeSvg.getElementsByClassName('n');
 		}
 
+		console.log(rect_array);
+		
 		for (var i=0; i<rect_array.length; i++) {
 			rect_array[i].onclick = function() {
 				console.log(toString(i)+" clicked rect");
@@ -191,14 +193,14 @@
 		};
 
 		function jumpImage(i) {
-			var current_image_num = document.getElementById("chain_pointer_id").innerHTML;
-			var current_image = "img".concat(current_image_num);
-			document.getElementById(current_image).style.visibility = "hidden";
-			console.log("current "+toString(current_image_num));
-			var new_image_num = i;
-			document.getElementById("chain_pointer_id").innerHTML = new_image_num;
-			var new_image = "img".concat(new_image_num);
-			document.getElementById(new_image).style.visibility = "visible";
+			var current_image_num_click = document.getElementById("chain_pointer_id").innerHTML;
+			var current_image_click = "img".concat(current_image_num_click);
+			document.getElementById(current_image_click).style.visibility = "hidden";
+			console.log("current "+toString(current_image_num_click));
+			var new_image_num_click = i;
+			document.getElementById("chain_pointer_id").innerHTML = new_image_num_click;
+			var new_image_click = "img".concat(new_image_num_click);
+			document.getElementById(new_image_click).style.visibility = "visible";
 			console.log("new "+toString(i));
 		}
 
