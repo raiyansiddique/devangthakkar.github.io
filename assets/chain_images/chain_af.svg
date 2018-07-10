@@ -441,6 +441,9 @@ function hideTooltip(evt) {
 	tooltip.setAttributeNS(null, "visibility", "hidden");
 }
 
+parent.theSvgDocument = document;
+parent.theSvgLayer = document.getElementById("Layer_1");
+
 })()
 ]]></script>
 
