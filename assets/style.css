@@ -67,11 +67,15 @@ a:hover {
 }
 
 .chain_pointer {
-	visibility: hidden;
+	display: none;
 }
 
 .world_pointer {
-	visibility: hidden;
+	display: none;
+}
+
+.if_loaded {
+	display: none;
 }
 
 /* demo */

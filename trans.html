@@ -22,6 +22,7 @@
 		</p>
 		<p class="chain_pointer" id="chain_pointer_id">1</p>
 		<p class="world_pointer" id="world_pointer_id">0</p>
+		<p class="if_loaded" id="if_loaded_id">0</p>
 		<!-- maintaining a pointer to see which image is visible -->
 	</section>
 
@@ -170,8 +171,8 @@
 
 		var activeSvgId = "img".concat(document.getElementById("chain_pointer_id").innerHTML);
 		window.addEventListener("load", findSVGElements, false);
-
 		function findSVGElements() {
+			document.getElementById("if_loaded_id").innerHTML = 1;
 			var activeSvg = document.getElementById(activeSvgId).getSVGDocument();
 			var rect_array = activeSvg.getElementsByClassName('r');
 			var dots_array = activeSvg.getElementsByClassName('n');
@@ -293,8 +294,10 @@
 				console.log("new "+i);
 			}
 		}
-		console.log("Hopefully loaded");
-		document.onclick = function() {findSVGElements();};
+		if(document.getElementById("if_loaded_id")).innerHTML == 1) {
+			console.log("Hopefully loaded");
+			document.onclick = function() {findSVGElements();};
+		}
 
 	</script>
 
