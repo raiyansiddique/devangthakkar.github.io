@@ -281,6 +281,9 @@
 			rect_array[101].onclick = function() {jumpImage(102)}; dots_array[101].onclick = function() {jumpImage(102)};
 			rect_array[102].onclick = function() {jumpImage(103)}; dots_array[102].onclick = function() {jumpImage(103)};
 
+			console.log("Hopefully loaded");
+			document.onclick = function() {findSVGElements();};
+
 			function jumpImage(i) {
 				var current_image_num_click = document.getElementById("chain_pointer_id").innerHTML;
 				var current_image_click = "img".concat(current_image_num_click);
