@@ -1450,13 +1450,10 @@
 
 	<script type="text/javascript">
 
-		var activeSvg;
-		var rect_array;
-		var dots_array;
-		window.getElementById("img0").addEventListener("load", setClickListener, false);
+		window.addEventListener("load", setClickListener, false);
 
 		function setClickListener() {
-			window.getElementById("img0").addEventListener("click", function () {console.log("img0 clicked")}, false)
+			document.getElementById("img0").addEventListener("click", function () {console.log("img0 clicked")}, false)
 		}
 
 	</script>
