@@ -1452,6 +1452,21 @@
 	<script type="text/javascript">
 
 		document.getElementById("img0").addEventListener("click", function () {console.log("img0 clicked")});
+		var clickable_rect = document.getElementsByClassName("r");
+		var clickable_dots = document.getElementsByClassName("n");
+
+		for(var i=0;i<clickable_rect.length;i++) {
+			clickable_rect[i].addEventListener("click", function() {console.log("rect");console.log(this.id);jump(this.id);});
+		}
+
+		for(var i=0;i<clickable_dots.length;i++) {
+			clickable_dots[i].addEventListener("click", function() {console.log("dots");console.log(this.id);jump(this.id);});
+		}
+
+		function jump(id) {
+			console.log("id accessed from inside jump");
+			console.log(id);
+		};
 		// window.addEventListener("load", setClickListener, false);
 
 		// function setClickListener() {
