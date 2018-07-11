@@ -102,8 +102,15 @@ a:hover {
 	transform: translate3d(0, 0, 0);
 }
 
-.image0 {
+.image00 {
 	position: relative;
+	/*float: right;*/
+	top: 0;
+	right: 0;
+	visibility: hidden;
+}
+.image0 {
+	position: absolute;
 	/*float: right;*/
 	top: 0;
 	right: 0;
