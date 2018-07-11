@@ -570,41 +570,4 @@ dominant-baseline: hanging;
 <rect width="40" height="24" fill="#ffb" rx="4" ry="4" id="tooltip-box"/>
 <text x="3" y="6" id="tooltip-text" font-family="'Roboto'" fill="#927086">Tooltip</text>
 </g>
-<script type="text/ecmascript"><![CDATA[
-(function() {
-var svg = document.getElementById('Layer_1');
-// console.log(svg);
-var tooltip = svg.getElementById('tooltip');
-var tooltipText = tooltip.getElementsByTagName('text')[0];
-// console.log(tooltipText.firstChild);
-var triggers_rect = svg.getElementsByClassName('r');
-var triggers_dots = svg.getElementsByClassName('n');
-// console.log(triggers_rect);
-// console.log(triggers_dots);
-for (var i = 0; i < triggers_rect.length; i++) {
-	triggers_rect[i].addEventListener('mousemove', showTooltip);
-	triggers_rect[i].addEventListener('mouseout', hideTooltip);
-}
-for (var i = 0; i < triggers_dots.length; i++) {
-	triggers_dots[i].addEventListener('mousemove', showTooltip);
-	triggers_dots[i].addEventListener('mouseout', hideTooltip);
-}
-function showTooltip(evt) {
-	var CTM = svg.getScreenCTM();
-	var length = tooltipText.getComputedTextLength();
-	var x = (evt.clientX - CTM.e - length/2) / CTM.a;
-	var y = (evt.clientY - CTM.f - 35) / CTM.d;
-	tooltip.setAttributeNS(null, "transform", "translate(" + x + " " + y + ")");
-	tooltip.setAttributeNS(null, "visibility", "visible");
-	tooltipText.firstChild.data = evt.target.getAttributeNS(null, "t");
-	var tooltipRects = tooltip.getElementsByTagName('rect');
-	for (var i = 0; i < tooltipRects.length; i++) {
-		tooltipRects[i].setAttributeNS(null, "width", length + 8);
-	}
-}
-function hideTooltip(evt) {
-	tooltip.setAttributeNS(null, "visibility", "hidden");
-}
-})()
-]]></script>
 </svg>

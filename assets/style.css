@@ -107,7 +107,7 @@ a:hover {
 	/*float: right;*/
 	top: 0;
 	right: 0;
-	visibility: hidden;
+	visibility: visible;
 }
 
 .image1 {
