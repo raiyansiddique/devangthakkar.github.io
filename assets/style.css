@@ -115,6 +115,7 @@ a:hover {
 	top: 0;
 	right: 0;
 	visibility: visible;
+	z-index: 999;
 }
 
 .image1 {
