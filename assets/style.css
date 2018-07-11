@@ -100,6 +100,7 @@ a:hover {
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+	visibility: hidden;
 }
 
 .image00 {
@@ -114,7 +115,7 @@ a:hover {
 	/*float: right;*/
 	top: 0;
 	right: 0;
-	visibility: visible;
+	visibility: hidden;
 	z-index: 999;
 }
 
