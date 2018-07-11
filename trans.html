@@ -1450,11 +1450,12 @@
 
 	<script type="text/javascript">
 
-		window.addEventListener("load", setClickListener, false);
+		document.getElementById("img0").addEventListener("click", function () {console.log("img0 clicked")});
+		// window.addEventListener("load", setClickListener, false);
 
-		function setClickListener() {
-			document.getElementById("img0").addEventListener("click", function () {console.log("img0 clicked")}, false)
-		}
+		// function setClickListener() {
+		// 	document.getElementById("img0").addEventListener("click", function () {console.log("img0 clicked")});
+		// }
 
 	</script>
 
