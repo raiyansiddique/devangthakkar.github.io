@@ -1464,14 +1464,16 @@
 		}
 
 		function jump(id) {
-			console.log("id accessed from inside jump");
-			console.log(id);
-		};
-		// window.addEventListener("load", setClickListener, false);
 
-		// function setClickListener() {
-		// 	document.getElementById("img0").addEventListener("click", function () {console.log("img0 clicked")});
-		// }
+			var current_image_num = document.getElementById("chain_pointer_id").innerHTML;
+			var current_image = "img".concat(current_image_num);
+			document.getElementById(current_image).style.visibility = "hidden";
+			var new_image_num = id.replace("n", "").replace("r", "");
+
+			document.getElementById("chain_pointer_id").innerHTML = new_image_num;
+			var new_image = "img".concat(new_image_num);
+			document.getElementById(new_image).style.visibility = "visible";
+		}
 
 	</script>
 
