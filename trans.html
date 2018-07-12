@@ -23,6 +23,7 @@
 		<p class="chain_pointer" id="chain_pointer_id">1</p>
 		<p class="world_pointer" id="world_pointer_id">0</p>
 		<p class="if_loaded" id="if_loaded_id">0</p>
+		<p class="img_counter" id="img_counter_id">0</p>
 		<!-- maintaining a pointer to see which image is visible -->
 	</section>
 
@@ -1468,6 +1469,8 @@
 						img.src = lsrc;
 						$(img).load(function() {
 							this_image.src = this.src;
+							document.getElementById("img_counter_id").innerHTML += 1;
+							console.log(document.getElementById("img_counter_id").innerHTML);
 						});
 					}
 				}

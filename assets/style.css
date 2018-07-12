@@ -78,6 +78,10 @@ a:hover {
 	display: none;
 }
 
+.img_counter {
+	display: none;
+}
+
 /* demo */
 
 #intro {
