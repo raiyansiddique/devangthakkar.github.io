@@ -1691,12 +1691,12 @@
 			console.log("Entered stepEnter");
 			console.log(response);
 			$("step").each(function(){
-				var this_image = this;
-				if($(this_image).attr("data-step") == response.index) {
-					$(this_image).addClass("is-active");
+				console.log($(this));
+				if($(this).attr("data-step") == response.index) {
+					$(this).addClass("is-active");
 				}
 				else {
-					$(this_image).removeClass("is-active");
+					$(this).removeClass("is-active");
 				}
 			});
 
