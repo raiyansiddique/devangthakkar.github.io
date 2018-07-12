@@ -1686,14 +1686,15 @@
 			// response = { element, direction, index }
 
 			// add color to current step only
-			for(var i=0;i<step.length;i++){
-				if(i == response.index){
-					$("step")[i].addClass("is-active");
+			$("step").each(function(){
+				var this_image = this;
+				if($(this_image).attr("data-step") == response.index) {
+					$(this_image).addClass("is-active");
 				}
-				else{
-					$("step")[i].removeClass("is-active");
+				else {
+					$(this_image).removeClass("is-active");
 				}
-			}
+			});
 
 			// update graphic based on step
 			// chart.select("p").text(UrlMap[response.index+1])
