@@ -1690,7 +1690,7 @@
 			// add color to current step only
 			console.log("Entered stepEnter");
 			console.log(response);
-			$("step").each(function(){
+			$(".step").each(function(){
 				console.log($(this));
 				if($(this).attr("data-step") == response.index) {
 					$(this).addClass("is-active");
