@@ -1662,9 +1662,11 @@
 			}
 
 			// 2. update width/height of graphic element
-			var bodyWidth = document.getElementsByTagName("body").offsetWidth;
+			// var bodyWidth = $("body").offsetWidth;
+			console.log(window.innerWidth + "px");
+			console.log(window.innerHeight + "px");
 
-			graphic.style.width = bodyWidth + "px";
+			graphic.style.width = window.innerWidth + "px";
 			graphic.style.height = window.innerHeight + "px";
 
 			var chartMargin = 0;
