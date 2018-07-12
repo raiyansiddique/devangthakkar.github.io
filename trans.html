@@ -1619,15 +1619,15 @@
 				<div class="step1">
 					<p>STEP 1</p>
 				</div>
-			</div>
-			<div class="step" data-step="2">
-				<p>STEP 2</p>
-			</div>
-			<div class="step" data-step="3">
-				<p>STEP 3</p>
-			</div>
-			<div class="step" data-step="4">
-				<p>STEP 4</p>
+				<div class="step2" data-step="2">
+					<p>STEP 2</p>
+				</div>
+				<div class="step3" data-step="3">
+					<p>STEP 3</p>
+				</div>
+				<div class="step4" data-step="4">
+					<p>STEP 4</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -1649,7 +1649,7 @@
 		var chart = document.getElementsByClassName("chart")[0];
 		var image = document.getElementsByClassName("world_image1")[0];
 		var text = document.getElementsByClassName("scroll__text")[0];
-		var step = document.getElementsByClassName("step");
+		var step = document.getElementsByClassName("step")[0];
 
 		// initialize the scrollama
 		var scroller = scrollama();
