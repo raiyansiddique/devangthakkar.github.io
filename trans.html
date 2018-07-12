@@ -8,7 +8,6 @@
 	<meta name="description" content="Scrollama Demo: Fixed CSS">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://devangthakkar.github.io/assets/style.css">
-	<link rel="shortcut icon" href="">
 
 </head>
 
@@ -1457,30 +1456,102 @@
 	<script type="text/javascript">
 
 		// async loading
-
-		function mapImages(i) {
-			var this_image = this;
-			var src = $(this_image).attr('src') || '' ;
-			if(!src.length > 0){
-				//this_image.src = options.loading; // show loading
-				var lsrc = $(this_image).attr('lsrc') || '' ;
-				if(lsrc.length > 0){
-					var img = new Image();
-					img.src = lsrc;
-					$(img).load(function() {
-						this_image.src = this.src;
-					});
-				}
-			}
-		}
 		$(window).on('load', function(){
-			$("embed").each(function(){mapImages();});
+			$("embed").each(function(){
+				var this_image = this;
+				var src = $(this_image).attr('src') || '' ;
+				if(!src.length > 0){
+					//this_image.src = options.loading; // show loading
+					var lsrc = $(this_image).attr('lsrc') || '' ;
+					if(lsrc.length > 0){
+						var img = new Image();
+						img.src = lsrc;
+						$(img).load(function() {
+							this_image.src = this.src;
+						});
+					}
+				}
+			});
 
-			$("#world_img0").each(function(){mapImages});
-			$("#world_img1").each(function(){mapImages});
-			$("#world_img2").each(function(){mapImages});
-			$("#world_img3").each(function(){mapImages});
-			$("#world_img4").each(function(){mapImages});
+			$("#world_image0").each(function(){
+				var this_image = this;
+				var src = $(this_image).attr('src') || '' ;
+				if(!src.length > 0){
+					//this_image.src = options.loading; // show loading
+					var lsrc = $(this_image).attr('lsrc') || '' ;
+					if(lsrc.length > 0){
+						var img = new Image();
+						img.src = lsrc;
+						$(img).load(function() {
+							this_image.src = this.src;
+						});
+					}
+				}
+			});
+
+			$("#world_image1").each(function(){
+				var this_image = this;
+				var src = $(this_image).attr('src') || '' ;
+				if(!src.length > 0){
+					//this_image.src = options.loading; // show loading
+					var lsrc = $(this_image).attr('lsrc') || '' ;
+					if(lsrc.length > 0){
+						var img = new Image();
+						img.src = lsrc;
+						$(img).load(function() {
+							this_image.src = this.src;
+						});
+					}
+				}
+			});
+
+			$("#world_image2").each(function(){
+				var this_image = this;
+				var src = $(this_image).attr('src') || '' ;
+				if(!src.length > 0){
+					//this_image.src = options.loading; // show loading
+					var lsrc = $(this_image).attr('lsrc') || '' ;
+					if(lsrc.length > 0){
+						var img = new Image();
+						img.src = lsrc;
+						$(img).load(function() {
+							this_image.src = this.src;
+						});
+					}
+				}
+			});
+
+			$("#world_image3").each(function(){
+				var this_image = this;
+				var src = $(this_image).attr('src') || '' ;
+				if(!src.length > 0){
+					//this_image.src = options.loading; // show loading
+					var lsrc = $(this_image).attr('lsrc') || '' ;
+					if(lsrc.length > 0){
+						var img = new Image();
+						img.src = lsrc;
+						$(img).load(function() {
+							this_image.src = this.src;
+						});
+					}
+				}
+			});
+
+			$("#world_image4").each(function(){
+				var this_image = this;
+				var src = $(this_image).attr('src') || '' ;
+				if(!src.length > 0){
+					//this_image.src = options.loading; // show loading
+					var lsrc = $(this_image).attr('lsrc') || '' ;
+					if(lsrc.length > 0){
+						var img = new Image();
+						img.src = lsrc;
+						$(img).load(function() {
+							this_image.src = this.src;
+						});
+					}
+				}
+			});
 
 			$("#chain").css("visibility", "visible");
 			$("#img0").css("visibility", "visible");
