@@ -1688,6 +1688,8 @@
 			// response = { element, direction, index }
 
 			// add color to current step only
+			console.log("Entered stepEnter");
+			console.log(response);
 			$("step").each(function(){
 				var this_image = this;
 				if($(this_image).attr("data-step") == response.index) {
