@@ -1688,10 +1688,10 @@
 			// add color to current step only
 			for(var i=0;i<step.length;i++){
 				if(i == response.index){
-					step.addClass("is-active");
+					$("step")[i].addClass("is-active");
 				}
 				else{
-					step.removeClass("is-active");
+					$("step")[i].removeClass("is-active");
 				}
 			}
 
@@ -1715,17 +1715,17 @@
 			// response = { direction }
 
 			// sticky the graphic (old school)
-			graphic.addClass("is-fixed");
-			graphic.removeClass("is-bottom");
+			$("scroll__graphic").addClass("is-fixed");
+			$("scroll__graphic").removeClass("is-bottom");
 		}
 
 		function handleContainerExit(response) {
 			// response = { direction }
 
 			// un-sticky the graphic, and pin to top/bottom of container
-			graphic.removeClass("is-fixed");
+			$("scroll__graphic").removeClass("is-fixed");
 			if(response.direction === "down"){
-				graphic.addClass("is-bottom");	
+				$("scroll__graphic").addClass("is-bottom");	
 			}
 		}
 
