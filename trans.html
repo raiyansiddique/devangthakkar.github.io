@@ -1454,22 +1454,33 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 	<script type="text/javascript">
-		$(window).on('load', function(){
-			$("embed").each(function(){
-				var this_image = this;
-				var src = $(this_image).attr('src') || '' ;
-				if(!src.length > 0){
-					//this_image.src = options.loading; // show loading
-					var lsrc = $(this_image).attr('lsrc') || '' ;
-					if(lsrc.length > 0){
-						var img = new Image();
-						img.src = lsrc;
-						$(img).load(function() {
-							this_image.src = this.src;
-						});
-					}
+
+		// async loading
+
+		function mapImages(i) {
+			var this_image = this;
+			var src = $(this_image).attr('src') || '' ;
+			if(!src.length > 0){
+				//this_image.src = options.loading; // show loading
+				var lsrc = $(this_image).attr('lsrc') || '' ;
+				if(lsrc.length > 0){
+					var img = new Image();
+					img.src = lsrc;
+					$(img).load(function() {
+						this_image.src = this.src;
+					});
 				}
-			});
+			}
+		}
+		$(window).on('load', function(){
+			$("embed").each(function(){mapImages();});
+
+			$("#world_img0").each(function(){mapImages});
+			$("#world_img1").each(function(){mapImages});
+			$("#world_img2").each(function(){mapImages});
+			$("#world_img3").each(function(){mapImages});
+			$("#world_img4").each(function(){mapImages});
+
 			$("#chain").css("visibility", "visible");
 			$("#img0").css("visibility", "visible");
 			$("#img1").css("visibility", "visible");
@@ -1511,11 +1522,11 @@
 	<section id="scroll">
 		<div class="scroll__graphic">
 			<div class="chart">
-				<img class="world_image0" src="https://devangthakkar.github.io/assets/v1.jpg" id="world_img0"/>
-				<img class="world_image1" src="https://devangthakkar.github.io/assets/v1-nc-nolinks.jpg" id="world_img1" style="display:none"/>
-				<img class="world_image2" src="https://devangthakkar.github.io/assets/v1-nc.jpg" id="world_img2" style="display:none"/>
-				<img class="world_image3" src="https://devangthakkar.github.io/assets/v1-nc-an.jpg" id="world_img3" style="display:none"/>
-				<img class="world_image4" src="https://devangthakkar.github.io/assets/v1-bold.jpg" id="world_img4" style="display:none"/>
+				<img class="world_image0" lsrc="https://devangthakkar.github.io/assets/v1.jpg" id="world_img0"/>
+				<img class="world_image1" lsrc="https://devangthakkar.github.io/assets/v1-nc-nolinks.jpg" id="world_img1" style="display:none"/>
+				<img class="world_image2" lsrc="https://devangthakkar.github.io/assets/v1-nc.jpg" id="world_img2" style="display:none"/>
+				<img class="world_image3" lsrc="https://devangthakkar.github.io/assets/v1-nc-an.jpg" id="world_img3" style="display:none"/>
+				<img class="world_image4" lsrc="https://devangthakkar.github.io/assets/v1-bold.jpg" id="world_img4" style="display:none"/>
 				<p></p>
 			</div>
 		</div>
