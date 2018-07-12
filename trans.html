@@ -1616,18 +1616,17 @@
 		</div>
 		<div class="scroll__text">
 			<div class="step" data-step="1">
-				<div class="step1">
-					<p>STEP 1</p>
-				</div>
-				<div class="step2" data-step="2">
-					<p>STEP 2</p>
-				</div>
-				<div class="step3" data-step="3">
-					<p>STEP 3</p>
-				</div>
-				<div class="step4" data-step="4">
-					<p>STEP 4</p>
-				</div>
+				<p>STEP 1</p>
+			</div>
+			<div class="step" data-step="2">
+				<p>STEP 2</p>
+			</div>
+			<div class="step" data-step="3">
+				<p>STEP 3</p>
+			</div>
+			<div class="step" data-step="4">
+				<p>STEP 4</p>
+			</div>
 			</div>
 		</div>
 	</section>
@@ -1649,7 +1648,7 @@
 		var chart = document.getElementsByClassName("chart")[0];
 		var image = document.getElementsByClassName("world_image1")[0];
 		var text = document.getElementsByClassName("scroll__text")[0];
-		var step = document.getElementsByClassName("step")[0];
+		var step = document.getElementsByClassName("step");
 
 		// initialize the scrollama
 		var scroller = scrollama();
@@ -1658,25 +1657,25 @@
 		function handleResize() {
 			// 1. update height of step elements
 			var stepHeight = Math.floor(window.innerHeight * 0.75);
-			step.style("height", stepHeight + "px");
+			for(var i=0;i<step.length;i++){
+				step[i].style.height = stepHeight+"px";
+			}
 
 			// 2. update width/height of graphic element
-			var bodyWidth = document.getElementsByTagName("body").node().offsetWidth;
+			var bodyWidth = document.getElementsByTagName("body").offsetWidth;
 
-			graphic
-				.style("width", bodyWidth + "px")
-				.style("height", window.innerHeight + "px");
+			graphic.style.width = bodyWidth + "px";
+			graphic.style.height = window.innerHeight + "px";
 
 			var chartMargin = 0;
-			var textWidth = text.node().offsetWidth;
-			var chartWidth = graphic.node().offsetWidth - textWidth - chartMargin;
+			var textWidth = text.offsetWidth;
+			var chartWidth = graphic.offsetWidth - textWidth - chartMargin;
 
-			chart
+			chart.style.height = Math.floor(window.innerHeight / 2) + "px";
 				// .style("width", chartWidth + "px")
-				.style("height", Math.floor(window.innerHeight / 2) + "px");
-			image
-				.style("width", 2*window.innerHeight + "px")
-				.style("height", window.innerHeight + "px");
+				// .style("height", Math.floor(window.innerHeight / 2) + "px");
+			image.style.width = 2*window.innerHeight + "px");
+			image.style.height = window.innerHeight + "px");
 
 			// 3. tell scrollama to update new element dimensions
 			scroller.resize();
@@ -1687,9 +1686,14 @@
 			// response = { element, direction, index }
 
 			// add color to current step only
-			step.classed("is-active", function (d, i) {
-				return i === response.index;
-			})
+			for(var i=0;i<step.length;i++){
+				if(i == response.index){
+					step.addClass("is-active");
+				}
+				else{
+					step.removeClass("is-active");
+				}
+			}
 
 			// update graphic based on step
 			// chart.select("p").text(UrlMap[response.index+1])
@@ -1711,16 +1715,18 @@
 			// response = { direction }
 
 			// sticky the graphic (old school)
-			graphic.classed("is-fixed", true);
-			graphic.classed("is-bottom", false);
+			graphic.addClass("is-fixed");
+			graphic.removeClass("is-bottom");
 		}
 
 		function handleContainerExit(response) {
 			// response = { direction }
 
 			// un-sticky the graphic, and pin to top/bottom of container
-			graphic.classed("is-fixed", false);
-			graphic.classed("is-bottom", response.direction === "down");
+			graphic.removeClass("is-fixed");
+			if(response.direction === "down"){
+				graphic.addClass("is-bottom");	
+			}
 		}
 
 		function init() {
