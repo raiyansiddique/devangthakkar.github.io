@@ -1460,7 +1460,7 @@
 		var tooltip = svg.getElementById('tooltip-word');
 		var active_lang_id = 'img'.concat(document.getElementById('chain_pointer_id'));
 
-		var httpClient = function() {
+		var HttpClient = function() {
 			this.get = function(aUrl, aCallback) {
 				var anHttpRequest = new XMLHttpRequest();
 				anHttpRequest.onreadystatechange = function() {
