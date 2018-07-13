@@ -1726,9 +1726,9 @@
 
 			// sticky the graphic (old school)
 			console.log("handleContainerEnter");
-			$("scroll__graphic").addClass("is-fixed");
+			$(".scroll__graphic").addClass("is-fixed");
 			console.log(graphic.className);
-			$("scroll__graphic").removeClass("is-bottom");
+			$(".scroll__graphic").removeClass("is-bottom");
 			console.log(graphic.className);
 		}
 
@@ -1736,9 +1736,9 @@
 			// response = { direction }
 
 			// un-sticky the graphic, and pin to top/bottom of container
-			$("scroll__graphic").removeClass("is-fixed");
+			$(".scroll__graphic").removeClass("is-fixed");
 			if(response.direction === "down"){
-				$("scroll__graphic").addClass("is-bottom");	
+				$(".scroll__graphic").addClass("is-bottom");	
 			}
 		}
 
