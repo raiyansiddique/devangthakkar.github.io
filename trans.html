@@ -1477,6 +1477,7 @@
 		var client = new HttpClient();
 		client.get('https://devanthakkar.github.io/assets/minimal_chain.tsv', function(response) {
 		    word_tooltips = response;
+		    console.log("Hi");
 		    console.log(word_tooltips);
 		});
 
