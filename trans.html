@@ -1664,7 +1664,7 @@
 
 			// 2. update width/height of graphic element
 			// var bodyWidth = $("body").offsetWidth;
-			console.log(window.innerWidth + "px");
+			console.log(document.getElementById('scroll').style.width + "px");
 			console.log(window.innerHeight + "px");
 
 			graphic.style.width = document.getElementById('scroll').style.width + "px";
@@ -1725,8 +1725,11 @@
 			// response = { direction }
 
 			// sticky the graphic (old school)
+			console.log("handleContainerEnter");
 			$("scroll__graphic").addClass("is-fixed");
+			console.log(graphic.className);
 			$("scroll__graphic").removeClass("is-bottom");
+			console.log(graphic.className);
 		}
 
 		function handleContainerExit(response) {
