@@ -1664,10 +1664,10 @@
 
 			// 2. update width/height of graphic element
 			// var bodyWidth = $("body").offsetWidth;
-			console.log(document.getElementById('scroll').style.width + "px");
+			console.log(document.getElementById('scroll').clientwidth + "px");
 			console.log(window.innerHeight + "px");
 
-			graphic.style.width = document.getElementById('scroll').style.width + "px";
+			graphic.style.width = document.getElementById('scroll').clientwidth + "px";
 			graphic.style.height = window.innerHeight + "px";
 
 			var chartMargin = 0;
