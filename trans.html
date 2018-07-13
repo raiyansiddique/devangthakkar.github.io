@@ -1672,14 +1672,17 @@
 			var textWidth = text.offsetWidth;
 			var chartWidth = graphic.offsetWidth - textWidth - chartMargin;
 
-			chart.style.height = "100vh";
-			chart.style.width = "95vw";
+			chart.style.height = "50vw";
+			chart.style.max-height = "100vh";
+			chart.style.width = "100vw";
+			chart.style.max-width = "200vh";
+
 				// .style("width", chartWidth + "px")
 				// .style("height", Math.floor(window.innerHeight / 2) + "px");
-			console.log(image.style.width);
-			image.style.width = "89vw";
-			image.style.height = "90vh";
-			console.log(image.style.width);
+			image.style.height = "50vw";
+			image.style.max-height = "100vh";
+			image.style.width = "100vw";
+			image.style.max-width = "200vh";
 
 			// 3. tell scrollama to update new element dimensions
 			scroller.resize();
