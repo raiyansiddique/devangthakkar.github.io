@@ -903,6 +903,7 @@ a:hover {
 	top: 0;
 	background-color: #927086;
 	visibility: visible;
+	width: 95vw;
 }
 
 .chart.world_image1 {
