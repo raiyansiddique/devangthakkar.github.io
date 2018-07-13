@@ -284,8 +284,8 @@ dominant-baseline: hanging;
 <rect class='r' id='r12' x='192' y='65' width='10' height='10' t='Catalan (ca)'/>
 <rect class='r' id='r13' x='202' y='65' width='10' height='10' t='Cebuano (ceb)'/>
 <rect class='r' id='r14' x='212' y='65' width='10' height='10' t='Chichewa (ny)'/>
-<rect class='r' id='r15' x='222' y='65' width='10' height='10' t='Chinese (zh-CN)'/>
-<rect class='r' id='r16' x='232' y='65' width='10' height='10' t='Chinese Traditional (zh-TW)'/>
+<rect class='r' id='r15' x='222' y='65' width='10' height='10' t='Chinese Traditional (zh-TW)'/>
+<rect class='r' id='r16' x='232' y='65' width='10' height='10' t='Chinese (zh-CN)'/>
 <rect class='r' id='r17' x='242' y='65' width='10' height='10' t='Corsican (co)'/>
 <rect class='r' id='r18' x='252' y='65' width='10' height='10' t='Croatian (hr)'/>
 <rect class='r' id='r19' x='262' y='65' width='10' height='10' t='Czech (cs)'/>
@@ -390,8 +390,8 @@ dominant-baseline: hanging;
 <circle class='n' id='n12' opacity='0.5' cx='197' cy='70' r='2.5' t='Catalan (ca)'/>
 <circle class='n' id='n13' opacity='0.5' cx='207' cy='70' r='2.5' t='Cebuano (ceb)'/>
 <circle class='n' id='n14' opacity='0.5' cx='217' cy='70' r='2.5' t='Chichewa (ny)'/>
-<circle class='n' id='n15' opacity='0.5' cx='227' cy='70' r='2.5' t='Chinese (zh-CN)'/>
-<circle class='n' id='n16' opacity='0.5' cx='237' cy='70' r='2.5' t='Chinese Traditional (zh-TW)'/>
+<circle class='n' id='n15' opacity='0.5' cx='227' cy='70' r='2.5' t='Chinese Traditional (zh-TW)'/>
+<circle class='n' id='n16' opacity='0.5' cx='237' cy='70' r='2.5' t='Chinese (zh-CN)'/>
 <circle class='n' id='n17' opacity='0.5' cx='247' cy='70' r='2.5' t='Corsican (co)'/>
 <circle class='n' id='n18' opacity='0.5' cx='257' cy='70' r='2.5' t='Croatian (hr)'/>
 <circle class='n' id='n19' opacity='0.5' cx='267' cy='70' r='2.5' t='Czech (cs)'/>
