@@ -20,6 +20,11 @@ body {
 				sans-serif;
 }
 
+html,
+.world_image0 {
+	height: 100%;
+}
+
 body {
 	min-height: 1280px;
 	font-weight: 300;
