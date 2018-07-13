@@ -1664,21 +1664,20 @@
 
 			// 2. update width/height of graphic element
 			// var bodyWidth = $("body").offsetWidth;
-			console.log(document.getElementById('scroll').clientwidth + "px");
-			console.log(window.innerHeight + "px");
 
-			graphic.style.width = document.getElementById('scroll').clientwidth + "px";
+			graphic.style.width = "100vw";
 			graphic.style.height = window.innerHeight + "px";
 
 			var chartMargin = 0;
 			var textWidth = text.offsetWidth;
 			var chartWidth = graphic.offsetWidth - textWidth - chartMargin;
 
-			chart.style.height = Math.floor(window.innerHeight / 2) + "px";
+			chart.style.height = "100vh";
+			chart.style.width = "100vw";
 				// .style("width", chartWidth + "px")
 				// .style("height", Math.floor(window.innerHeight / 2) + "px");
-			image.style.width = 2*window.innerHeight + "px";
-			image.style.height = window.innerHeight + "px";
+			image.style.width = "100vw";
+			image.style.height = "100vh";
 
 			// 3. tell scrollama to update new element dimensions
 			scroller.resize();
