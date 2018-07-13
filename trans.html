@@ -1267,6 +1267,11 @@
 		<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-box'/>
 		<text x='3' y='6' id='tooltip-text' font-family=''Roboto'' fill='#927086'>Tooltip</text>
 		</g>
+
+		<g id='tooltip_word' visibility='hidden'>
+		<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-word-box'/>
+		<text x='3' y='6' id='tooltip-word-text' font-family="'Roboto'" fill='#927086'>Tooltip word</text>
+		</g>
 		</svg>
 
 		<embed src='' class='image1' id='img1' type='image/svg+xml' lsrc='https://devangthakkar.github.io/assets/chain_images/chain_af.svg'/>
@@ -1416,8 +1421,8 @@
 		var svg = document.getElementById('img0');
 
 		var tooltip = svg.getElementById('tooltip');
-		console.log(svg);
-		console.log(tooltip);
+		// console.log(svg);
+		// console.log(tooltip);
 		var tooltipText = tooltip.getElementsByTagName('text')[0];
 
 		var triggers_rect = svg.getElementsByClassName('r');
@@ -1458,9 +1463,9 @@
 		// add hovering capabilities to word dots using opacity 0 of img0
 
 		var svg_word = document.getElementById('img0');
-		console.log(svg_word);
+		// console.log(svg_word);
 		var tooltip_word = svg_word.getElementById('tooltip_word');
-		console.log(tooltip_word);
+		// console.log(tooltip_word);
 		var active_lang_id = 'img'.concat(document.getElementById('chain_pointer_id'));
 
 		var HttpClient = function() {
@@ -1478,7 +1483,7 @@
 
 		var word_tooltips = "";
 		var client = new HttpClient();
-		client.get('https://rawgit.com/DevangThakkar/devanthakkar.github.io/master/assets/minimal_chain.tsv', function(response) {
+		client.get('https://rawgit.com/DevangThakkar/devangthakkar.github.io/master/assets/minimal_chain.tsv', function(response) {
 		    word_tooltips = response;
 		    console.log("Hi");
 		    console.log(word_tooltips);
