@@ -889,6 +889,7 @@ a:hover {
 
 .chart {
 	position: fixed;
+	right: 0;
 	opacity: 1.0;
 	background-color: #927086;
 }
