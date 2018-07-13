@@ -1457,7 +1457,7 @@
 
 		var svg_word = document.getElementById('img0');
 
-		var tooltip_word = svg_ord.getElementById('tooltip_word');
+		var tooltip_word = svg_word.getElementById('tooltip_word');
 		var active_lang_id = 'img'.concat(document.getElementById('chain_pointer_id'));
 
 		var HttpClient = function() {
@@ -1473,7 +1473,7 @@
 			}
 		}
 
-		var tooltips_word = "";
+		var word_tooltips = "";
 		var client = new HttpClient();
 		client.get('https://devanthakkar.github.io/assets/minimal_chain.tsv', function(response) {
 		    word_tooltips = response;
