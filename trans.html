@@ -1455,9 +1455,9 @@
 
 		// add hovering capabilities to word dots using opacity 0 of img0
 
-		var svg = document.getElementById('img0');
+		var svg_word = document.getElementById('img0');
 
-		var tooltip = svg.getElementById('tooltip_word');
+		var tooltip_word = svg_ord.getElementById('tooltip_word');
 		var active_lang_id = 'img'.concat(document.getElementById('chain_pointer_id'));
 
 		var HttpClient = function() {
@@ -1473,34 +1473,34 @@
 			}
 		}
 
-		var word_tooltips = "";
+		var tooltips_word = "";
 		var client = new HttpClient();
 		client.get('https://devanthakkar.github.io/assets/minimal_chain.tsv', function(response) {
 		    word_tooltips = response;
 		    console.log(word_tooltips);
 		});
 
-		var tooltipText = tooltip.getElementsByTagName('text')[0];
+		var tooltipText_word = tooltip_word.getElementsByTagName('text')[0];
 
-		var triggers_word = svg.getElementsByClassName('w');
+		var triggers_word = svg_word.getElementsByClassName('w');
 
-		for (var i = 0; i < triggers_rect.length; i++) {
+		for (var i = 0; i < triggers_word.length; i++) {
 			triggers_word[i].addEventListener('mousemove', showTooltip);
 			triggers_word[i].addEventListener('mouseout', hideTooltip);
 		}
 
 		function showTooltip(evt) {
-			var CTM = svg.getScreenCTM();
-			var length = tooltipText.getComputedTextLength();
-			var x = (evt.clientX - CTM.e - length/2) / CTM.a;
-			var y = (evt.clientY - CTM.f - 35) / CTM.d;
-			tooltip.setAttributeNS(null, 'transform', 'translate(' + x + ' ' + y + ')');
-			tooltip.setAttributeNS(null, 'visibility', 'visible');
-			tooltipText.firstChild.data = evt.target.getAttributeNS(null, 't');
+			var CTM_word = svg_word.getScreenCTM();
+			var length_word = tooltipText_word.getComputedTextLength();
+			var x_word = (evt.clientX - CTM_word.e - length_word/2) / CTM_word.a;
+			var y_word = (evt.clientY - CTM_word.f - 35) / CTM_word.d;
+			tooltip_word.setAttributeNS(null, 'transform', 'translate(' + x + ' ' + y + ')');
+			tooltip_word.setAttributeNS(null, 'visibility', 'visible');
+			tooltipText_word.firstChild.data = evt.target.getAttributeNS(null, 't');
 
-			var tooltipRects = tooltip.getElementsByTagName('rect');
-			for (var i = 0; i < tooltipRects.length; i++) {
-				tooltipRects[i].setAttributeNS(null, 'width', length+8);
+			var tooltipRects_word = tooltip_word.getElementsByTagName('rect');
+			for (var i = 0; i < tooltipRects_word.length; i++) {
+				tooltipRects_word[i].setAttributeNS(null, 'width', length_word+8);
 			}
 		}
 
