@@ -1456,8 +1456,9 @@
 		// add hovering capabilities to word dots using opacity 0 of img0
 
 		var svg_word = document.getElementById('img0');
-
+		console.log(svg_word);
 		var tooltip_word = svg_word.getElementById('tooltip_word');
+		console.log(tooltip_word);
 		var active_lang_id = 'img'.concat(document.getElementById('chain_pointer_id'));
 
 		var HttpClient = function() {
@@ -1475,7 +1476,7 @@
 
 		var word_tooltips = "";
 		var client = new HttpClient();
-		client.get('https://devanthakkar.github.io/assets/minimal_chain.tsv', function(response) {
+		client.get('https://rawgit.com/DevangThakkar/devanthakkar.github.io/master/assets/minimal_chain.tsv', function(response) {
 		    word_tooltips = response;
 		    console.log("Hi");
 		    console.log(word_tooltips);
