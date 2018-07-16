@@ -134,7 +134,7 @@ a:hover {
 }
 
 .final_image {
-	position: relative;
+	position: absolute;
 	/*float: right;*/
 	top: 0;
 	right: 0;
