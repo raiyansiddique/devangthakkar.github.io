@@ -30,7 +30,7 @@
 
 	<section id='chain'>
 
-		<embed src='https://devangthakkar.github.io/assets/chain_images/chain_af.svg' class='image00' id='img00' type='image/svg+xml' lsrc=''/>
+		<embed src='https://devangthakkar.github.io/assets/chain_temp.svg' class='image00' id='img00' type='image/svg+xml' lsrc=''/>
 
 		<svg version='1.1' class='image0' id='img0' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='697px' height='697px' viewBox='0 0 697 697' enable-background='new 0 0 697 697' xml:space='preserve'>
 
@@ -1288,8 +1288,8 @@
 		function changeImage(dir) {
 
 			var current_image_num = document.getElementById('chain_pointer_id').innerHTML;
-			var current_image = 'img'.concat(current_image_num);
-			document.getElementById(current_image).style.visibility = 'hidden';
+			var current_image = 'Layer_'.concat(current_image_num);
+			document.getElementById('final_img').contentDocument.getElementById(current_image).style.opacity = '0.0';
 			var new_image_num = 1;
 			if (current_image == 'img1' && dir == '-1') {
 				new_image_num = '103';
@@ -1302,7 +1302,7 @@
 			}
 
 			document.getElementById('chain_pointer_id').innerHTML = new_image_num;
-			var new_image = 'img'.concat(new_image_num);
+			var new_image = 'Layer_'.concat(new_image_num);
 			document.getElementById(new_image).style.visibility = 'visible';
 		}
 
