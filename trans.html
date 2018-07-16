@@ -1426,7 +1426,8 @@
 
 		// async loading
 		$(window).on('load', function(){
-			$('embed').each(function(){
+			$('#final_img').each(function(){
+				console.log("Window loaded; now loading img")
 				var this_image = this;
 				var src = $(this_image).attr('src') || '' ;
 				if(!src.length > 0){
@@ -1440,7 +1441,6 @@
 							console.log(document.getElementById('img_counter_id').innerHTML);
 							if(document.getElementById('img_counter_id').innerHTML == 103) {
 								console.log('All loaded');
-								$('#chain').css('visibility', 'visible');
 								$('#img0').css('visibility', 'visible');
 								$('#img1').css('visibility', 'visible');
 							}
