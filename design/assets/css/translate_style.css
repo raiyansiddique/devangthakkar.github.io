@@ -16,8 +16,20 @@ body {
 	color: #2a2a2a;
 }
 
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 #intro {
-	max-width:700;
+	max-width:700px;
 	margin:auto;
-	background-color:#222;
+	background-color:#eee;
+	float:center;
+
 }
