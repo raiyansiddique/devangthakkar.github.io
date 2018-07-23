@@ -10,28 +10,37 @@ body {
 	padding: 0;
 }
 
-body {
-	min-height: 1280px;
-	font-weight: 300;
-}
-
 html {
     display: table;
     margin: auto;
+    max-width: 500px;
 }
 
 body {
     display: table-cell;
     vertical-align: middle;
+    min-height: 1280px;
+	font-weight: 300;
 }
 
 #intro {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+}
+
+.intro {
+	font-family: 'Spectral', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
 }
 
 .intro__hed {
-	font-family: 'Spectral', serif;
+	font-family: 'Open Sans', serif;
 	font-size: 20px;
-	font-weight: 700;
+	text-align: center;
+}
+
+.first_p {
+	margin-top: 20px;
+	font-family: 'Open Sans', serif;
+	font-size: 14px;	
 }
