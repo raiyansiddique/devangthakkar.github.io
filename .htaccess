@@ -1,3 +1,5 @@
+Options -Indexes -MultiViews
+
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^devangthakkar.com$ [NC]
 RewriteCond %{SERVER_PORT} ^80$
