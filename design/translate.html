@@ -99,9 +99,10 @@
 	<!-- add custom html page -->
 
 	<script>
-		function loadBG(){
-			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
-		}
-		window.onload=loadBG();
+	var img = new Image();
+	img.onload = function() {
+		document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
+	};
+	img.src = 'https://www.devangthakkar.com/design/assets/bg.png';
 	</script>
 </body>
