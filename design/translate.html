@@ -40,7 +40,7 @@
 		html {
 			display: table;
 			margin: auto;
-			background-image: url('https://www.devangthakkar.com/design/assets/bg.png');
+			/*background-image: url('https://www.devangthakkar.com/design/assets/bg.png');*/
 		}
 
 		body {
@@ -95,5 +95,13 @@
 		<!-- maintaining a pointer to see which image is visible -->
 	</section>
 
-	<!-- add word circles in  bg, yellowish tint for foreground DONE-->
+	<!-- DONE add word circles in  bg, yellowish tint for foreground -->
 	<!-- add custom html page -->
+
+	<script>
+		function loadBG(){
+			document.getElementByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
+		}
+		window.onload=loadBG();
+	</script>
+</body>
