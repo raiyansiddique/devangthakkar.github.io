@@ -70,17 +70,24 @@
 			text-align: center;
 		}
 
-		.nameplate {
+		.name {
 			font-family: 'Roboto', sans-serif;
 			font-size: 14px;
 			text-align: center;
-			color: black;
+		}
+
+		.name_link {
 			border-bottom: '#7c157c';
 		}
 
-		.nameplate:hover {
+		a:link {
+			color: black;
+		}
+
+		a:hover {
 			color: '#7c157c';
 		}
+
 		.prose {
 			background-color: rgba(255, 255, 255, .85);
 			margin-top: 20px;
@@ -114,7 +121,9 @@
 		<section id='intro'>
 			<p class='title'>Loss in Translation</p>
 			<p class='intro__hed'>A study on the invertibility of translation between languages</p>
-			<p class='nameplate'><a href="https://www.devangthakkar.com">Devang Thakkar</a><br/>26<sup>th</sup> July, 2018</p>
+			<p class='name'>
+				<a id='name_link' href="https://www.devangthakkar.com">Devang Thakkar</a><br/>26<sup>th</sup> July, 2018
+			</p>
 			<p class='prose'>'Do you know Languages? What's the French for fiddle-de-dee?' questions the Red Queen, aiming to perplex Alice in Lewis Carroll’s Through the Looking Glass. “If you'll tell me what language "fiddle-de-dee" is, I'll tell you the French for it” replies Alice, continuing the nonsensical repartee that builds up a large fraction of the corpus. <br/><br/>
 
 			A present-day adaptation of this highly underrated sequel would probably gloss over the aforementioned conversation since not knowing the language of the source text is no longer an impediment for translation. The quality of machine translation has improved exponentially in the last few decades and now with the advent of neural machine translation, we have now reached closer to human translation than ever before. Despite these advances, there will always be certain limitations to machine translation, not due to the machine aspect of it rather due to the inherent limitations of the process of translation.</p>
