@@ -31,35 +31,31 @@
 			box-sizing: border-box;
 		}
 
-		html,
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
 		html {
-			padding: 10px;
-			display: table;
-			/*margin: auto;*/
+			/*padding: 10px;*/
+			margin: 0px;
 			/*background-image: url('https://www.devangthakkar.com/design/assets/bg.png');*/
 			background-origin: border-box;
 		}
 
 		body {
+			display: table;
+			margin: auto;
+		}
+
+		#main_div {
 			display: table-cell;
 			vertical-align: middle;
 			min-height: 1280px;
 			max-width: 700px;
-			margin-left: auto;
-			margin-right: auto;
 		}
 
-		#intro {
+		.intro {
 			padding: 16px;
 			padding-bottom: 24px;
 		}
 
-		.intro {
+		.title {
 			font-family: 'Spectral', serif;
 			font-size: 60px;
 			font-weight: 700;
@@ -89,19 +85,20 @@
 </head>
 
 <body>
-	<section id='intro'>
-		<p class='intro'>Loss in Translation</p>
-		<p class='intro__hed'>A study on the invertibility of translation between languages.</p>
-		<p class='prose'>'Do you know Languages? What's the French for fiddle-de-dee?' says the Red Queen, aiming to perplex Alice in Lewis Carroll’s Through the Looking Glass. “If you'll tell me what language "fiddle-de-dee" is, I'll tell you the French for it” replies Alice, continuing the nonsensical repartee that builds up a large fraction of the corpus. <br/>
+	<div id='main_div'>
+		<section id='intro'>
+			<p class='title'>Loss in Translation</p>
+			<p class='intro__hed'>A study on the invertibility of translation between languages.</p>
+			<p class='prose'>'Do you know Languages? What's the French for fiddle-de-dee?' says the Red Queen, aiming to perplex Alice in Lewis Carroll’s Through the Looking Glass. “If you'll tell me what language "fiddle-de-dee" is, I'll tell you the French for it” replies Alice, continuing the nonsensical repartee that builds up a large fraction of the corpus. <br/>
 
-		A present-day adaptation of this highly underrated sequel would probably gloss over the aforementioned conversation since not knowing the language of the source text is no longer an impediment for translation. The quality of machine translation has improved exponentially in the last few decades and now with the advent of neural machine translation, we have now reached closer to human translation than ever before. Despite these advances, there will always be certain limitations to machine translation, not due to the machine aspect of it rather due to the inherent limitations of the process of translation.</p>
-		<p class='chain_pointer' id='chain_pointer_id'>1</p>
-		<p class='world_pointer' id='world_pointer_id'>0</p>
-		<p class='if_loaded' id='if_loaded_id'>0</p>
-		<p class='img_counter' id='img_counter_id'>0</p>
-		<!-- maintaining a pointer to see which image is visible -->
-	</section>
-
+			A present-day adaptation of this highly underrated sequel would probably gloss over the aforementioned conversation since not knowing the language of the source text is no longer an impediment for translation. The quality of machine translation has improved exponentially in the last few decades and now with the advent of neural machine translation, we have now reached closer to human translation than ever before. Despite these advances, there will always be certain limitations to machine translation, not due to the machine aspect of it rather due to the inherent limitations of the process of translation.</p>
+			<p class='chain_pointer' id='chain_pointer_id'>1</p>
+			<p class='world_pointer' id='world_pointer_id'>0</p>
+			<p class='if_loaded' id='if_loaded_id'>0</p>
+			<p class='img_counter' id='img_counter_id'>0</p>
+			<!-- maintaining a pointer to see which image is visible -->
+		</section>
+	</div>
 	<!-- DONE add word circles in  bg, yellowish tint for foreground -->
 	<!-- add custom html page -->
 
