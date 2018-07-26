@@ -6,11 +6,11 @@
 
 	<meta charset='utf-8'/>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'/>
-	<meta name='description' content='A study on the invertibility of translation between languages.'/>
+	<meta name='description' content='A study on the invertibility of translation between languages'/>
 	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 	<meta name='news_keywords' content='translation, language, Google Translate, data visualization'/>
 
-	<meta property='og:title' content='Lost in Translation'/>
+	<meta property='og:title' content='Loss in Translation'/>
 	<meta property='og:site_name' content='Devang Thakkar'/>
 	<meta property='og:url' content='https://www.devangthakkar.com/design/translate'/>
 	<meta property='og:description' content='What 1000 words in 103 languages reveal about translation invertibility'/>
@@ -24,7 +24,7 @@
 	<meta name='twitter:site' content='https://www.devangthakkar.com/design/translate'/>
 	<meta name='twitter:creator' content='@devangvang'/>
 	<meta name='twitter:title' content='Loss in Translation'/>
-	<meta name='twitter:description' content='A study on the invertibility of translation between languages.'/>
+	<meta name='twitter:description' content='What 1000 words in 103 languages reveal about translation invertibility'/>
 	<meta name='twitter:image:src' content='https://www.devangthakkar.com/design/assets/social/social-twitter.jpg'/>
 
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Libre+Baskerville|Alegreya'>
@@ -37,11 +37,13 @@
 		html {
 			/*padding: 10px;*/
 			margin: 0px;
+			width: 100%;
 			/*background-image: url('https://www.devangthakkar.com/design/assets/bg.png');*/
 			background-origin: border-box;
 		}
 
 		body {
+			width: 100%;
 			display: table;
 			margin: auto;
 		}
@@ -156,13 +158,13 @@
 	<script>
 	
 	// async load bg if screen width > 992
-	var jmediaquery = window.matchMedia('(min-width: 992px)');
+	var jmediaquery = window.matchMedia('(min-width: 768px)');
 	if (jmediaquery.matches) {
 		var img = new Image();
 		img.onload = function() {
-			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg1.png")';
+			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
 		};
-		img.src = 'https://www.devangthakkar.com/design/assets/bg1.png';
+		img.src = 'https://www.devangthakkar.com/design/assets/bg.png';
 	}
 
 	</script>
