@@ -127,10 +127,9 @@
 		}
 		@media only screen and (min-width: 768px) {
 			html {
-				background-image: url('https://www.devangthakkar.com/design/assets/bg_small.png');
+				background-image: url('https://www.devangthakkar.com/design/assets/bg_blur.png');
 				background-size: 600px 515px;
 				background-repeat: repeat;
-				filter: blur(25px);
 			}
 			#main_div {
 				position: absolute;
@@ -187,18 +186,18 @@
 		document.getElementById('title').innerHTML = 'Loss in Translation';
 		var img = new Image();
 		img.onload = function() {
-			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg_small.png")';
+			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg_blur.png")';
 		};
-		img.src = 'https://www.devangthakkar.com/design/assets/bg_small.png';
+		img.src = 'https://www.devangthakkar.com/design/assets/bg_blur.png';
 	}
 	// async load bg if screen width > 992
 	var jmediaquery2 = window.matchMedia('(min-width: 768px)');
 	if (jmediaquery2.matches) {
 		var img = new Image();
 		img.onload = function() {
-			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg_small.png")';
+			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg_blur.png")';
 		};
-		img.src = 'https://www.devangthakkar.com/design/assets/bg_small.png';
+		img.src = 'https://www.devangthakkar.com/design/assets/bg_blur.png';
 	}
 
 	</script>
