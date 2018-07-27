@@ -63,7 +63,7 @@
 		.title {
 			font-family: 'Libre Baskerville', serif;
 			font-size: 10vw;
-			color: #303;
+			color: #606;
 			text-align: center;
 			margin-bottom: 0px;
 		}
@@ -72,7 +72,7 @@
 			padding: 10px;
 			font-family: 'Alegreya', serif;
 			font-size: 6vw;
-			color: #303;
+			color: #606;
 			text-align: center;
 		}
 
@@ -87,7 +87,7 @@
 			text-decoration: none;
 			font-family: 'Roboto', sans-serif;
 			font-size: 15px;
-			color: #303;
+			color: #606;
 			-webkit-transition:.3s;
 			-o-transition:.3s;
 			transition:.3s;
@@ -97,14 +97,14 @@
 			text-decoration: none;
 			font-family: 'Roboto', sans-serif;
 			font-size: 15px;
-			color: #a54ce5;
+			color: #808;
 			-webkit-transition:.3s;
 			-o-transition:.3s;
 			transition:.3s;
 		}
 
 		.prose {
-			color: #303;
+			color: #606;
 			background-color: rgba(255, 255, 255, .85);
 			margin-top: 20px;
 			padding-top: 10px;
@@ -114,6 +114,7 @@
 			font-size: 15px;
 			line-height:1.7;
 			word-spacing: 0.2em;
+			word-wrap: break-word;
 		}
 
 		.word_chains {
@@ -124,6 +125,19 @@
 		#wc_svg {
 			display: block;
 			margin: auto;
+		}
+
+		.button {
+			background-color: #606;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
 		}
 
 		@media only screen and (min-width: 600px) {
@@ -193,7 +207,7 @@
 		</section>
 
 		<div id='word_chains' text-align='center'>
-			<svg id='wc_svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='600px' height='160px' align='center' viewBox='0 0 600 160' enable-background='new 0 0 600 160' xml:space='preserve'>
+			<svg id='wc_svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='625px' height='160px' align='center' viewBox='0 0 625 160' enable-background='new 0 0 625 160' xml:space='preserve'>
 
 				<g id='legit_curve' stroke-width='2' stroke-dasharray='6' stroke='#663399' fill='none'>
 					<path id='c1' display='block' d='M129,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
@@ -232,6 +246,7 @@
 				</g>
 			</svg>
 
+			<button class="button" align='center'>Randomize</button>
 		</div>
 	</div>
 
@@ -263,5 +278,6 @@
 		}
 
 		// change image on button press
+
 	</script>
 </body>
