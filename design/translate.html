@@ -127,8 +127,8 @@
 		}
 		@media only screen and (min-width: 768px) {
 			#main_div {
-				width: 100%;
 				max-width: 700px;
+				width: 100%;
 			}
 			.title {
 				font-size: 72px;
@@ -151,7 +151,7 @@
 <body>
 	<div id='main_div'>
 		<section id='intro'>
-			<p class='title'>Loss in Translation</p>
+			<p class='title'>Loss in<br/>Translation</p>
 			<p class='intro__hed'>A study on the invertibility of translation between languages</p>
 			<div style='text-align:center'><a id='name_link' href='https://www.devangthakkar.com'>Devang Thakkar</a></div>
 			<p class='name'>26<sup>th</sup> July, 2018</p>
@@ -172,9 +172,18 @@
 
 	<script>
 	
+	var jmediaquery1 = window.matchMedia('(min-width: 600px)');
+	if (jmediaquery1.matches) {
+		document.getElementById('title').innerHTML = 'Loss in Translation';
+		var img = new Image();
+		img.onload = function() {
+			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
+		};
+		img.src = 'https://www.devangthakkar.com/design/assets/bg.png';
+	}
 	// async load bg if screen width > 992
-	var jmediaquery = window.matchMedia('(min-width: 768px)');
-	if (jmediaquery.matches) {
+	var jmediaquery2 = window.matchMedia('(min-width: 768px)');
+	if (jmediaquery2.matches) {
 		var img = new Image();
 		img.onload = function() {
 			document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
