@@ -132,6 +132,7 @@
 		.button {
 			background-color: #505;
 			border: none;
+			border-radius: 4px;
 			color: white;
 			padding: 15px 32px;
 			text-align: center;
@@ -140,6 +141,10 @@
 			font-size: 16px;
 			margin: 4px 2px;
 			cursor: pointer;
+		}
+
+		.button:hover {
+			background-color: #707;
 		}
 
 		@media only screen and (min-width: 600px) {
@@ -204,7 +209,7 @@
 
 			A present-day adaptation of this highly underrated sequel would probably gloss over the aforementioned conversation since not knowing the language of the source text is no longer an impediment for an Alice with a smartphone. The quality of machine translation has improved exponentially in the last few decades and now with the advent of neural machine translation, we have now reached closer to human translation than ever before. Despite these advances, there will always be certain limitations to machine translation, not due to the machine aspect of it rather due to the inherent limitations of the process of translation.<br/><br/>
 
-			Languages do not always have a one-to-one correspondence, meaning that (i) not every word in a given language may have a befitting analog in every other language, and (ii) some words in a language may be translated into more than one equally appropriate words in another language. I examine this correspondence by analysing the translations of the top 1000 nouns as enumerated in the Corpus of Contemporary American English. (More about the implementation and the limitations in the methodology section.) To understand better what I’m trying to put forth, check out the demonstration of imperfect circular translations below. One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later).<br/><br/></p>
+			Languages do not always have a one-to-one correspondence, meaning that (i) not every word in a given language may have a befitting analog in every other language, and (ii) some words in a language may be translated into multiple equally appropriate words in other languages. I examine this correspondence by analysing the translations of the top 1000 nouns as enumerated in the Corpus of Contemporary American English. (More about the implementation and the limitations in the methodology section.) To understand better what I’m trying to put forth, check out the demonstration of imperfect circular translations below. One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later).<br/><br/></p>
 
 		</section>
 
@@ -248,7 +253,10 @@
 				</g>
 			</svg>
 
-			<button class="button" align='center'>Randomize</button>
+			<div id='button_div' text-align='center'>
+				<button class="button" align='center'>Randomize</button>
+			</div>
+
 		</div>
 	</div>
 
