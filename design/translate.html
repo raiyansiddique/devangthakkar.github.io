@@ -136,6 +136,10 @@
 			background-color: rgba(255, 255, 255, .85);
 		}
 
+		#button_div {
+			margin-bottom: 20px;
+		}
+
 		.button {
 			background-color: #505;
 			border: none;
@@ -161,8 +165,10 @@
 		.wc_caption {
 			background-color: rgba(255, 255, 255, .85);
 			width: 80%;
+			font-family: 'Roboto', sans-serif;
 			font-size: 15px;
 			color: #505;
+			margin: auto;
 		}
 
 		@media only screen and (min-width: 600px) {
@@ -213,12 +219,8 @@
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 
-			#button_div {
-				margin-bottom: 50px;
-			}
-
 			.wc_caption{
-
+				margin-bottom: 50px;
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 		}
@@ -293,11 +295,11 @@
 				</g>
 			</svg>
 
-			<p class='wc_caption'>Figure 1. The chain follows the trajectory of a word as it is translated back and forth. The top arcs represent the translation from English to the other language, while the bottom arcs represent the translation back to English. The final word in the chain gets translated to a word that already exists in the chain.</p>
-
 			<div id='button_div' style='text-align:center;'>
 				<button id='button_id' class="button" align='center'>New chain!</button>
 			</div>
+
+			<p class='wc_caption'>Figure 1. The chain follows the trajectory of a word as it is translated back and forth. The top arcs represent the translation from English to the other language, while the bottom arcs represent the translation back to English. The final word in the chain gets translated to a word that already exists in the chain.</p>
 
 		</div>
 
