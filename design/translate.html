@@ -103,7 +103,7 @@
 			transition:.3s;
 		}
 
-		.prose1 {
+		.prose1 .prose2 {
 			display: inline-block;
 			color: #505;
 			background-color: rgba(255, 255, 255, .85);
@@ -125,13 +125,14 @@
 
 		#word_chains {
 			max-width: 100%;
-			margin-top: -50px;
+			margin-top: -10px;
 		}
 
 		#wc_svg {
 			max-width: 100%;
 			display: block;
 			margin: auto;
+			background-color: rgba(255, 255, 255, .85);
 		}
 
 		.button {
@@ -163,7 +164,7 @@
 			.intro__hed {
 				font-size: 25px;
 			}
-			.prose1 {
+			.prose1 .prose2 {
 				font-size: 17px;
 			}
 		}
@@ -194,7 +195,11 @@
 			.name {
 				padding-bottom: 30px;
 			}
-			.prose1 {
+
+			#wc_svg {
+				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
+			}
+			.prose1 .prose2 {
 				font-size: 17px;
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
@@ -228,7 +233,7 @@
 			<svg id='wc_svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='625px' height='180px' align='center' viewBox='0 0 625 180' enable-background='new 0 0 625 180' xml:space='preserve'>
 
 				<g id='lang' text-anchor='middle' font-size='16' font-weight='400' stroke='none' fill='#505' font-family="'Roboto'">
-					<text id='lang_text' display='block' transform='matrix(1 0 0 1 312 30)' style='bold'>Hindi (hi): stock</text>
+					<text id='lang_text' display='block' transform='matrix(1 0 0 1 312 20)' style='bold'>Hindi (hi): stock</text>
 				</g>
 
 				<g id='legit_curve' stroke-width='2' stroke-dasharray='6' stroke='#505' fill='none'>
@@ -236,17 +241,17 @@
 					<path id='c2' display='block' d='M129,101c0,24.45,19.82,44.28,44.28,44.28c24.45,0,44.28-19.82,44.28-44.28'/>
 					<path id='c3' display='block' d='M306.1,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
 					<path id='c4' display='block' d='M306.1,101c0,24.45,19.82,44.28,44.28,44.28s44.28-19.82,44.28-44.28'/>
-					<path id='c5' display='none' d='M483.2,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
-					<path id='c6' display='none' d='M483.2,101c0,24.45,19.82,44.28,44.28,44.28c24.45,0,44.28-19.82,44.28-44.28'/>
+					<path id='c5' display='block' d='M483.2,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
+					<path id='c6' display='block' d='M483.2,101c0,24.45,19.82,44.28,44.28,44.28c24.45,0,44.28-19.82,44.28-44.28'/>
 				</g>
 
 				<g id='final_curve' stroke-width='2' stroke-dasharray='6' stroke='#505' fill='none'>
 					<path id='d1' display='none' d='M40.4,101c0,24.45,19.82,44.28,44.28,44.28c24.45,0,44.28-19.82,44.28-44.28'/>
 					<path id='d2' display='none' d='M217.5,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
 					<path id='d3' display='none' d='M217.5,101c0,24.45,19.82,44.28,44.28,44.28s44.28-19.82,44.28-44.28'/>
-					<path id='d4' display='block' d='M394.6,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
+					<path id='d4' display='none' d='M394.6,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
 					<path id='d5' display='none' d='M394.6,101c0,24.45,19.82,44.28,44.28,44.28c24.45,0,44.28-19.82,44.28-44.28'/>
-					<path id='d6' display='none' d='M571.8,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
+					<path id='d6' display='block' d='M571.8,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
 				</g>
 
 				<g fill='#fff' stroke='none'>
@@ -260,13 +265,13 @@
 				</g>
 
 				<g id='text' text-anchor='middle' font-size='15' font-weight='400' stroke='none' fill='#505' font-family="'Roboto'">
-					<text id='t1o' display='block' transform='matrix(1 0 0 1 40.4 105)'>stock</text>
-					<text id='t1t' display='block' transform='matrix(1 0 0 1 129 105)'>भण्डार</text>
-					<text id='t2o' display='block' transform='matrix(1 0 0 1 217.5 105)'>stores</text>
-					<text id='t2t' display='block' transform='matrix(1 0 0 1 306.1 105)'>स्टोर</text>
-					<text id='t3o' display='block' transform='matrix(1 0 0 1 394.6 105)'>store</text>
-					<text id='t3t' display='block' transform='matrix(1 0 0 1 483.2 105)'>दुकान</text>
-					<text id='t4o' display='block' transform='matrix(1 0 0 1 571.8 105)'>shop</text>
+					<text id='t1o' transform='matrix(1 0 0 1 40.4 105)'>stock</text>
+					<text id='t1t' transform='matrix(1 0 0 1 129 105)'>भण्डार</text>
+					<text id='t2o' transform='matrix(1 0 0 1 217.5 105)'>stores</text>
+					<text id='t2t' transform='matrix(1 0 0 1 306.1 105)'>स्टोर</text>
+					<text id='t3o' transform='matrix(1 0 0 1 394.6 105)'>store</text>
+					<text id='t3t' transform='matrix(1 0 0 1 483.2 105)'>दुकान</text>
+					<text id='t4o' transform='matrix(1 0 0 1 571.8 105)'>shop</text>
 				</g>
 			</svg>
 
