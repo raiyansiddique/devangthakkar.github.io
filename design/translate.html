@@ -80,6 +80,7 @@
 			font-family: 'Roboto', sans-serif;
 			font-size: 15px;
 			margin-top: 5px;
+			color: #505;
 			text-align: center;
 		}
 
@@ -208,6 +209,13 @@
 			#button_div {
 				margin-bottom: 50px;
 			}
+
+			.wc_caption {
+				width: 80%;
+				font-size: 15px;
+				opacity: 0.8;
+				color: #505;
+			}
 		}
 	</style>
 
@@ -279,6 +287,8 @@
 					<text id='t4o' transform='matrix(1 0 0 1 571.8 105)'>shop</text>
 				</g>
 			</svg>
+
+			<p id='wc_caption'>The chain follows the trajectory of a word as it is translated back and forth between English and the other language. The top arcs represent the translation of the word from English to the other language, while the bottom arcs represent the translation from the other language back to English. The final word in the chain gets translated to a word that already exists in the chain. Press the button to view a new chain of imperfect circular translations.</p>
 
 			<div id='button_div' style='text-align:center;'>
 				<button id='button_id' class="button" align='center'>Randomize</button>
