@@ -158,6 +158,13 @@
 			outline: none;
 		}
 
+		.wc_caption {
+			background-color: rgba(255, 255, 255, .85);
+			width: 80%;
+			font-size: 15px;
+			color: #505;
+		}
+
 		@media only screen and (min-width: 600px) {
 			.title {
 				font-size: 72px;
@@ -210,11 +217,9 @@
 				margin-bottom: 50px;
 			}
 
-			.wc_caption {
-				width: 80%;
-				font-size: 15px;
-				opacity: 0.8;
-				color: #505;
+			.wc_caption{
+
+				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 		}
 	</style>
@@ -288,10 +293,10 @@
 				</g>
 			</svg>
 
-			<p class='wc_caption'>The chain follows the trajectory of a word as it is translated back and forth between English and the other language. The top arcs represent the translation of the word from English to the other language, while the bottom arcs represent the translation from the other language back to English. The final word in the chain gets translated to a word that already exists in the chain. Press the button to view a new chain of imperfect circular translations.</p>
+			<p class='wc_caption'>Figure 1. The chain follows the trajectory of a word as it is translated back and forth. The top arcs represent the translation from English to the other language, while the bottom arcs represent the translation back to English. The final word in the chain gets translated to a word that already exists in the chain.</p>
 
 			<div id='button_div' style='text-align:center;'>
-				<button id='button_id' class="button" align='center'>Randomize</button>
+				<button id='button_id' class="button" align='center'>New chain!</button>
 			</div>
 
 		</div>
