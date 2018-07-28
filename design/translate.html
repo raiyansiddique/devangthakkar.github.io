@@ -334,11 +334,11 @@
 			document.getElementById('button_id').onclick = function(){
 				var counter = document.getElementById('word_chain_counter_id').innerHTML;
 
-				if (counter == 29) {
+				if (counter == 28 || counter == '28') {
 					document.getElementById('word_chain_counter_id').innerHTML = 0;
 				}
 				else {
-					document.getElementById('word_chain_counter_id').innerHTML = (counter+1);
+					document.getElementById('word_chain_counter_id').innerHTML = (parseInt(counter)+1);
 				}
 
 				var chain = translations[counter]['chain'];
