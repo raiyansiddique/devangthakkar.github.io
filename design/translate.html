@@ -341,7 +341,8 @@
 					document.getElementById('word_chain_counter_id').innerHTML = (counter+1);
 				}
 
-				var chain = translations[counter][chain];
+				var chain = translations[counter]['chain'];
+				console.log(chain);
 				var chain_length = chain.length;
 
 				document.getElementById('c1').style.display = 'block';
