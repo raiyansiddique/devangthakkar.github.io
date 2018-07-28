@@ -103,7 +103,7 @@
 			transition:.3s;
 		}
 
-		.prose {
+		.prose1 {
 			display: inline-block;
 			color: #505;
 			background-color: rgba(255, 255, 255, .85);
@@ -152,6 +152,10 @@
 			background-color: #707;
 		}
 
+		.button:focus {
+			outline: none;
+		}
+
 		@media only screen and (min-width: 600px) {
 			.title {
 				font-size: 72px;
@@ -159,7 +163,7 @@
 			.intro__hed {
 				font-size: 25px;
 			}
-			.prose {
+			.prose1 {
 				font-size: 17px;
 			}
 		}
@@ -190,7 +194,7 @@
 			.name {
 				padding-bottom: 30px;
 			}
-			.prose {
+			.prose1 {
 				font-size: 17px;
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
@@ -210,11 +214,11 @@
 			<div style='text-align:center'><a id='name_link' href='https://www.devangthakkar.com'>Devang Thakkar</a></div>
 			<p id='name' class='name'>26<sup>th</sup> July, 2018</p>
 
-			<p class='prose'>'Do you know Languages? What's the French for fiddle-de-dee?' questions the Red Queen, aiming to perplex Alice in Lewis Carroll’s Through the Looking Glass. “If you'll tell me what language "fiddle-de-dee" is, I'll tell you the French for it” replies Alice, continuing the nonsensical repartee that builds up a large fraction of the corpus. <br/><br/>
+			<p class='prose1'>'Do you know Languages? What's the French for fiddle-de-dee?' questions the Red Queen, aiming to perplex Alice in Lewis Carroll’s Through the Looking Glass. “If you'll tell me what language "fiddle-de-dee" is, I'll tell you the French for it” replies Alice, continuing the nonsensical repartee that builds up a large fraction of the corpus. <br/><br/>
 
 			A present-day adaptation of this highly underrated sequel would probably gloss over the aforementioned conversation since not knowing the language of the source text is no longer an impediment for an Alice with a smartphone. The quality of machine translation has improved exponentially in the last few decades and now with the advent of neural machine translation, we have now reached closer to human translation than ever before. Despite these advances, there will always be certain limitations to machine translation, not due to the machine aspect of it rather due to the inherent limitations of the process of translation.<br/><br/>
 
-			Languages do not always have a one-to-one correspondence, meaning that (i) not every word in a given language may have a befitting analog in every other language, and (ii) some words in a language may be translated into multiple equally appropriate words in other languages. I examine this correspondence by analysing the translations of the top 1000 nouns as enumerated in the Corpus of Contemporary American English. (More about the implementation and the limitations in the methodology section.) To understand better what I’m trying to put forth, check out the demonstration of imperfect circular translations below. One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later).<br/><br/></p>
+			Languages do not always have a one-to-one correspondence, meaning that (i) not every word in a given language may have a befitting analog in every other language, and (ii) some words in a language may be translated into multiple equally appropriate words in other languages. I examine this correspondence by analysing the translations of the top 1000 nouns as enumerated in the Corpus of Contemporary American English. (More about the implementation and the limitations in the methodology section.) To understand better what I’m trying to put forth, check out the demonstration of imperfect circular translations below.<br/><br/></p>
 
 			<p id='word_chain_counter_id' class='word_chain_counter'>0</p>
 
@@ -224,7 +228,7 @@
 			<svg id='wc_svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='625px' height='180px' align='center' viewBox='0 0 625 180' enable-background='new 0 0 625 180' xml:space='preserve'>
 
 				<g id='lang' text-anchor='middle' font-size='16' font-weight='400' stroke='none' fill='#505' font-family="'Roboto'">
-					<text id='lang_text' display='block' transform='matrix(1 0 0 1 312 30)' style='bold'>French (fr): hall</text>
+					<text id='lang_text' display='block' transform='matrix(1 0 0 1 312 30)' style='bold'>Hindi (hi): stock</text>
 				</g>
 
 				<g id='legit_curve' stroke-width='2' stroke-dasharray='6' stroke='#505' fill='none'>
@@ -256,13 +260,13 @@
 				</g>
 
 				<g id='text' text-anchor='middle' font-size='15' font-weight='400' stroke='none' fill='#505' font-family="'Roboto'">
-					<text id='t1o' display='block' transform='matrix(1 0 0 1 40.4 105)'>hall</text>
-					<text id='t1t' display='block' transform='matrix(1 0 0 1 129 105)'>salle</text>
-					<text id='t2o' display='block' transform='matrix(1 0 0 1 217.5 105)'>room</text>
-					<text id='t2t' display='block' transform='matrix(1 0 0 1 306.1 105)'>chambre</text>
-					<text id='t3o' display='block' transform='matrix(1 0 0 1 394.6 105)'>bedroom</text>
-					<text id='t3t' display='block' transform='matrix(1 0 0 1 483.2 105)'></text>
-					<text id='t4o' display='block' transform='matrix(1 0 0 1 571.8 105)'></text>
+					<text id='t1o' display='block' transform='matrix(1 0 0 1 40.4 105)'>stock</text>
+					<text id='t1t' display='block' transform='matrix(1 0 0 1 129 105)'>भण्डार</text>
+					<text id='t2o' display='block' transform='matrix(1 0 0 1 217.5 105)'>stores</text>
+					<text id='t2t' display='block' transform='matrix(1 0 0 1 306.1 105)'>स्टोर</text>
+					<text id='t3o' display='block' transform='matrix(1 0 0 1 394.6 105)'>store</text>
+					<text id='t3t' display='block' transform='matrix(1 0 0 1 483.2 105)'>दुकान</text>
+					<text id='t4o' display='block' transform='matrix(1 0 0 1 571.8 105)'>shop</text>
 				</g>
 			</svg>
 
@@ -271,6 +275,10 @@
 			</div>
 
 		</div>
+
+		<section id='post_wc'>
+			<p id='prose2'>One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later)
+		</section>
 	</div>
 
 	<script>
@@ -304,15 +312,15 @@
 
 		// change image on button press
 		const translations = [
-			{lang:'Hindi', lang_code:'hi', chain:['soul', 'अन्त: मन', 'inner heart', 'आंतरिक दिल', 'internal heart']},
-			{lang:'German', lang_code:'de', chain:['lack', 'mangel', 'defect', 'defekt', 'malfunction', 'fehlfunktion']},
-			{lang:'Malayalam', lang_code:'ml', chain:['sector', 'മേഖല', 'region', 'പ്രദേശം', 'the area']},
+			{lang:'French', lang_code:'fr', chain:['matter', 'matière', 'material', 'matériel', 'equipment', 'équipement']},
 			{lang:'Persian', lang_code:'fa', chain:['trouble', 'مشکل', 'problem', 'مسئله', 'question', 'سوال']},
+			{lang:'German', lang_code:'de', chain:['lack', 'mangel', 'defect', 'defekt', 'malfunction', 'fehlfunktion']},
+			{lang:'Chinese-Traditional', lang_code:'zh-CN', chain:['place', '地点', 'location', '位置', 'position']},
+			{lang:'Malayalam', lang_code:'ml', chain:['sector', 'മേഖല', 'region', 'പ്രദേശം', 'the area']},
 			{lang:'Italian', lang_code:'it', chain:['question', 'domanda', 'demand', 'richiesta', 'request']},
 			{lang:'Marathi', lang_code:'mr', chain:['dish', 'ताटली', 'talley', 'ताली', 'clap', 'फडफड', 'flap']},
 			{lang:'Swedish', lang_code:'sv', chain:['education', 'utbildning', 'training', 'träning', 'exercise']},
 			{lang:'Bengali', lang_code:'bn', chain:['drug', 'ড্রাগ', 'drugs', 'ওষুধের', 'medicines', 'ওষুধ']},
-			{lang:'Chinese-Traditional', lang_code:'zh-CN', chain:['place', '地点', 'location', '位置', 'position']},
 			{lang:'Latin', lang_code:'la', chain:['method', 'modum', 'limit', 'terminus', 'the border']},
 			{lang:'Croatian', lang_code:'hr', chain:['country', 'zemlja', 'earth']},
 			{lang:'Czech', lang_code:'cs', chain:['matter', 'hmota', 'mass', 'hmotnost', 'weight']},
@@ -331,117 +339,116 @@
 			{lang:'Russian', lang_code:'ru', chain:['relationship', 'отношения', 'relations', 'связи', 'communications', 'связь']},
 			{lang:'Spanish', lang_code:'es', chain:['approach', 'enfoque', 'focus', 'atención', 'attention']},
 			{lang:'Turkish', lang_code:'tr', chain:['incident', 'olay', 'event', 'etkinlik', 'activity', 'aktivite']},
-			{lang:'French', lang_code:'fr', chain:['matter', 'matière', 'material', 'matériel', 'equipment', 'équipement']},
+			{lang:'Hindi', lang_code:'hi', chain:['soul', 'अन्त: मन', 'inner heart', 'आंतरिक दिल', 'internal heart']},
 			{lang:'Urdu', lang_code:'ur', chain:['confidence', 'اعتماد', 'trust', 'ٹرسٹ']},
 			];
 
-			document.getElementById('button_id').onclick = function(){
-				var counter = document.getElementById('word_chain_counter_id').innerHTML;
+		document.getElementById('button_id').onclick = function(){
+			var counter = document.getElementById('word_chain_counter_id').innerHTML;
 
-				if (counter == 28 || counter == '28') {
-					document.getElementById('word_chain_counter_id').innerHTML = 0;
-				}
-				else {
-					document.getElementById('word_chain_counter_id').innerHTML = (parseInt(counter)+1);
-				}
+			if (counter == 28 || counter == '28') {
+				document.getElementById('word_chain_counter_id').innerHTML = 0;
+			}
+			else {
+				document.getElementById('word_chain_counter_id').innerHTML = (parseInt(counter)+1);
+			}
 
-				var selected = translations[counter];
-				var chain = selected['chain'];
-				console.log(chain);
-				var chain_length = chain.length;
+			var selected = translations[counter];
+			var chain = selected['chain'];
+			console.log(chain);
+			var chain_length = chain.length;
 
-				document.getElementById('c1').style.display = 'block';
-				document.getElementById('c2').style.display = 'block';
-				document.getElementById('c3').style.display = 'none';
-				document.getElementById('c4').style.display = 'none';
-				document.getElementById('c5').style.display = 'none';
-				document.getElementById('c6').style.display = 'none';
+			document.getElementById('c1').style.display = 'block';
+			document.getElementById('c2').style.display = 'block';
+			document.getElementById('c3').style.display = 'none';
+			document.getElementById('c4').style.display = 'none';
+			document.getElementById('c5').style.display = 'none';
+			document.getElementById('c6').style.display = 'none';
 
-				document.getElementById('d1').style.display = 'none';
-				document.getElementById('d2').style.display = 'none';
-				document.getElementById('d3').style.display = 'none';
-				document.getElementById('d4').style.display = 'none';
-				document.getElementById('d5').style.display = 'none';
-				document.getElementById('d6').style.display = 'none';			
+			document.getElementById('d1').style.display = 'none';
+			document.getElementById('d2').style.display = 'none';
+			document.getElementById('d3').style.display = 'none';
+			document.getElementById('d4').style.display = 'none';
+			document.getElementById('d5').style.display = 'none';
+			document.getElementById('d6').style.display = 'none';			
 
-				document.getElementById('t1o').textContent = "";
-				document.getElementById('t1t').textContent = "";
-				document.getElementById('t2o').textContent = "";
-				document.getElementById('t2t').textContent = "";
-				document.getElementById('t3o').textContent = "";
-				document.getElementById('t3t').textContent = "";
-				document.getElementById('t4o').textContent = "";
+			document.getElementById('t1o').textContent = "";
+			document.getElementById('t1t').textContent = "";
+			document.getElementById('t2o').textContent = "";
+			document.getElementById('t2t').textContent = "";
+			document.getElementById('t3o').textContent = "";
+			document.getElementById('t3t').textContent = "";
+			document.getElementById('t4o').textContent = "";
 
-				var combo = selected['lang'].concat("(".concat(selected['lang_code'].concat(")")))
-				combo = combo.concat(": ".concat(selected['chain'][0]));
-				console.log(combo);
+			var combo = selected['lang'].concat("(".concat(selected['lang_code'].concat(")")))
+			combo = combo.concat(": ".concat(selected['chain'][0]));
+			console.log(combo);
 
-				document.getElementById('lang_text').textContent = combo;
+			document.getElementById('lang_text').textContent = combo;
 
-				// draw actual curves
-				if (chain_length > 3) {
-					document.getElementById('c3').style.display = 'block';
-				}
+			// draw actual curves
+			if (chain_length > 3) {
+				document.getElementById('c3').style.display = 'block';
+			}
 
-				if (chain_length > 4) {
-					document.getElementById('c4').style.display = 'block';
-				}
+			if (chain_length > 4) {
+				document.getElementById('c4').style.display = 'block';
+			}
 
-				if (chain_length > 5) {
-					document.getElementById('c5').style.display = 'block';
-				}
+			if (chain_length > 5) {
+				document.getElementById('c5').style.display = 'block';
+			}
 
-				if (chain_length > 6) {
-					document.getElementById('c6').style.display = 'block';
-				}
-				
-				// draw closing curve and add text
-				if (chain_length == 3) {
-					document.getElementById('d2').style.display = 'block';
-					document.getElementById('t1o').textContent = chain[0];
-					document.getElementById('t1t').textContent = chain[1];
-					document.getElementById('t2o').textContent = chain[2];
-				}
+			if (chain_length > 6) {
+				document.getElementById('c6').style.display = 'block';
+			}
+			
+			// draw closing curve and add text
+			if (chain_length == 3) {
+				document.getElementById('d2').style.display = 'block';
+				document.getElementById('t1o').textContent = chain[0];
+				document.getElementById('t1t').textContent = chain[1];
+				document.getElementById('t2o').textContent = chain[2];
+			}
 
-				if (chain_length == 4) {
-					document.getElementById('d3').style.display = 'block';
-					document.getElementById('t1o').textContent = chain[0];
-					document.getElementById('t1t').textContent = chain[1];
-					document.getElementById('t2o').textContent = chain[2];
-					document.getElementById('t2t').textContent = chain[3];
-				}
+			if (chain_length == 4) {
+				document.getElementById('d3').style.display = 'block';
+				document.getElementById('t1o').textContent = chain[0];
+				document.getElementById('t1t').textContent = chain[1];
+				document.getElementById('t2o').textContent = chain[2];
+				document.getElementById('t2t').textContent = chain[3];
+			}
 
-				if (chain_length == 5) {
-					document.getElementById('d4').style.display = 'block';
-					document.getElementById('t1o').textContent = chain[0];
-					document.getElementById('t1t').textContent = chain[1];
-					document.getElementById('t2o').textContent = chain[2];
-					document.getElementById('t2t').textContent = chain[3];
-					document.getElementById('t3o').textContent = chain[4];
-				}
+			if (chain_length == 5) {
+				document.getElementById('d4').style.display = 'block';
+				document.getElementById('t1o').textContent = chain[0];
+				document.getElementById('t1t').textContent = chain[1];
+				document.getElementById('t2o').textContent = chain[2];
+				document.getElementById('t2t').textContent = chain[3];
+				document.getElementById('t3o').textContent = chain[4];
+			}
 
-				if (chain_length == 6) {
-					document.getElementById('d5').style.display = 'block';
-					document.getElementById('t1o').textContent = chain[0];
-					document.getElementById('t1t').textContent = chain[1];
-					document.getElementById('t2o').textContent = chain[2];
-					document.getElementById('t2t').textContent = chain[3];
-					document.getElementById('t3o').textContent = chain[4];
-					document.getElementById('t3t').textContent = chain[5];
-				}
+			if (chain_length == 6) {
+				document.getElementById('d5').style.display = 'block';
+				document.getElementById('t1o').textContent = chain[0];
+				document.getElementById('t1t').textContent = chain[1];
+				document.getElementById('t2o').textContent = chain[2];
+				document.getElementById('t2t').textContent = chain[3];
+				document.getElementById('t3o').textContent = chain[4];
+				document.getElementById('t3t').textContent = chain[5];
+			}
 
-				if (chain_length == 7) {
-					document.getElementById('d6').style.display = 'block';
-					document.getElementById('t1o').textContent = chain[0];
-					document.getElementById('t1t').textContent = chain[1];
-					document.getElementById('t2o').textContent = chain[2];
-					document.getElementById('t2t').textContent = chain[3];
-					document.getElementById('t3o').textContent = chain[4];
-					document.getElementById('t3t').textContent = chain[5];
-					document.getElementById('t4o').textContent = chain[6];
-				}				
-			};
-
+			if (chain_length == 7) {
+				document.getElementById('d6').style.display = 'block';
+				document.getElementById('t1o').textContent = chain[0];
+				document.getElementById('t1t').textContent = chain[1];
+				document.getElementById('t2o').textContent = chain[2];
+				document.getElementById('t2t').textContent = chain[3];
+				document.getElementById('t3o').textContent = chain[4];
+				document.getElementById('t3t').textContent = chain[5];
+				document.getElementById('t4o').textContent = chain[6];
+			}
+		};
 
 	</script>
 </body>
