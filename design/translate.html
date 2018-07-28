@@ -61,7 +61,7 @@
 		}
 
 		.title {
-			font-family: 'Libre Baskerville', serif;
+			font-family: 'Libre Baskerville', 'Palatino Linotype', 'Georgia', serif;
 			font-size: 10vw;
 			color: #505;
 			text-align: center;
@@ -117,6 +117,10 @@
 			word-spacing: 0.2em;
 			white-space: normal;
 			word-wrap: break-word;
+		}
+
+		.word_chain_counter {
+			display: none;
 		}
 
 		#word_chains {
@@ -212,6 +216,8 @@
 
 			Languages do not always have a one-to-one correspondence, meaning that (i) not every word in a given language may have a befitting analog in every other language, and (ii) some words in a language may be translated into multiple equally appropriate words in other languages. I examine this correspondence by analysing the translations of the top 1000 nouns as enumerated in the Corpus of Contemporary American English. (More about the implementation and the limitations in the methodology section.) To understand better what I’m trying to put forth, check out the demonstration of imperfect circular translations below. One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later).<br/><br/></p>
 
+			<p id='word_chain_counter_id' class='word_chain_counter'>0</p>
+
 		</section>
 
 		<div id='word_chains' text-align='center'>
@@ -235,27 +241,29 @@
 					<path id='d6' display='block' d='M571.8,97c0-24.45-19.82-44.28-44.28-44.28c-24.45,0-44.28,19.82-44.28,44.28'/>
 				</g>
 
-				<rect width='5px' height='20px' x='37.9px' y='90px' fill='#fff' stroke='none'></rect>
-				<rect width='5px' height='20px' x='126.5px' y='90px' fill='#fff' stroke='none'></rect>
-				<rect width='5px' height='20px' x='215px' y='90px' fill='#fff' stroke='none'></rect>
-				<rect width='5px' height='20px' x='303.6px' y='90px' fill='#fff' stroke='none'></rect>
-				<rect width='5px' height='20px' x='392.1px' y='90px' fill='#fff' stroke='none'></rect>
-				<rect width='5px' height='20px' x='480.8px' y='90px' fill='#fff' stroke='none'></rect>
-				<rect width='5px' height='20px' x='569.3px' y='90px' fill='#fff' stroke='none'></rect>
+				<g fill='#fff' stroke='none'>
+					<rect width='5px' height='20px' x='37.9px' y='90px'></rect>
+					<rect width='5px' height='20px' x='126.5px' y='90px'></rect>
+					<rect width='5px' height='20px' x='215px' y='90px'></rect>
+					<rect width='5px' height='20px' x='303.6px' y='90px'></rect>
+					<rect width='5px' height='20px' x='392.1px' y='90px'></rect>
+					<rect width='5px' height='20px' x='480.8px' y='90px'></rect>
+					<rect width='5px' height='20px' x='569.3px' y='90px'></rect>
+				</g>
 
-				<g id='text' text-anchor='middle' font-size='14' font-weight='400' stroke='none' fill='#663399'>
-					<text id='t1o' display='block' transform='matrix(1 0 0 1 40.4 105)' font-family="'Roboto'">bit</text>
-					<text id='t1t' display='block' transform='matrix(1 0 0 1 129 105)' font-family="'ArialMT'">قليلا</text>
-					<text id='t2o' display='block' transform='matrix(1 0 0 1 217.5 105)' font-family="'Roboto'">a little</text>
-					<text id='t2t' display='block' transform='matrix(1 0 0 1 306.1 105)' font-family="'ArialMT'">القليل</text>
-					<text id='t3o' display='block' transform='matrix(1 0 0 1 394.6 105)' font-family="'Roboto'">little</text>
-					<text id='t3t' display='block' transform='matrix(1 0 0 1 483.2 105)' font-family="'ArialMT'">قليل</text>
-					<text id='t4o' display='block' transform='matrix(1 0 0 1 571.8 105)' font-family="'Roboto'">few</text>
+				<g id='text' text-anchor='middle' font-size='14' font-weight='400' stroke='none' fill='#663399' font-family="'Roboto'">
+					<text id='t1o' display='block' transform='matrix(1 0 0 1 40.4 105)'>bit</text>
+					<text id='t1t' display='block' transform='matrix(1 0 0 1 129 105)'>قليلا</text>
+					<text id='t2o' display='block' transform='matrix(1 0 0 1 217.5 105)'>a little</text>
+					<text id='t2t' display='block' transform='matrix(1 0 0 1 306.1 105)'>القليل</text>
+					<text id='t3o' display='block' transform='matrix(1 0 0 1 394.6 105)'>little</text>
+					<text id='t3t' display='block' transform='matrix(1 0 0 1 483.2 105)'>قليل</text>
+					<text id='t4o' display='block' transform='matrix(1 0 0 1 571.8 105)'>few</text>
 				</g>
 			</svg>
 
 			<div id='button_div' style='text-align:center;'>
-				<button class="button" align='center'>Randomize</button>
+				<button id='button_id' class="button" align='center'>Randomize</button>
 			</div>
 
 		</div>
@@ -291,6 +299,129 @@
 		}
 
 		// change image on button press
+		const translations = [
+			{lang:'French'; lang_code:'fr'; chain:['hall', 'salle', 'room', 'chambre', 'bedroom']},
+			{lang:'Hindi'; lang_code:'hi'; chain:['soul', 'अन्त: मन', 'inner heart', 'आंतरिक दिल', 'internal heart']},
+			{lang:'Malayalam'; lang_code:'ml'; chain:['basis', 'അടിസ്ഥാനം', 'the foundation', 'അടിത്തറ', 'base', 'ബേസ്']},
+			{lang:'Persian'; lang_code:'fa'; chain:['trouble', 'مشکل', 'problem', 'مسئله', 'question', 'سوال']},
+			{lang:'Marathi'; lang_code:'mr'; chain:['dish', 'ताटली', 'talley', 'ताली', 'clap', 'फडफड', 'flap']},
+			{lang:'Swedish'; lang_code:'sv'; chain:['education', 'utbildning', 'training', 'träning', 'exercise']},
+			{lang:'Bengali'; lang_code:'bn'; chain:['drug', 'ড্রাগ', 'drugs', 'ওষুধের', 'medicines', 'ওষুধ']},
+			{lang:'Chinese-Traditional'; lang_code:'zh-CN'; chain:['place', '地点', 'location', '位置', 'position']},
+			{lang:'Latin'; lang_code:'la'; chain:['method', 'modum', 'limit', 'terminus', 'the border']},
+			{lang:'Croatian'; lang_code:'hr'; chain:['country', 'zemlja', 'earth']},
+			{lang:'Czech'; lang_code:'cs'; chain:['matter', 'hmota', 'mass', 'hmotnost', 'weight']},
+			{lang:'Danish'; lang_code:'da'; chain:['firm', 'firma', 'business', 'forretning']},
+			{lang:'Norwegian'; lang_code:'no'; chain:['show', 'forestilling', 'performance', 'opptreden']},
+			{lang:'Arabic'; lang_code:'ar'; chain:['group', 'مجموعة', 'collection']},
+			{lang:'Dutch'; lang_code:'nl'; chain:['relationship', 'verhouding', 'ratio']},
+			{lang:'Esperanto'; lang_code:'eo'; chain:['money', 'mono', 'monkey', 'simio']},
+			{lang:'Finnish'; lang_code:'fi'; chain:['bill', 'laskuttaa', 'charge', 'veloittaa']},
+			{lang:'Greek'; lang_code:'el'; chain:['hour', 'ώρα', 'time', 'χρόνος', 'year', 'έτος']},
+			{lang:'Afrikaans'; lang_code:'af'; chain:['question', 'vraag', 'demand']},
+			{lang:'Gujarati'; lang_code:'gu'; chain:['parent', 'માતાપિતા', 'mother father', 'માતા પિતા']},
+			{lang:'Hebrew'; lang_code:'iw'; chain:['characteristic', 'מאפיין', 'property', 'נכס', 'asset']},
+			{lang:'German'; lang_code:'de'; chain:['lack', 'mangel', 'defect', 'defekt', 'malfunction', 'fehlfunktion']},
+			{lang:'Hindi'; lang_code:'hi'; chain:['object', 'वस्तु', 'thing', 'चीज़', 'cheese', 'पनीर', 'cottage cheese']},
+			{lang:'Italian'; lang_code:'it'; chain:['question', 'domanda', 'demand', 'richiesta', 'request']},
+			{lang:'Japanese'; lang_code:'ja'; chain:['setting', '設定', 'configuration', '構成', 'constitution', '憲法']},
+			{lang:'Russian'; lang_code:'ru'; chain:['relationship', 'отношения', 'relations', 'связи', 'communications', 'связь']},
+			{lang:'Spanish'; lang_code:'es'; chain:['approach', 'enfoque', 'focus', 'atención', 'attention']},
+			{lang:'Turkish'; lang_code:'tr'; chain:['incident', 'olay', 'event', 'etkinlik', 'activity', 'aktivite']},
+			{lang:'Urdu'; lang_code:'ur'; chain:['confidence', 'اعتماد', 'trust', 'ٹرسٹ']},
+			];
+
+			document.getElementById('button_id').onclick = function(){
+				var counter = document.getElementById('word_chain_counter_id').innerHTML;
+
+				if (counter == 29) {
+					document.getElementById('word_chain_counter_id').innerHTML = 0;
+				}
+				else {
+					document.getElementById('word_chain_counter_id').innerHTML = (counter+1);
+				}
+
+				var chain = translations[counter][chain];
+				var chain_length = chain.length;
+
+				document.getElementById('c1').style.display = 'block';
+				document.getElementById('c2').style.display = 'block';
+				document.getElementById('c3').style.display = 'none';
+				document.getElementById('c4').style.display = 'none';
+				document.getElementById('c5').style.display = 'none';
+				document.getElementById('c6').style.display = 'none';
+
+				document.getElementById('d1').style.display = 'none';
+				document.getElementById('d2').style.display = 'none';
+				document.getElementById('d3').style.display = 'none';
+				document.getElementById('d4').style.display = 'none';
+				document.getElementById('d5').style.display = 'none';
+				document.getElementById('d6').style.display = 'none';				
+
+				// draw actual curves
+				if (chain_length > 3) {
+					document.getElementById('c3').style.display = 'block';
+				}
+
+				if (chain_length > 4) {
+					document.getElementById('c4').style.display = 'block';
+				}
+
+				if (chain_length > 5) {
+					document.getElementById('c5').style.display = 'block';
+				}
+
+				if (chain_length > 6) {
+					document.getElementById('c6').style.display = 'block';
+				}
+				
+				// draw closing curve and add text
+				if (chain_length == 3) {
+					document.getElementById('d2').style.display = 'block';
+					document.getElementById('t1o').textContent = chain[0];
+					document.getElementById('t1t').textContent = chain[1];
+					document.getElementById('t2o').textContent = chain[2];
+				}
+
+				if (chain_length == 4) {
+					document.getElementById('d3').style.display = 'block';
+					document.getElementById('t1o').textContent = chain[0];
+					document.getElementById('t1t').textContent = chain[1];
+					document.getElementById('t2o').textContent = chain[2];
+					document.getElementById('t2t').textContent = chain[3];
+				}
+
+				if (chain_length == 5) {
+					document.getElementById('d4').style.display = 'block';
+					document.getElementById('t1o').textContent = chain[0];
+					document.getElementById('t1t').textContent = chain[1];
+					document.getElementById('t2o').textContent = chain[2];
+					document.getElementById('t2t').textContent = chain[3];
+					document.getElementById('t3o').textContent = chain[4];
+				}
+
+				if (chain_length == 6) {
+					document.getElementById('d5').style.display = 'block';
+					document.getElementById('t1o').textContent = chain[0];
+					document.getElementById('t1t').textContent = chain[1];
+					document.getElementById('t2o').textContent = chain[2];
+					document.getElementById('t2t').textContent = chain[3];
+					document.getElementById('t3o').textContent = chain[4];
+					document.getElementById('t3t').textContent = chain[5];
+				}
+
+				if (chain_length == 7) {
+					document.getElementById('d6').style.display = 'block';
+					document.getElementById('t1o').textContent = chain[0];
+					document.getElementById('t1t').textContent = chain[1];
+					document.getElementById('t2o').textContent = chain[2];
+					document.getElementById('t2t').textContent = chain[3];
+					document.getElementById('t3o').textContent = chain[4];
+					document.getElementById('t3t').textContent = chain[5];
+					document.getElementById('t4o').textContent = chain[6];
+				}				
+			};
+
 
 	</script>
 </body>
