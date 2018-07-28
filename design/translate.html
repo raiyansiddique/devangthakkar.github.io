@@ -372,7 +372,7 @@
 				document.getElementById('t3t').textContent = "";
 				document.getElementById('t4o').textContent = "";
 
-				var combo = selected['lang'].concat("(".concat(selected['lang'].concat(") ".concat(selected['lang_code']))))
+				var combo = selected['lang'].concat("(".concat(selected['lang_code'].concat(")")))
 				combo = combo.concat(": ".concat(selected['chain'][0]));
 				console.log(combo);
 
