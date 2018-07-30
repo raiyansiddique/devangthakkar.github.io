@@ -682,6 +682,16 @@
 					<line y1='500' x1='586' x2='586' y2='296' t='Mongolian' id='lang25'/>
 
 				</g>
+
+				<g id='rank_tooltip' visibility='hidden'>
+					<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-box'/>
+					<text x='5' y='3' id='tooltip-text' font-family="'Nunito'" fill='#927086'>Tooltip</text>
+				</g>
+
+				<g id='rank_tooltip_word' visibility='hidden'>
+					<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-word-box'/>
+					<text x='5' y='3' id='tooltip-word-text' font-family="'Nunito'" fill='#927086'>Tooltip word</text>
+				</g>
 			</svg>
 
 			<p class='rank_caption'>Figure 2. The chain follows the trajectory of a word as it is translated back and forth. The top arcs represent the translation from English to the other language, while the bottom arcs represent the translation back to English. The final word in the chain gets translated to a word that already exists in the chain.</p>
@@ -876,5 +886,45 @@
 			}
 		};
 
+	</script>
+
+	<script type='text/javascript'>
+
+		// add hovering capabilities to rank plot
+
+		var svg_rank = document.getElementById('rank_svg');
+		// console.log(svg_rank);
+		var rank_tooltip = svg_rank.getElementById('rank_tooltip_word');
+		// console.log(tooltip_word);
+		var active_lang_id = 'lang'.concat(document.getElementById('rank_plot_counter_id'));
+
+
+		var rank_tooltipText = rank_tooltip.getElementsByTagName('text')[0];
+
+		var triggers_rank = svg_rank.getElementsByTagName('line');
+
+		for (var i = 0; i < triggers_rank.length; i++) {
+			triggers_rank[i].addEventListener('mousemove', showTooltip);
+			triggers_rank[i].addEventListener('mouseout', hideTooltip);
+		}
+
+		function showTooltip(evt) {
+			var CTM_rank = svg_rank.getScreenCTM();
+			var length_rank = rank_tooltipText.getComputedTextLength();
+			var x_rank = (evt.clientX - CTM_rank.e - length_rank/2) / CTM_rank.a;
+			var y_rank = (evt.clientY - CTM_rank.f - 35) / CTM_rank.d;
+			rank_tooltip.setAttributeNS(null, 'transform', 'translate(' + x + ' ' + y + ')');
+			rank_tooltip.setAttributeNS(null, 'visibility', 'visible');
+			rank_tooltipText.firstChild.data = evt.target.getAttributeNS(null, 't');
+
+			var tooltipRects_rank = rank_tooltip.getElementsByTagName('rect');
+			for (var i = 0; i < tooltipRects_rank.length; i++) {
+				tooltipRects_rank[i].setAttributeNS(null, 'width', length_rank+10);
+			}
+		}
+
+		function hideTooltip(evt) {
+			tooltip.setAttributeNS(null, 'visibility', 'hidden');
+		}
 	</script>
 </body>
