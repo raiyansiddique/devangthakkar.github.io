@@ -49,7 +49,7 @@
 	<meta name='twitter:description' content='What 1000 words in 103 languages reveal about invertibility of translation'/>
 	<meta name='twitter:image:src' content='https://www.devangthakkar.com/design/assets/social/social-twitter.jpg'/>
 
-	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto|Libre+Baskerville|Alegreya'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nunito|Libre+Baskerville|Alegreya'>
 	<link rel='shortcut icon' href='https://www.devangthakkar.com/design/assets/favicons/favicon.png?v=6'>
 
 	<style type='text/css'>
@@ -166,6 +166,10 @@
 		}
 
 		.word_chain_counter {
+			display: none;
+		}
+
+		.rank_plot_counter {
 			display: none;
 		}
 
@@ -469,6 +473,7 @@
 		</section>
 
 		<div id='rank_plot' text-align='centre'>
+			<p id='rank_plot_counter_id' class='rank_plot_counter'>opt1</p>
 			<div id='rank_dropdown' class='select' tabindex='1'>
 				<input class='selectopt' name='test' type='radio' id='opt1' checked onclick='setHighlight(this);'>
 				<label for='opt1' class='option'>Germanic</label>
@@ -717,10 +722,16 @@
 		function setHighlight(select) {
 			var selected=select.id;
 			console.log(selected);
+
+			var previous_rank=document.getElementById(rank_plot_counter_id).innerHTML;
+			document.getElementById(rank_plot_counter_id).innerHTML=selected;
+
 			var sel_num=selected.replace('opt', '');
 			console.log(sel_num);
-			document.getElementById('super_rank').style.stroke='#747';
+			
+			document.getElementById(previous_rank).style.stroke='#747';
 			console.log('lang'.concat(sel_num.toString()))
+			
 			document.getElementById('lang'.concat(sel_num.toString())).style.stroke='#505';
 		};
 
