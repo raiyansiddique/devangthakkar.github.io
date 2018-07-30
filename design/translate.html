@@ -716,8 +716,11 @@
 		// change highlight on rank plot based on dropdown
 		function setHighlight(select) {
 			var selected=select.id;
+			console.log(selected);
 			var sel_num=selected.replace('opt', '');
+			console.log(sel_num);
 			document.getElementById('super_rank').style.stroke='#747';
+			console.log('lang'.concat(sel_num.toString()))
 			document.getElementById('lang'.concat(sel_num.toString())).style.stroke='#505';
 		};
 
