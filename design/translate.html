@@ -184,6 +184,16 @@
 			background-color: rgba(255, 255, 255, .85);
 		}
 
+		.rank_caption {
+			background-color: rgba(255, 255, 255, .85);
+			width: 80%;
+			font-family: 'Roboto', sans-serif;
+			font-size: 15px;
+			color: #505;
+			margin: auto;
+			margin-bottom: 20px;
+		}
+
 		@media only screen and (min-width: 600px) {
 			.title {
 				font-size: 72px;
@@ -240,10 +250,15 @@
 			#rank_svg {
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
+
+			.rank_caption{
+				margin-bottom: 30px;
+				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
+			}
 		}
 	</style>
 
-	<link rel='shortcut icon' href='https://www.devangthakkar.com/design/assets/favicon.png'>
+	<link rel='shortcut icon' href='https://www.devangthakkar.com/design/assets/favicon.png?v=2'>
 </head>
 
 <body>
@@ -325,7 +340,7 @@
 		</section>
 
 		<div id='rank_plot' text-align='centre'>
-			<svg id='rank_svg' enable-background='new 0 0 840 500' version='1.1' viewBox='0 0 840 1200' xml:space='preserve' align='center' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='840px' height='1200px' xmlns:xlink='http://www.w3.org/1999/xlink'>
+			<svg id='rank_svg' enable-background='new 0 0 840 450' version='1.1' viewBox='0 0 840 450' xml:space='preserve' align='center' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='840px' height='450px' xmlns:xlink='http://www.w3.org/1999/xlink'>
 				<g fill='none' stroke-width='7.5' stroke='#505'>
 					<line y1='500' x1='10' x2='10' y2='413' t='Swedish' f='Germanic'/>
 					<line y1='500' x1='18' x2='18' y2='413' t='Norwegian' f='Germanic'/>
@@ -433,6 +448,9 @@
 
 				</g>
 			</svg>
+
+			<p class='rank_caption'>Figure 2. The chain follows the trajectory of a word as it is translated back and forth. The top arcs represent the translation from English to the other language, while the bottom arcs represent the translation back to English. The final word in the chain gets translated to a word that already exists in the chain.</p>
+
 		</div>
 	</div>
 
