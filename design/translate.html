@@ -172,6 +172,11 @@
 			margin-bottom: 20px;
 		}
 
+		#rank_plot {
+			max-width: 100%;
+			margin-top: -10px;
+		}
+
 		#rank_svg {
 			max-width: 100%;
 			display: block;
@@ -229,6 +234,10 @@
 
 			.wc_caption{
 				margin-bottom: 30px;
+				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
+			}
+
+			#rank_svg {
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 		}
@@ -315,8 +324,8 @@
 			<p class='prose2'>One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later). The next step is to analyse the relation between the number of these imperfect circular translations and the characteristics of the language. Germanic languages seem to perform the best with the fewest number of imperfect circular translations whereas languages from the Niger-Congo family dominate the bottom. (In order to ensure that I was not cherry picking the set size, I computed the rankings for the top 500 and 1500 nouns as well. The individual standings of the languages shift slightly, but the overall trend of the families remains the same.)<br/><br/></p>
 		</section>
 
-		<div id='rank_svg' text-align='centre'>
-			<svg enable-background='new 0 0 920 1200' version='1.1' viewBox='0 0 920 1200' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='920px' height='1200px'>
+		<div id='rank_plot' text-align='centre'>
+			<svg id='rank_svg' enable-background='new 0 0 920 1200' version='1.1' viewBox='0 0 920 1200' xml:space='preserve' align='center' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='920px' height='1200px' xmlns:xlink='http://www.w3.org/1999/xlink'>
 				<g fill='none' stroke-width='7.5' stroke='#505'>
 					<line y1='500' x1='10' x2='10' y2='413' t='Swedish' f='Germanic'/>
 					<line y1='500' x1='18' x2='18' y2='413' t='Norwegian' f='Germanic'/>
