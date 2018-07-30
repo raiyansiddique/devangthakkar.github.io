@@ -685,12 +685,7 @@
 
 				<g id='rank_tooltip' visibility='hidden'>
 					<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-box'/>
-					<text x='5' y='3' id='tooltip-text' font-family="'Nunito'" fill='#927086'>Tooltip</text>
-				</g>
-
-				<g id='rank_tooltip_word' visibility='hidden'>
-					<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-word-box'/>
-					<text x='5' y='3' id='tooltip-word-text' font-family="'Nunito'" font-size='15px' fill='#927086'>Tooltip word</text>
+					<text x='5' y='3' id='tooltip-text' font-family="'Nunito'" font-size='15px' fill='#927086'>Tooltip</text>
 				</g>
 			</svg>
 
@@ -893,14 +888,9 @@
 		// add hovering capabilities to rank plot
 
 		var svg_rank = document.getElementById('rank_svg');
-		// console.log(svg_rank);
-		var rank_tooltip = svg_rank.getElementById('rank_tooltip_word');
-		// console.log(tooltip_word);
+		var rank_tooltip = svg_rank.getElementById('rank_tooltip');
 		var active_lang_id = 'lang'.concat(document.getElementById('rank_plot_counter_id'));
-
-
 		var rank_tooltipText = rank_tooltip.getElementsByTagName('text')[0];
-
 		var triggers_rank = svg_rank.getElementsByTagName('line');
 
 		for (var i = 0; i < triggers_rank.length; i++) {
