@@ -244,8 +244,6 @@
 			line-height: 1.5;
 		}
 
-
-
 		.select {
 			display:flex;
 			flex-direction: column;
@@ -323,9 +321,6 @@
 			background:#636;
 		}
 
-
-
-
 		@media only screen and (min-width: 600px) {
 			.title {
 				font-size: 72px;
@@ -335,6 +330,9 @@
 			}
 			.prose1, .prose2 {
 				font-size: 17px;
+			}
+			.wc_caption {
+				width: 90%;
 			}
 		}
 		@media only screen and (min-width: 768px) {
@@ -471,164 +469,212 @@
 		</section>
 
 		<div id='rank_plot' text-align='centre'>
-			<div id='rank_dropdown' class='select' tabindex='1'>
-				<input class='selectopt' name='test' type='radio' id='opt1' checked>
+			<div id='rank_dropdown' class='select' tabindex='1' onchange="setHighlight(this);">
+				<input class='so' name='test' type='radio' id='opt1' checked>
 				<label for='opt1' class='option'>Germanic</label>
-				<input class='selectopt' name='test' type='radio' id='opt2'>
+				<input class='so' name='test' type='radio' id='opt2'>
 				<label for='opt2' class='option'>Slavic</label>
-				<input class='selectopt' name='test' type='radio' id='opt3'>
+				<input class='so' name='test' type='radio' id='opt3'>
 				<label for='opt3' class='option'>Romance</label>
-				<input class='selectopt' name='test' type='radio' id='opt4'>
+				<input class='so' name='test' type='radio' id='opt4'>
 				<label for='opt4' class='option'>Austronesian</label>
-				<input class='selectopt' name='test' type='radio' id='opt5'>
+				<input class='so' name='test' type='radio' id='opt5'>
 				<label for='opt5' class='option'>Indic</label>
-				<input class='selectopt' name='test' type='radio' id='opt6'>
+				<input class='so' name='test' type='radio' id='opt6'>
 				<label for='opt6' class='option'>Niger-Congo</label>
-				<input class='selectopt' name='test' type='radio' id='opt7'>
+				<input class='so' name='test' type='radio' id='opt7'>
 				<label for='opt7' class='option'>Afroasiatic</label>
-				<input class='selectopt' name='test' type='radio' id='opt8'>
+				<input class='so' name='test' type='radio' id='opt8'>
 				<label for='opt8' class='option'>Turkic</label>
-				<input class='selectopt' name='test' type='radio' id='opt9'>
+				<input class='so' name='test' type='radio' id='opt9'>
 				<label for='opt9' class='option'>Iranian</label>
-				<input class='selectopt' name='test' type='radio' id='opt10'>
+				<input class='so' name='test' type='radio' id='opt10'>
 				<label for='opt10' class='option'>Sino-Tibetan</label>
-				<input class='selectopt' name='test' type='radio' id='opt11'>
+				<input class='so' name='test' type='radio' id='opt11'>
 				<label for='opt11' class='option'>Dravidian</label>
-				<input class='selectopt' name='test' type='radio' id='opt12'>
+				<input class='so' name='test' type='radio' id='opt12'>
 				<label for='opt12' class='option'>Uralic</label>
-				<input class='selectopt' name='test' type='radio' id='opt13'>
+				<input class='so' name='test' type='radio' id='opt13'>
 				<label for='opt13' class='option'>Celtic</label>
-				<input class='selectopt' name='test' type='radio' id='opt14'>
+				<input class='so' name='test' type='radio' id='opt14'>
 				<label for='opt14' class='option'>Krai-Dai</label>
-				<input class='selectopt' name='test' type='radio' id='opt15'>
+				<input class='so' name='test' type='radio' id='opt15'>
 				<label for='opt15' class='option'>Austroasiatic</label>
-				<input class='selectopt' name='test' type='radio' id='opt16'>
+				<input class='so' name='test' type='radio' id='opt16'>
 				<label for='opt16' class='option'>Baltic</label>
-				<input class='selectopt' name='test' type='radio' id='opt17'>
+				<input class='so' name='test' type='radio' id='opt17'>
 				<label for='opt17' class='option'>Albanian</label>
-				<input class='selectopt' name='test' type='radio' id='opt18'>
+				<input class='so' name='test' type='radio' id='opt18'>
 				<label for='opt18' class='option'>Armenian</label>
-				<input class='selectopt' name='test' type='radio' id='opt19'>
+				<input class='so' name='test' type='radio' id='opt19'>
 				<label for='opt19' class='option'>Basque</label>
-				<input class='selectopt' name='test' type='radio' id='opt20'>
+				<input class='so' name='test' type='radio' id='opt20'>
 				<label for='opt20' class='option'>Esperanto</label>
-				<input class='selectopt' name='test' type='radio' id='opt21'>
+				<input class='so' name='test' type='radio' id='opt21'>
 				<label for='opt21' class='option'>Hellenic</label>
-				<input class='selectopt' name='test' type='radio' id='opt22'>
+				<input class='so' name='test' type='radio' id='opt22'>
 				<label for='opt22' class='option'>Iberian</label>
-				<input class='selectopt' name='test' type='radio' id='opt23'>
+				<input class='so' name='test' type='radio' id='opt23'>
 				<label for='opt23' class='option'>Japonic</label>
-				<input class='selectopt' name='test' type='radio' id='opt24'>
+				<input class='so' name='test' type='radio' id='opt24'>
 				<label for='opt24' class='option'>Korean</label>
-				<input class='selectopt' name='test' type='radio' id='opt25'>
+				<input class='so' name='test' type='radio' id='opt25'>
 				<label for='opt25' class='option'>Mongolic</label>
 			</div>
 
 			<svg id='rank_svg' enable-background='new 0 0 840 450' version='1.1' viewBox='0 0 840 450' xml:space='preserve' align='center' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='840px' height='450px' xmlns:xlink='http://www.w3.org/1999/xlink'>
-				<g fill='none' stroke-width='7.5' stroke='#505'>
-					<line y1='500' x1='10' x2='10' y2='413' t='Swedish' f='Germanic'/>
-					<line y1='500' x1='18' x2='18' y2='413' t='Norwegian' f='Germanic'/>
-					<line y1='500' x1='26' x2='26' y2='412' t='Yiddish' f='Germanic'/>
-					<line y1='500' x1='34' x2='34' y2='407' t='Dutch' f='Germanic'/>
-					<line y1='500' x1='42' x2='42' y2='405' t='Polish' f='Slavic'/>
-					<line y1='500' x1='50' x2='50' y2='405' t='Maltese' f='Afroasiatic'/>
-					<line y1='500' x1='58' x2='58' y2='403' t='Danish' f='Germanic'/>
-					<line y1='500' x1='66' x2='66' y2='402' t='Afrikaans' f='Germanic'/>
-					<line y1='500' x1='74' x2='74' y2='399' t='Macedonian' f='Slavic'/>
-					<line y1='500' x1='82' x2='82' y2='398' t='Bosnian' f='Slavic'/>
-					<line y1='500' x1='90' x2='90' y2='398' t='Czech' f='Slavic'/>
-					<line y1='500' x1='98' x2='98' y2='398' t='Galician' f='Romance'/>
-					<line y1='500' x1='106' x2='106' y2='398' t='Italian' f='Romance'/>
-					<line y1='500' x1='114' x2='114' y2='396' t='Bulgarian' f='Slavic'/>
-					<line y1='500' x1='122' x2='122' y2='395' t='Ukrainian' f='Slavic'/>
-					<line y1='500' x1='130' x2='130' y2='393' t='Croatian' f='Slavic'/>
-					<line y1='500' x1='138' x2='138' y2='390' t='Japanese' f='Japonic'/>
-					<line y1='500' x1='146' x2='146' y2='389' t='French' f='Romance'/>
-					<line y1='500' x1='154' x2='154' y2='389' t='Filipino' f='Austronesian'/>
-					<line y1='500' x1='162' x2='162' y2='388' t='Spanish' f='Romance'/>
-					<line y1='500' x1='170' x2='170' y2='386' t='Finnish' f='Uralic'/>
-					<line y1='500' x1='178' x2='178' y2='386' t='Hungarian' f='Uralic'/>
-					<line y1='500' x1='186' x2='186' y2='383' t='Albanian' f='Albanian'/>
-					<line y1='500' x1='194' x2='194' y2='381' t='Catalan' f='Romance'/>
-					<line y1='500' x1='202' x2='202' y2='381' t='Esperanto' f='Esperanto'/>
-					<line y1='500' x1='210' x2='210' y2='381' t='Portuguese' f='Romance'/>
-					<line y1='500' x1='218' x2='218' y2='379' t='Irish' f='Celtic'/>
-					<line y1='500' x1='226' x2='226' y2='376' t='Romanian' f='Romance'/>
-					<line y1='500' x1='234' x2='234' y2='375' t='Belarusian' f='Slavic'/>
-					<line y1='500' x1='242' x2='242' y2='374' t='Slovenian' f='Slavic'/>
-					<line y1='500' x1='250' x2='250' y2='373' t='German' f='Germanic'/>
-					<line y1='500' x1='258' x2='258' y2='373' t='Turkish' f='Turkic'/>
-					<line y1='500' x1='266' x2='266' y2='372' t='Gujarati' f='Indic'/>
-					<line y1='500' x1='274' x2='274' y2='371' t='Welsh' f='Celtic'/>
-					<line y1='500' x1='282' x2='282' y2='365' t='Myanmar (Burmese)' f='Sino-Tibetan'/>
-					<line y1='500' x1='290' x2='290' y2='365' t='Greek' f='Hellenic'/>
-					<line y1='500' x1='298' x2='298' y2='362' t='Indonesian' f='Austronesian'/>
-					<line y1='500' x1='306' x2='306' y2='362' t='Korean' f='Korean'/>
-					<line y1='500' x1='314' x2='314' y2='357' t='Chinese' f='Sino-Tibetan'/>
-					<line y1='500' x1='322' x2='322' y2='357' t='Chinese Traditional' f='Sino-Tibetan'/>
-					<line y1='500' x1='330' x2='330' y2='355' t='Basque' f='Basque'/>
-					<line y1='500' x1='338' x2='338' y2='350' t='Telugu' f='Dravidian'/>
-					<line y1='500' x1='346' x2='346' y2='350' t='Thai' f='Kra-Dai'/>
-					<line y1='500' x1='354' x2='354' y2='350' t='Malay' f='Austronesian'/>
-					<line y1='500' x1='362' x2='362' y2='347' t='Russian' f='Slavic'/>
-					<line y1='500' x1='370' x2='370' y2='346' t='Azerbaijani' f='Turkic'/>
-					<line y1='500' x1='378' x2='378' y2='344' t='Icelandic' f='Germanic'/>
-					<line y1='500' x1='386' x2='386' y2='344' t='Sundanese' f='Austronesian'/>
-					<line y1='500' x1='394' x2='394' y2='343' t='Frisian' f='Germanic'/>
-					<line y1='500' x1='402' x2='402' y2='339' t='Haitian Creole' f='Romance'/>
-					<line y1='500' x1='410' x2='410' y2='338' t='Kannada' f='Dravidian'/>
-					<line y1='500' x1='418' x2='418' y2='338' t='Javanese' f='Austronesian'/>
-					<line y1='500' x1='426' x2='426' y2='336' t='Hebrew' f='Afroasiatic'/>
-					<line y1='500' x1='434' x2='434' y2='334' t='Vietnamese' f='Austroasiatic'/>
-					<line y1='500' x1='442' x2='442' y2='333' t='Luxembourgish' f='Germanic'/>
-					<line y1='500' x1='450' x2='450' y2='333' t='Slovak' f='Slavic'/>
-					<line y1='500' x1='458' x2='458' y2='327' t='Serbian' f='Slavic'/>
-					<line y1='500' x1='466' x2='466' y2='325' t='Punjabi' f='Indic'/>
-					<line y1='500' x1='474' x2='474' y2='323' t='Marathi' f='Indic'/>
-					<line y1='500' x1='482' x2='482' y2='322' t='Malayalam' f='Dravidian'/>
-					<line y1='500' x1='490' x2='490' y2='320' t='Latin' f='Romance'/>
-					<line y1='500' x1='498' x2='498' y2='318' t='Georgian' f='Iberian'/>
-					<line y1='500' x1='506' x2='506' y2='315' t='Kazakh' f='Turkic'/>
-					<line y1='500' x1='514' x2='514' y2='315' t='Cebuano' f='Austronesian'/>
-					<line y1='500' x1='522' x2='522' y2='312' t='Corsican' f='Romance'/>
-					<line y1='500' x1='530' x2='530' y2='309' t='Nepali' f='Indic'/>
-					<line y1='500' x1='538' x2='538' y2='309' t='Urdu' f='Indic'/>
-					<line y1='500' x1='546' x2='546' y2='306' t='Bengali' f='Indic'/>
-					<line y1='500' x1='554' x2='554' y2='306' t='Persian' f='Iranian'/>
-					<line y1='500' x1='562' x2='562' y2='298' t='Lao' f='Kra-Dai'/>
-					<line y1='500' x1='570' x2='570' y2='298' t='Hindi' f='Indic'/>
-					<line y1='500' x1='578' x2='578' y2='296' t='Uzbek' f='Turkic'/>
-					<line y1='500' x1='586' x2='586' y2='296' t='Mongolian' f='Mongolic'/>
-					<line y1='500' x1='594' x2='594' y2='293' t='Swahili' f='Niger-Congo'/>
-					<line y1='500' x1='602' x2='602' y2='286' t='Armenian' f='Armenian'/>
-					<line y1='500' x1='610' x2='610' y2='286' t='Scots Gaelic' f='Celtic'/>
-					<line y1='500' x1='618' x2='618' y2='284' t='Sinhala' f='Indic'/>
-					<line y1='500' x1='626' x2='626' y2='284' t='Amharic' f='Afroasiatic'/>
-					<line y1='500' x1='634' x2='634' y2='283' t='Tamil' f='Dravidian'/>
-					<line y1='500' x1='642' x2='642' y2='278' t='Arabic' f='Afroasiatic'/>
-					<line y1='500' x1='650' x2='650' y2='276' t='Hausa' f='Afroasiatic'/>
-					<line y1='500' x1='658' x2='658' y2='273' t='Lithuanian' f='Baltic'/>
-					<line y1='500' x1='666' x2='666' y2='272' t='Khmer' f='Austroasiatic'/>
-					<line y1='500' x1='674' x2='674' y2='270' t='Latvian' f='Baltic'/>
-					<line y1='500' x1='682' x2='682' y2='264' t='Tajik' f='Iranian'/>
-					<line y1='500' x1='690' x2='690' y2='258' t='Zulu' f='Niger-Congo'/>
-					<line y1='500' x1='698' x2='698' y2='254' t='Estonian' f='Uralic'/>
-					<line y1='500' x1='706' x2='706' y2='245' t='Yoruba' f='Niger-Congo'/>
-					<line y1='500' x1='714' x2='714' y2='234' t='Malagasy' f='Austronesian'/>
-					<line y1='500' x1='722' x2='722' y2='233' t='Somali' f='Afroasiatic'/>
-					<line y1='500' x1='730' x2='730' y2='229' t='Xhosa' f='Niger-Congo'/>
-					<line y1='500' x1='738' x2='738' y2='227' t='Pashto' f='Iranian'/>
-					<line y1='500' x1='746' x2='746' y2='226' t='Kyrgyz' f='Turkic'/>
-					<line y1='500' x1='754' x2='754' y2='224' t='Shona' f='Niger-Congo'/>
-					<line y1='500' x1='762' x2='762' y2='224' t='Hmong' f='Sino-Tibetan'/>
-					<line y1='500' x1='770' x2='770' y2='205' t='Sindhi' f='Indic'/>
-					<line y1='500' x1='778' x2='778' y2='202' t='Igbo' f='Niger-Congo'/>
-					<line y1='500' x1='786' x2='786' y2='200' t='Samoan' f='Austronesian'/>
-					<line y1='500' x1='794' x2='794' y2='186' t='Maori' f='Austronesian'/>
-					<line y1='500' x1='802' x2='802' y2='156' t='Chichewa' f='Niger-Congo'/>
-					<line y1='500' x1='810' x2='810' y2='152' t='Sesotho' f='Niger-Congo'/>
-					<line y1='500' x1='818' x2='818' y2='89' t='Hawaiian' f='Austronesian'/>
-					<line y1='500' x1='826' x2='826' y2='42' t='Kurdish (Kurmanji)' f='Iranian'/>
+				<g id='super_rank' fill='none' stroke-width='7.5' stroke='#747'>
+					<g id='lang1' stroke='#747'>
+						<line y1='500' x1='10' x2='10' y2='413' t='Swedish'/>
+						<line y1='500' x1='18' x2='18' y2='413' t='Norwegian'/>
+						<line y1='500' x1='26' x2='26' y2='412' t='Yiddish'/>
+						<line y1='500' x1='34' x2='34' y2='407' t='Dutch'/>
+						<line y1='500' x1='58' x2='58' y2='403' t='Danish'/>
+						<line y1='500' x1='66' x2='66' y2='402' t='Afrikaans'/>
+						<line y1='500' x1='250' x2='250' y2='373' t='German'/>
+						<line y1='500' x1='378' x2='378' y2='344' t='Icelandic'/>
+						<line y1='500' x1='394' x2='394' y2='343' t='Frisian'/>
+						<line y1='500' x1='442' x2='442' y2='333' t='Luxembourgish'/>
+					</g>
+
+					<g id='lang2' stroke='#747'>
+						<line y1='500' x1='42' x2='42' y2='405' t='Polish'/>
+						<line y1='500' x1='74' x2='74' y2='399' t='Macedonian'/>
+						<line y1='500' x1='82' x2='82' y2='398' t='Bosnian'/>
+						<line y1='500' x1='90' x2='90' y2='398' t='Czech'/>
+						<line y1='500' x1='114' x2='114' y2='396' t='Bulgarian'/>
+						<line y1='500' x1='122' x2='122' y2='395' t='Ukrainian'/>
+						<line y1='500' x1='130' x2='130' y2='393' t='Croatian'/>
+						<line y1='500' x1='234' x2='234' y2='375' t='Belarusian'/>
+						<line y1='500' x1='242' x2='242' y2='374' t='Slovenian'/>
+						<line y1='500' x1='362' x2='362' y2='347' t='Russian'/>
+						<line y1='500' x1='450' x2='450' y2='333' t='Slovak'/>
+						<line y1='500' x1='458' x2='458' y2='327' t='Serbian'/>
+					</g>
+
+					<g id='lang3' stroke='#747'>
+						<line y1='500' x1='98' x2='98' y2='398' t='Galician'/>
+						<line y1='500' x1='106' x2='106' y2='398' t='Italian'/>
+						<line y1='500' x1='146' x2='146' y2='389' t='French'/>
+						<line y1='500' x1='162' x2='162' y2='388' t='Spanish'/>
+						<line y1='500' x1='194' x2='194' y2='381' t='Catalan'/>
+						<line y1='500' x1='210' x2='210' y2='381' t='Portuguese'/>
+						<line y1='500' x1='226' x2='226' y2='376' t='Romanian'/>
+						<line y1='500' x1='402' x2='402' y2='339' t='Haitian Creole'/>
+						<line y1='500' x1='490' x2='490' y2='320' t='Latin'/>
+						<line y1='500' x1='522' x2='522' y2='312' t='Corsican'/>
+					</g>
+
+					<g id='lang4' stroke='#747'>
+						<line y1='500' x1='154' x2='154' y2='389' t='Filipino'/>
+						<line y1='500' x1='298' x2='298' y2='362' t='Indonesian'/>
+						<line y1='500' x1='354' x2='354' y2='350' t='Malay'/>
+						<line y1='500' x1='386' x2='386' y2='344' t='Sundanese'/>
+						<line y1='500' x1='418' x2='418' y2='338' t='Javanese'/>
+						<line y1='500' x1='514' x2='514' y2='315' t='Cebuano'/>
+						<line y1='500' x1='714' x2='714' y2='234' t='Malagasy'/>
+						<line y1='500' x1='786' x2='786' y2='200' t='Samoan'/>
+						<line y1='500' x1='794' x2='794' y2='186' t='Maori'/>
+						<line y1='500' x1='818' x2='818' y2='89' t='Hawaiian'/>
+					</g>
+
+					<g id='lang5' stroke='#747'>
+						<line y1='500' x1='266' x2='266' y2='372' t='Gujarati'/>
+						<line y1='500' x1='466' x2='466' y2='325' t='Punjabi'/>
+						<line y1='500' x1='474' x2='474' y2='323' t='Marathi'/>
+						<line y1='500' x1='530' x2='530' y2='309' t='Nepali'/>
+						<line y1='500' x1='538' x2='538' y2='309' t='Urdu'/>
+						<line y1='500' x1='546' x2='546' y2='306' t='Bengali'/>
+						<line y1='500' x1='618' x2='618' y2='284' t='Sinhala'/>
+						<line y1='500' x1='570' x2='570' y2='298' t='Hindi'/>
+						<line y1='500' x1='770' x2='770' y2='205' t='Sindhi'/>
+					</g>
+
+					<g id='lang6' stroke='#747'>
+						<line y1='500' x1='594' x2='594' y2='293' t='Swahili'/>
+						<line y1='500' x1='690' x2='690' y2='258' t='Zulu'/>
+						<line y1='500' x1='706' x2='706' y2='245' t='Yoruba'/>
+						<line y1='500' x1='730' x2='730' y2='229' t='Xhosa'/>
+						<line y1='500' x1='754' x2='754' y2='224' t='Shona'/>
+						<line y1='500' x1='778' x2='778' y2='202' t='Igbo'/>
+						<line y1='500' x1='802' x2='802' y2='156' t='Chichewa'/>
+						<line y1='500' x1='810' x2='810' y2='152' t='Sesotho'/>
+					</g>
+
+					<g id='lang7' stroke='#747'>
+						<line y1='500' x1='50' x2='50' y2='405' t='Maltese'/>
+						<line y1='500' x1='426' x2='426' y2='336' t='Hebrew'/>
+						<line y1='500' x1='626' x2='626' y2='284' t='Amharic'/>
+						<line y1='500' x1='722' x2='722' y2='233' t='Somali'/>
+						<line y1='500' x1='642' x2='642' y2='278' t='Arabic'/>
+						<line y1='500' x1='650' x2='650' y2='276' t='Hausa'/>
+					</g>
+
+					<g id='lang8' stroke='#747'>
+						<line y1='500' x1='258' x2='258' y2='373' t='Turkish'/>
+						<line y1='500' x1='370' x2='370' y2='346' t='Azerbaijani'/>
+						<line y1='500' x1='506' x2='506' y2='315' t='Kazakh'/>
+						<line y1='500' x1='578' x2='578' y2='296' t='Uzbek'/>
+						<line y1='500' x1='746' x2='746' y2='226' t='Kyrgyz'/>
+					</g>
+
+					<g id='lang9' stroke='#747'>
+						<line y1='500' x1='554' x2='554' y2='306' t='Persian'/>
+						<line y1='500' x1='682' x2='682' y2='264' t='Tajik'/>
+						<line y1='500' x1='738' x2='738' y2='227' t='Pashto'/>
+						<line y1='500' x1='826' x2='826' y2='42' t='Kurdish (Kurmanji)'/>
+					</g>
+
+					<g id='lang10' stroke='#747'>
+						<line y1='500' x1='282' x2='282' y2='365' t='Myanmar (Burmese)'/>
+						<line y1='500' x1='314' x2='314' y2='357' t='Chinese'/>
+						<line y1='500' x1='322' x2='322' y2='357' t='Chinese Traditional'/>
+						<line y1='500' x1='762' x2='762' y2='224' t='Hmong'/>
+					</g>
+
+					<g id='lang11' stroke='#747'>
+						<line y1='500' x1='338' x2='338' y2='350' t='Telugu'/>
+						<line y1='500' x1='410' x2='410' y2='338' t='Kannada'/>
+						<line y1='500' x1='482' x2='482' y2='322' t='Malayalam'/>
+						<line y1='500' x1='634' x2='634' y2='283' t='Tamil'/>
+					</g>
+
+					<g id='lang12' stroke='#747'>
+						<line y1='500' x1='170' x2='170' y2='386' t='Finnish'/>
+						<line y1='500' x1='178' x2='178' y2='386' t='Hungarian'/>
+						<line y1='500' x1='698' x2='698' y2='254' t='Estonian'/>
+					</g>
+
+					<g id='lang13' stroke='#747'>
+						<line y1='500' x1='218' x2='218' y2='379' t='Irish'/>
+						<line y1='500' x1='274' x2='274' y2='371' t='Welsh'/>
+						<line y1='500' x1='610' x2='610' y2='286' t='Scots Gaelic'/>
+					</g>
+
+					<g id='lang14' stroke='#747'>
+						<line y1='500' x1='346' x2='346' y2='350' t='Thai'/>
+						<line y1='500' x1='562' x2='562' y2='298' t='Lao'/>
+					</g>
+
+					<g id='lang15' stroke='#747'>
+						<line y1='500' x1='666' x2='666' y2='272' t='Khmer'/>
+						<line y1='500' x1='434' x2='434' y2='334' t='Vietnamese'/>
+					</g>
+
+					<g id='lang16' stroke='#747'>
+						<line y1='500' x1='658' x2='658' y2='273' t='Lithuanian'/>
+						<line y1='500' x1='674' x2='674' y2='270' t='Latvian'/>
+					</g>
+
+					<line y1='500' x1='186' x2='186' y2='383' t='Albanian' id='lang17'/>
+					<line y1='500' x1='602' x2='602' y2='286' t='Armenian' id='lang18'/>
+					<line y1='500' x1='330' x2='330' y2='355' t='Basque' id='lang19'/>
+					<line y1='500' x1='202' x2='202' y2='381' t='Esperanto' id='lang20'/>
+					<line y1='500' x1='290' x2='290' y2='365' t='Greek' id='lang21'/>
+					<line y1='500' x1='498' x2='498' y2='318' t='Georgian' id='lang22'/>
+					<line y1='500' x1='138' x2='138' y2='390' t='Japanese' id='lang23'/>
+					<line y1='500' x1='306' x2='306' y2='362' t='Korean' id='lang24'/>
+					<line y1='500' x1='586' x2='586' y2='296' t='Mongolian' id='lang25'/>
 
 				</g>
 			</svg>
@@ -666,6 +712,14 @@
 			};
 			img.src = 'https://www.devangthakkar.com/design/assets/bg.png';
 		}
+
+		// change highlight on rank plot based on dropdown
+		function setHighlight(select) {
+			var selected=select.id;
+			var sel_num=selected.replace('opt', '');
+			document.getElementById('super_rank').style.stroke='#747';
+			document.getElementById('lang'.concat(sel_num.toString())).style.stroke='#505';
+		};
 
 		// change image on button press
 		const translations = [
