@@ -194,6 +194,84 @@
 			margin-bottom: 20px;
 		}
 
+
+
+		.select {
+			display:flex;
+			flex-direction: column;
+			position:relative;
+			width:250px;
+			height:40px;
+		}
+
+		.option {
+			padding:0 30px 0 10px;
+			min-height:40px;
+			display:flex;
+			align-items:center;
+			background:#333;
+			border-top:#222 solid 1px;
+			position:absolute;
+			top:0;
+			width: 100%;
+			pointer-events:none;
+			order:2;
+			z-index:1;
+			transition:background .4s ease-in-out;
+			box-sizing:border-box;
+			overflow:hidden;
+			white-space:nowrap;		
+		}
+
+		.option:hover {
+			background:#666;
+		}
+
+		.select:focus .option {
+			position:relative;
+			pointer-events:all;
+			}
+
+		input {
+			opacity:0;
+			position:absolute;
+			left:-99999px;
+		}
+
+		input:checked + label {
+			order: 1;
+			z-index:2;
+			background:#666;
+			border-top:none;
+			position:relative;
+		}
+
+		input:checked + label:after {
+			content:'';
+			width: 0; 
+			height: 0; 
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-top: 5px solid white;
+			position:absolute;
+			right:10px;
+			top:calc(50% - 2.5px);
+			pointer-events:none;
+			z-index:3;
+		}
+
+		input:checked + label:before {
+			position:absolute;
+			right:0;
+			height: 40px;
+			width: 40px;
+			content: '';
+			background:#666;
+		}
+
+
+
+
 		@media only screen and (min-width: 600px) {
 			.title {
 				font-size: 72px;
@@ -258,7 +336,7 @@
 		}
 	</style>
 
-	<link rel='shortcut icon' href='https://www.devangthakkar.com/design/assets/favicon.png?v=2'>
+	<link rel='shortcut icon' href='https://www.devangthakkar.com/design/assets/favicon.png?v=1'>
 </head>
 
 <body>
@@ -340,6 +418,59 @@
 		</section>
 
 		<div id='rank_plot' text-align='centre'>
+			<div id='rank_dropdown' class="select" tabindex="1">
+				<input class="selectopt" name="test" type="radio" id="opt1" checked>
+				<label for="opt1" class="option">Germanic</label>
+				<input class="selectopt" name="test" type="radio" id="opt2">
+				<label for="opt2" class="option">Slavic</label>
+				<input class="selectopt" name="test" type="radio" id="opt3">
+				<label for="opt3" class="option">Romance</label>
+				<input class="selectopt" name="test" type="radio" id="opt4">
+				<label for="opt4" class="option">Austronesian</label>
+				<input class="selectopt" name="test" type="radio" id="opt5">
+				<label for="opt5" class="option">Indic</label>
+				<input class="selectopt" name="test" type="radio" id="opt6">
+				<label for="opt6" class="option">Niger-Congo</label>
+				<input class="selectopt" name="test" type="radio" id="opt7">
+				<label for="opt7" class="option">Afroasiatic</label>
+				<input class="selectopt" name="test" type="radio" id="opt8">
+				<label for="opt8" class="option">Turkic</label>
+				<input class="selectopt" name="test" type="radio" id="opt9">
+				<label for="opt9" class="option">Iranian</label>
+				<input class="selectopt" name="test" type="radio" id="opt10">
+				<label for="opt10" class="option">Sino-Tibetan</label>
+				<input class="selectopt" name="test" type="radio" id="opt11">
+				<label for="opt11" class="option">Dravidian</label>
+				<input class="selectopt" name="test" type="radio" id="opt12">
+				<label for="opt12" class="option">Uralic</label>
+				<input class="selectopt" name="test" type="radio" id="opt13">
+				<label for="opt13" class="option">Celtic</label>
+				<input class="selectopt" name="test" type="radio" id="opt14">
+				<label for="opt14" class="option">Krai-Dai</label>
+				<input class="selectopt" name="test" type="radio" id="opt15">
+				<label for="opt15" class="option">Austroasiatic</label>
+				<input class="selectopt" name="test" type="radio" id="opt16">
+				<label for="opt16" class="option">Baltic</label>
+				<input class="selectopt" name="test" type="radio" id="opt17">
+				<label for="opt17" class="option">Albanian</label>
+				<input class="selectopt" name="test" type="radio" id="opt18">
+				<label for="opt18" class="option">Armenian</label>
+				<input class="selectopt" name="test" type="radio" id="opt19">
+				<label for="opt19" class="option">Basque</label>
+				<input class="selectopt" name="test" type="radio" id="opt20">
+				<label for="opt20" class="option">Esperanto</label>
+				<input class="selectopt" name="test" type="radio" id="opt21">
+				<label for="opt21" class="option">Hellenic</label>
+				<input class="selectopt" name="test" type="radio" id="opt22">
+				<label for="opt22" class="option">Iberian</label>
+				<input class="selectopt" name="test" type="radio" id="opt23">
+				<label for="opt23" class="option">Japonic</label>
+				<input class="selectopt" name="test" type="radio" id="opt24">
+				<label for="opt24" class="option">Korean</label>
+				<input class="selectopt" name="test" type="radio" id="opt25">
+				<label for="opt25" class="option">Mongolic</label>
+			</div>
+
 			<svg id='rank_svg' enable-background='new 0 0 840 450' version='1.1' viewBox='0 0 840 450' xml:space='preserve' align='center' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='840px' height='450px' xmlns:xlink='http://www.w3.org/1999/xlink'>
 				<g fill='none' stroke-width='7.5' stroke='#505'>
 					<line y1='500' x1='10' x2='10' y2='413' t='Swedish' f='Germanic'/>
