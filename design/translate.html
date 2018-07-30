@@ -912,7 +912,7 @@
 			var CTM_rank = svg_rank.getScreenCTM();
 			var length_rank = rank_tooltipText.getComputedTextLength();
 			var x_rank = (evt.clientX - CTM_rank.e - length_rank/2) / CTM_rank.a;
-			var y_rank = (evt.clientY - CTM_rank.f - 10) / CTM_rank.d;
+			var y_rank = (evt.clientY - CTM_rank.f - 20) / CTM_rank.d;
 			rank_tooltip.setAttributeNS(null, 'transform', 'translate(' + x_rank + ' ' + y_rank + ')');
 			rank_tooltip.setAttributeNS(null, 'visibility', 'visible');
 			rank_tooltipText.firstChild.data = evt.target.getAttributeNS(null, 't');
