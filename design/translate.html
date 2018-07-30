@@ -690,7 +690,7 @@
 
 				<g id='rank_tooltip_word' visibility='hidden'>
 					<rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-word-box'/>
-					<text x='5' y='3' id='tooltip-word-text' font-family="'Nunito'" fill='#927086'>Tooltip word</text>
+					<text x='5' y='3' id='tooltip-word-text' font-family="'Nunito'" font-size='15px' fill='#927086'>Tooltip word</text>
 				</g>
 			</svg>
 
@@ -912,7 +912,7 @@
 			var CTM_rank = svg_rank.getScreenCTM();
 			var length_rank = rank_tooltipText.getComputedTextLength();
 			var x_rank = (evt.clientX - CTM_rank.e - length_rank/2) / CTM_rank.a;
-			var y_rank = (evt.clientY - CTM_rank.f - 35) / CTM_rank.d;
+			var y_rank = (evt.clientY - CTM_rank.f - 10) / CTM_rank.d;
 			rank_tooltip.setAttributeNS(null, 'transform', 'translate(' + x_rank + ' ' + y_rank + ')');
 			rank_tooltip.setAttributeNS(null, 'visibility', 'visible');
 			rank_tooltipText.firstChild.data = evt.target.getAttributeNS(null, 't');
