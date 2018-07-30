@@ -473,7 +473,7 @@
 		</section>
 
 		<div id='rank_plot' text-align='centre'>
-			<p id='rank_plot_counter_id' class='rank_plot_counter'>opt1</p>
+			<p id='rank_plot_counter_id' class='rank_plot_counter'>1</p>
 			<div id='rank_dropdown' class='select' tabindex='1'>
 				<input class='selectopt' name='test' type='radio' id='opt1' checked onclick='setHighlight(this);'>
 				<label for='opt1' class='option'>Germanic</label>
@@ -528,8 +528,8 @@
 			</div>
 
 			<svg id='rank_svg' enable-background='new 0 0 840 450' version='1.1' viewBox='0 0 840 450' xml:space='preserve' align='center' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='840px' height='450px' xmlns:xlink='http://www.w3.org/1999/xlink'>
-				<g id='super_rank' fill='none' stroke-width='7.5' stroke='#747'>
-					<g id='lang1' stroke='#747'>
+				<g id='super_rank' fill='none' stroke-width='7.5'>
+					<g id='lang1' stroke='#505'>
 						<line y1='500' x1='10' x2='10' y2='413' t='Swedish'/>
 						<line y1='500' x1='18' x2='18' y2='413' t='Norwegian'/>
 						<line y1='500' x1='26' x2='26' y2='412' t='Yiddish'/>
@@ -725,12 +725,12 @@
 
 			var previous_rank=document.getElementById('rank_plot_counter_id').innerHTML;
 			console.log(previous_rank);
-			document.getElementById('rank_plot_counter_id').innerHTML=selected;
 
 			var sel_num=selected.replace('opt', '');
 			console.log(sel_num);
+			document.getElementById('rank_plot_counter_id').innerHTML=sel_num;
 			
-			document.getElementById(previous_rank).style.stroke='#747';
+			document.getElementById('lang'.concat(previous_rank)).style.stroke='#747';
 			console.log('lang'.concat(sel_num.toString()))
 			
 			document.getElementById('lang'.concat(sel_num.toString())).style.stroke='#505';
