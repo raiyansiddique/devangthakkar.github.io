@@ -181,6 +181,10 @@
 			display: none;
 		}
 
+		.words_spiral_counter {
+			display: none;
+		}
+
 		#word_chains {
 			max-width: 100%;
 			margin-top: -20px;
@@ -759,9 +763,9 @@
 		</section>
 
 		<div id='word_spiral' text-align='centre'>
-			<p id='words_counter_id' class='words_counter'>1</p>
-			<img class='placeholder' id='placeholder_id' src='assets/chain_blend_final.svg'/>
-			<embed src='' class='top_image' id='top_img' type='image/svg+xml' lsrc='assets/chain_invis.svg'/>
+			<p id='word_spiral_counter_id' class='word_spiral_counter'>1</p>
+			<img class='placeholder' id='placeholder_id' src='assets/chain_invis.svg'/>
+			<embed src='assets/chain_invis.svg' class='top_image' id='top_img' type='image/svg+xml'/>
 			<embed src='' class='final_image' id='final_img' type='image/svg+xml' lsrc='assets/chain_blend_final.svg'/>
 		</div>
 
@@ -1010,5 +1014,32 @@
 			}
 
 		}
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+	<script type='text/javascript'>
+
+		// async loading
+		$(window).on('load', function(){
+			$('#final_img').each(function(){
+				console.log("Window loaded; now loading img")
+				var this_image = this;
+				var src = $(this_image).attr('src') || '' ;
+				if(!src.length > 0){
+					var lsrc = $(this_image).attr('lsrc') || '' ;
+					if(lsrc.length > 0){
+						var img = new Image();
+						img.src = lsrc;
+						$(img).load(function() {
+							this_image.src = this.src;
+							document.getElementById('word_spiral_counter_id').innerHTML = parseInt(document.getElementById('word_spiral_counter_id').innerHTML) + 1;
+							console.log(document.getElementById('img_counter_id').innerHTML);
+							console.log('All loaded');
+						});
+					}
+				}
+			});
+		});
 	</script>
 </body>
