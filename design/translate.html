@@ -171,7 +171,6 @@
 			margin-top: -10px;
 			font-size: 13px;
 			line-height: 1.5;
-			opacity: 0.8;
 		}
 
 		.word_chain_counter {
@@ -528,6 +527,7 @@
 		</div>
 
 		<section id='post_wc'>
+
 			<p class='prose2'>One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later). The next step is to analyse the relation between the number of these imperfect circular translations and the characteristics of the language. Germanic languages seem to perform the best with the fewest number of imperfect circular translations whereas languages from the Niger-Congo family dominate the bottom. (In order to ensure that I was not cherry picking the set size, I computed the rankings for the top 500 and 1500 nouns as well. The individual standings of the languages shift slightly, but the overall trend of the families remains the same.)<br/><br/></p>
 		</section>
 
@@ -755,8 +755,17 @@
 		<section id='post_rank'>
 			<p class='prose3'>As can be observed from the plot above, some families are seen to be more dominant in the high scoring regions - 22 of the top 30 languages belong to one of Germanic, Slavic, and Romance families. On the other hand, certain families tend to populate the low scoring regions - 14 of the bottom 20 languages belong to one of Niger-Congo, Austronesian, and Iranian families. English is primarily a Germanic language according to most sources, but the merger of Norman French with Old English introduced a good deal of Latin vocabulary to what became Middle English. As a consequence, languages from Germanic, Romance, and Slavic - the three major families of the European branch of the global language tree have a good number of perfect circular translations. Another result worth noting from this plot is how languages from the same family tend to cluster together. Even besides the families at the two extremities, there are multiple families (viz. Indic, Afroasiatic, et cetera) that have some of their languages positioned contiguous to each other.<br/><br/>
 
-			An interesting feature of imperfect circular translations is that they themselves often go on to have further imperfect translations. These word chains go on for multiple levels before reaching a stationary translation (well, most do[1]). Most word chains end after one or two levels but chains of up to 8 levels have been identified as well[2].<br/><br/></p>
+			An interesting feature of imperfect circular translations is that they themselves often go on to have further imperfect translations. These word chains go on for multiple levels before reaching a stationary translation (well, most do<sup>[1]</sup>). Most word chains end after one or two levels but chains of up to 8 levels have been identified as well<sup>[2]</sup>. We plot the chain lengths of the 1000 nouns in 103 languages to obtain a bird’s eye view of these chains. The dots on the spiral below represent the top 1000 nouns along the path, moving outwards from the centre. The presence of a dot at a particular position implies an imperfect circular translation, while its absence implies a perfect circular translation. The colors of the individual dots add another dimension to the plot by denoting the length of the chain for the particular noun in that language.<br/><br/></p>
+		</section>
 
+		<div id='word_sppiral' text-align='centre'>
+			<p id='words_counter_id' class='words_counter'>1</p>
+			<img class='placeholder' id='placeholder_id' src='assets/chain_temp.svg'/>
+			<embed src='' class='top_image' id='top_img' type='image/svg+xml' lsrc='assets/chain_invis.svg'/>
+			<embed src='' class='final_image' id='final_img' type='image/svg+xml' lsrc='assets/chain_blend_final.svg'/>
+		</div>
+
+		<section id='footnotes'>
 			<p class='prose3_footnote'>[1] Sometimes, Google Translate happens to go bonkers and decides to send the user on an infinite translation trip. Consider what happens when you attempt to build the chain for the word <i>baseball</i> in Armenian. <br/><br/>
 
 			baseball -> Baseball: Baseball -> Baseball. Baseball: Baseball -> ... ad infinitum <br/><br/>
