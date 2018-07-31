@@ -1031,7 +1031,7 @@
 					if(lsrc.length > 0){
 						var img = new Image();
 						img.src = lsrc;
-						$(img).load(function() {
+						$(img).on('load', function() {
 							this_image.src = this.src;
 							document.getElementById('word_spiral_counter_id').innerHTML = parseInt(document.getElementById('word_spiral_counter_id').innerHTML) + 1;
 							console.log(document.getElementById('img_counter_id').innerHTML);
