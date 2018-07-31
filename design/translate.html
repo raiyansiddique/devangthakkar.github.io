@@ -149,7 +149,7 @@
 			transition:.3s;
 		}
 
-		.prose1, .prose2, .prose3 {
+		.prose1, .prose2, .prose3, .prose3_footnote {
 			display: inline-block;
 			color: #505;
 			background-color: rgba(255, 255, 255, .85);
@@ -158,11 +158,20 @@
 			padding-left: 35px;
 			padding-right: 25px;
 			font-family: 'Nunito', sans-serif;
-			font-size: 15px;
-			line-height:1.7;
 			word-spacing: 0.2em;
 			white-space: normal;
 			word-wrap: break-word;
+		}
+
+		.prose1, .prose2, .prose3 {
+			font-size: 15px;
+			line-height:1.7;
+		}
+
+		.prose3_footnote {
+			font-size: 13px;
+			line-height: 1.5;
+			opacity: 0.8;
 		}
 
 		.word_chain_counter {
@@ -365,6 +374,9 @@
 			.prose1, .prose2, .prose3 {
 				font-size: 17px;
 			}
+			.prose3_footnote {
+				font-size: 15px;
+			}
 			#word_chains {
 				margin-top: -10px;
 			}
@@ -413,6 +425,11 @@
 
 			.prose1, .prose2, .prose3 {
 				font-size: 17px;
+				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
+			}
+
+			.prose3_footnote {
+				font-size: 15px;
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 
@@ -734,7 +751,23 @@
 		</div>
 
 		<section id='post_rank'>
-			<p class='prose3'>As can be observed from the plot above, some families are seen more dominant in the high scoring regions - 22 of the top 30 languages belong to one of Germanic, Slavic, and Romance families. On the other hand, some families tend to populate the low scoring regions - 14 of the bottom 20 languages belong to one of Niger-Congo, Austronesian, and Iranian families. English is primarily a Germanic language according to most sources, but the merger of Norman French with Old English introduced a good deal of Latin vocabulary to what became Middle English. As a result, languages from Germanic, Romance, and Slavic - the three major families of the European branch of the global language tree have a good number of perfect circular translations. Another result worth noting from this plot is how languages from the same family tend to cluster together. Even besides the families at the extremities, there are multiple families (viz. Indic, Afroasiatic, et cetera) that have some of their languages positioned contiguous to each other. </p>
+			<p class='prose3'>As can be observed from the plot above, some families are seen to be more dominant in the high scoring regions - 22 of the top 30 languages belong to one of Germanic, Slavic, and Romance families. On the other hand, certain families tend to populate the low scoring regions - 14 of the bottom 20 languages belong to one of Niger-Congo, Austronesian, and Iranian families. English is primarily a Germanic language according to most sources, but the merger of Norman French with Old English introduced a good deal of Latin vocabulary to what became Middle English. As a consequence, languages from Germanic, Romance, and Slavic - the three major families of the European branch of the global language tree have a good number of perfect circular translations. Another result worth noting from this plot is how languages from the same family tend to cluster together. Even besides the families at the two extremities, there are multiple families (viz. Indic, Afroasiatic, et cetera) that have some of their languages positioned contiguous to each other.<br/><br/>
+
+			An interesting feature of imperfect circular translations is that they themselves often go on to have further imperfect translations. These word chains go on for multiple levels before reaching a stationary translation (well, most do[1]). Most word chains end after one or two levels but chains of up to 8 levels have been identified as well[2].<br/><br/></p>
+
+			<p class='prose3_footnote'>[1] Sometimes, Google Translate happens to go bonkers and decides to send the user on an infinite translation trip. Consider what happens when you attempt to build the chain for the word baseball in Armenian. <br/>
+
+			-> baseball - Baseball: Baseball - Baseball. Baseball: Baseball ... ad infinitum <br/>
+
+			It gets weirder if you try to build the chain for the word contact in Armenian. <br/>
+
+			-> contact - Contacts - Contacts: - Contact: Douglas Doug - Contact: Douglas Doug Douglas Doug ... ad infinitum <br/>
+
+			This anomaly is not limited to Armenian - try building chains for master in Croatian or forest in Bengali. <br/>
+
+			[2] One of the longest sensical chains is built on translating the word tax in Bengali. <br/>
+
+			-> tax - do - be done - will do - will - will power - will have power - have the power <br/></p>
 		</section>
 	</div>
 
