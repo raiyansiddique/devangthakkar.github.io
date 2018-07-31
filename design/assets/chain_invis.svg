@@ -1114,7 +1114,7 @@ dominant-baseline: hanging;
 <rect class='r' id='r103' x='582' y='620' width='10' height='10' t='Zulu (zu)'/>
 </g>
 
-<g opacity='0' fill='#ffb' stroke='#ffb' stroke-miterlimit='10' stroke-width='.5' font-family=''Roboto''>
+<g opacity='0' fill='#ffb' stroke='#ffb' stroke-miterlimit='10' stroke-width='.5' font-family='"Nunito"'>
 <circle class='n' id='n1' cx='87' cy='70' r='2.5' t='Afrikaans (af)'/>
 <circle class='n' id='n2' cx='97' cy='70' r='2.5' t='Albanian (sq)'/>
 <circle class='n' id='n3' cx='107' cy='70' r='2.5' t='Amharic (am)'/>
@@ -1222,11 +1222,11 @@ dominant-baseline: hanging;
 
 <g id='tooltip' visibility='hidden' >
 <rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-box'/>
-<text x='5' y='3' id='tooltip-text' font-family=''Roboto'' fill='#927086'>Tooltip</text>
+<text x='5' y='3' id='tooltip-text' font-family='"Nunito"' fill='#927086'>Tooltip</text>
 </g>
 
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#ffb' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='5' y='3' id='tooltip-word-text' font-family="'Roboto'" fill='#927086'>Tooltip word</text>
+<text x='5' y='3' id='tooltip-word-text' font-family="'Nunito'" fill='#927086'>Tooltip word</text>
 </g>
 </svg>
