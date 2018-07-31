@@ -729,7 +729,7 @@
 				</g>
 			</svg>
 
-			<p class='rank_caption'>Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for the top 1000 nouns for that language. Choose a family from the dropdown to see where its members stand in this ranking.</p>
+			<p id='rank_caption_id' class='rank_caption'>Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for the top 1000 nouns for that language. Choose a family from the dropdown to see where its members stand in this ranking.</p>
 
 		</div>
 	</div>
@@ -930,6 +930,7 @@
 		var jmediaquery3 = window.matchMedia('(min-width: 600px)');
 		if (jmediaquery3.matches) {
 
+			document.getElementById('rank_caption_id').innerHTML = 'Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for the top 1000 nouns for that language. Choose a family from the dropdown to see where its members stand in this ranking. Hover over the plot to see the language represented by each bar and the corresponding count.';
 			var svg_rank = document.getElementById('rank_svg');
 			var rank_tooltip = svg_rank.getElementById('rank_tooltip');
 			var active_lang_id = 'lang'.concat(document.getElementById('rank_plot_counter_id'));
