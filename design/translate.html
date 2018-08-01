@@ -343,8 +343,18 @@
 			background:#636;
 		}
 
-		.placeholder {
+		#word_spiral {
 			position: relative;
+		}
+
+		.word_spiral {
+			position: relative;
+		}
+
+		.placeholder {
+			position: absolute;
+			top: 0;
+			left: 0;
 		}
 
 		.top_image {
@@ -1065,6 +1075,7 @@
 							console.log(document.getElementById('word_spiral_counter_id').innerHTML);
 							console.log('All loaded');
 							$('#final_img').css('visibility', 'visible');
+							$('#placeholder_id').css('visibility', 'hidden');
 						});
 					}
 				}
