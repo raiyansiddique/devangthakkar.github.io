@@ -181,7 +181,7 @@
 			display: none;
 		}
 
-		.words_spiral_counter {
+		.word_spiral_counter {
 			display: none;
 		}
 
@@ -343,6 +343,27 @@
 			background:#636;
 		}
 
+		.placeholder {
+			position: relative;
+		}
+
+		.top_image {
+			position: absolute;
+			top: 0;
+			left: 0;
+			visibility: hidden;
+			z-index: 999;
+		}
+
+		.final_image {
+			position: absolute;
+			top: 0;
+			left: 0;
+			visibility: hidden;
+			z-index: 100;
+
+		}
+
 		@media only screen and (min-width: 450px) {
 			#rank_svg {
 				margin-top: -325px;
@@ -451,6 +472,13 @@
 				margin-bottom: 30px;
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
+
+			#word_spiral{
+				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
+				width: 100%;
+			}
+
+
 		}
 	</style>
 
@@ -1036,6 +1064,7 @@
 							document.getElementById('word_spiral_counter_id').innerHTML = parseInt(document.getElementById('word_spiral_counter_id').innerHTML) + 1;
 							console.log(document.getElementById('word_spiral_counter_id').innerHTML);
 							console.log('All loaded');
+							document.getElementById('final_img').style.visibility=visible;
 						});
 					}
 				}
