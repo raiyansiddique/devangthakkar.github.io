@@ -95,6 +95,9 @@
 			background: #535;
 		}
 
+		.preload {
+			display: none;
+		}
 
 		#main_div {
 			width: 100%;
@@ -440,7 +443,7 @@
 		}
 		@media only screen and (min-width: 768px) {
 			html {
-				background-image: url('https://www.devangthakkar.com/design/assets/bg_blur.png');
+				background-image: url('assets/bg_blur.png');
 				background-size: 600px 515px;
 				background-repeat: repeat;
 			}
@@ -514,6 +517,7 @@
 </head>
 
 <body>
+	<img src='assets/bg_blur.png' id='preload_id' class='preload'/>
 	<div id='main_div'>
 
 		<section id='intro'>
@@ -853,11 +857,11 @@
 			document.getElementById('title').innerHTML = 'Loss in Translation';
 			var img = new Image();
 			img.onload = function() {
-				document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
+				document.getElementsByTagName('html')[0].style.backgroundImage='url("assets/bg.png")';
 				document.getElementById('main_div').style.backgroundColor='rgba(255, 255, 255, .5)';
 				document.getElementById('word_chains').style.backgroundColor='rgba(255, 255, 255, .5)';
 			};
-			img.src = 'https://www.devangthakkar.com/design/assets/bg.png';
+			img.src = 'assets/bg.png';
 		}
 
 		// async load bg if screen width > 992
@@ -865,13 +869,13 @@
 		if (jmediaquery2.matches) {
 			var img = new Image();
 			img.onload = function() {
-				document.getElementsByTagName('html')[0].style.backgroundImage='url("https://www.devangthakkar.com/design/assets/bg.png")';
+				document.getElementsByTagName('html')[0].style.backgroundImage='url("assets/bg.png")';
 				document.getElementById('main_div').style.boxShadow='0px 0px 10px 10px rgba(255, 255, 255, .5)';
 				document.getElementById('main_div').style.backgroundColor='rgba(255, 255, 255, .5)';
 				document.getElementById('word_chains').style.boxShadow='0px 0px 10px 10px rgba(255, 255, 255, .5)';
 				document.getElementById('word_chains').style.backgroundColor='rgba(255, 255, 255, .5)';
 			};
-			img.src = 'https://www.devangthakkar.com/design/assets/bg.png';
+			img.src = 'assets/bg.png';
 		}
 
 		// change highlight on rank plot based on dropdown
