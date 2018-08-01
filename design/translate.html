@@ -1107,4 +1107,41 @@
 			});
 		});
 	</script>
+
+	<script type='text/javascript'>
+	
+		// adding left right functionality
+
+		function changeImage(dir) {
+
+			var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
+			var current_image = 'Layer_'.concat(current_image_num);
+			console.log(current_image);
+			document.getElementById('final_img').contentDocument.getElementById(current_image).style.opacity = '0.0';
+			var new_image_num = 1;
+			if (current_image == 'Layer_1' && dir == '-1') {
+				new_image_num = '103';
+			}
+			else if (current_image == 'Layer_103' && dir == '1') {
+				new_image_num = '1';
+			}
+			else {
+				new_image_num = parseInt(current_image_num, 10)+parseInt(dir, 10);
+			}
+
+			document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
+			var new_image = 'Layer_'.concat(new_image_num);
+			console.log(new_image);
+			document.getElementById('final_img').contentDocument.getElementById(new_image).style.opacity = '1.0';		}
+
+		document.onkeyup = function(e) {
+			e = e || window.event;
+			if (e.keyCode == '37') {
+				changeImage('-1') //left <- show Prev image
+			} else if (e.keyCode == '39') {
+				// right -> show next image
+				changeImage('1')
+			}
+		}
+	</script>
 </body>
