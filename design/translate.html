@@ -1117,7 +1117,7 @@
 			var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
 			var current_image = 'Layer_'.concat(current_image_num);
 			console.log(current_image);
-			console.log(getElementById('final_img').contentDocument);
+			console.log(document.getElementById('final_img').contentDocument);
 			document.getElementById('final_img').contentDocument.getElementById(current_image).style.opacity = '0.0';
 			var new_image_num = 1;
 			if (current_image == 'Layer_1' && dir == '-1') {
