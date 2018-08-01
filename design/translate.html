@@ -1117,8 +1117,10 @@
 			var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
 			var current_image = 'Layer_'.concat(current_image_num);
 			console.log(current_image);
-			console.log(document.getElementById('final_img').getSVGDocument());
-			document.getElementById('final_img').contentDocument.getElementById(current_image).style.opacity = '0.0';
+			console.log(document.getElementById('final_img').getSVGDocument().childNodes[1]);
+			var svg_doc = document.getElementById('final_img').getSVGDocument().childNodes[1];
+			console.log(svg_doc.getElementById(current_image));
+			svg_doc.getElementById(current_image).style.opacity = '0.0';
 			var new_image_num = 1;
 			if (current_image == 'Layer_1' && dir == '-1') {
 				new_image_num = '103';
@@ -1133,7 +1135,7 @@
 			document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
 			var new_image = 'Layer_'.concat(new_image_num);
 			console.log(new_image);
-			document.getElementById('final_img').contentDocument.getElementById(new_image).style.opacity = '1.0';
+			svg_doc.getElementById(new_image).style.opacity = '1.0';
 		}
 
 		document.onkeyup = function(e) {
