@@ -1117,7 +1117,8 @@
 			var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
 			var current_image = 'Layer_'.concat(current_image_num);
 			console.log(current_image);
-			document.getElementById(current_image).style.opacity = '0.0';
+			console.log(getElementById('final_img').contentDocument);
+			document.getElementById('final_img').contentDocument.getElementById(current_image).style.opacity = '0.0';
 			var new_image_num = 1;
 			if (current_image == 'Layer_1' && dir == '-1') {
 				new_image_num = '103';
@@ -1132,7 +1133,7 @@
 			document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
 			var new_image = 'Layer_'.concat(new_image_num);
 			console.log(new_image);
-			document.getElementById(new_image).style.opacity = '1.0';		}
+			document.getElementById('final_img').contentDocument.getElementById(new_image).style.opacity = '1.0';		}
 
 		document.onkeyup = function(e) {
 			e = e || window.event;
