@@ -5,6 +5,7 @@
  width='697px' height='697px' viewBox='0 0 697 697' enable-background='new 0 0 697 697' xml:space='preserve'>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 #tooltip {
 dominant-baseline: hanging; 
 }</style>
