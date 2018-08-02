@@ -825,9 +825,9 @@
 
 		<div id='word_spiral' text-align='centre'>
 			<p id='word_spiral_counter_id' class='word_spiral_counter'>1</p>
-			<img class='placeholder' id='placeholder_id' src='assets/chain_temp.svg'/>
-			<embed src='assets/chain_invis.svg' class='top_image' id='top_img' type='image/svg+xml'/>
-			<embed src='' class='final_image' id='final_img' type='image/svg+xml' lsrc='assets/chain_blend_final.svg'/>
+			<img class='placeholder' id='placeholder_id' src='assets/chain_temp.svg' onclick='changeImage("1")'/>
+			<embed src='assets/chain_invis.svg' class='top_image' id='top_img' type='image/svg+xml' onclick='changeImage("1")'/>
+			<embed src='' class='final_image' id='final_img' type='image/svg+xml' lsrc='assets/chain_blend_final.svg' onclick='changeImage("1")'/>
 		</div>
 
 		<div id='post_spiral' text-align='centre'>
@@ -1134,11 +1134,6 @@
 			var new_image = 'Layer_'.concat(new_image_num);
 			console.log(new_image);
 			svg_doc.getElementById(new_image).style.opacity = '1.0';
-		}
-
-		document.getElementById('final_img').onclick = function() {
-			console.log('right');
-			changeImage('1');
 		}
 
 		document.onkeyup = function(e) {
