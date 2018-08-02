@@ -1217,12 +1217,12 @@
 
 				var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
 				var current_image = 'Layer_'.concat(current_image_num);
-				svg.getElementById(current_image).style.visibility = 'hidden';
+				svg.getElementById(current_image).style.opacity = '0.0';
 				var new_image_num = id.replace('n', '').replace('r', '');
 
 				document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
 				var new_image = 'Layer_'.concat(new_image_num);
-				svg.getElementById(new_image).style.visibility = 'visible';
+				svg.getElementById(new_image).style.opacity = '1.0';
 			}
 		});
 	</script>
