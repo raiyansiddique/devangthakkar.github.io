@@ -533,7 +533,6 @@
 			Languages do not always have a one-to-one correspondence, meaning that (i) not every word in a given language may have a befitting analog in every other language, and (ii) some words in a language may be translated into multiple equally appropriate words in other languages. I examine this correspondence by analysing the translations of the top 1000 nouns as enumerated in the Corpus of Contemporary American English. (More about the implementation and the limitations in the methodology section.) To understand better what I’m trying to put forth, check out the demonstration of imperfect circular translations below.<br/><br/></p>
 
 			<p id='word_chain_counter_id' class='word_chain_counter'>0</p>
-
 		</section>
 
 		<div id='word_chains' text-align='center'>
@@ -587,7 +586,6 @@
 			</div>
 
 			<p class='wc_caption'>Figure 1. The chain follows the trajectory of a word as it is translated back and forth. The top arcs represent the translation from English to the other language, while the bottom arcs represent the translation back to English. The final word in the chain gets translated to a word that already exists in the chain.</p>
-
 		</div>
 
 		<section id='post_wc'>
@@ -813,7 +811,6 @@
 			</svg>
 
 			<p id='rank_caption_id' class='rank_caption'>Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for the top 1000 nouns for that language. Choose a family from the dropdown to see where its members stand in this ranking.</p>
-
 		</div>
 
 		<section id='post_rank'>
@@ -848,7 +845,7 @@
 		</div>
 	</div>
 
-	<script>
+	<script type='text/javascript' desc='media queries'>
 
 		// remove br if screen width > 600
 		var jmediaquery1 = window.matchMedia('(min-width: 600px)');
@@ -876,6 +873,9 @@
 			};
 			img.src = 'assets/bg.png';
 		}
+	</script>
+
+	<script type='text/javascript' desc='change rank plot based on dropdown'>
 
 		// change highlight on rank plot based on dropdown
 		function setHighlight(select) {
@@ -894,6 +894,9 @@
 			
 			document.getElementById('lang'.concat(sel_num.toString())).style.stroke='#505';
 		};
+	</script>
+
+	<script type='text/javascript' desc='change word chain on button'>
 
 		// change image on button press
 		const translations = [
@@ -1034,10 +1037,9 @@
 				document.getElementById('t4o').textContent = chain[6];
 			}
 		};
-
 	</script>
 
-	<script type='text/javascript'>
+	<script type='text/javascript' desc='hover over rank plot'>
 
 		// add hovering capabilities to rank plot if width > 600
 
@@ -1078,9 +1080,10 @@
 		}
 	</script>
 
-	<script src='assets/js/jquery-3.3.1.min.js'></script>
+	<script src='assets/js/jquery-3.3.1.min.js'>
+	</script>
 
-	<script type='text/javascript'>
+	<script type='text/javascript' desc='async load blend svg'>
 
 		// async loading
 		$(window).on('load', function(){
@@ -1105,10 +1108,9 @@
 		});
 	</script>
 
-	<script type='text/javascript'>
+	<script type='text/javascript' desc='left right for word spiral svg'>
 	
 		// adding left right functionality
-
 		function changeImage(dir) {
 
 			var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
@@ -1146,13 +1148,12 @@
 				changeImage('1')
 			}
 		});
-
 	</script>
 
-	<script type='text/javascript'>
+	<script type='text/javascript' desc='hover over nav dot'>
 
+		// add hovering capabilities to nav dots using opacity 0 of img0
 		document.getElementById('final_img').addEventListener('load', function() {
-			// add hovering capabilities to nav dots using opacity 0 of img0
 
 			var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
 
@@ -1195,7 +1196,7 @@
 		});
 	</script>
 
-	<script type='text/javascript'>
+	<script type='text/javascript' desc='jump to nav dot'>
 
 		// jump to nav dot
 
