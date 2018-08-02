@@ -1136,6 +1136,12 @@
 			svg_doc.getElementById(new_image).style.opacity = '1.0';
 		}
 
+		$(document).on('click', function{
+			var press = jQuery.Event("keypress");
+			press.ctrlKey = false;
+			press.which = 39;
+			$(document).trigger(press);
+		})
 		$(document).on('keyup', function(e) {
 			e = e || window.event;
 			if (e.keyCode == '37') {
