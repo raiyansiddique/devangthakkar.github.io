@@ -1096,8 +1096,6 @@
 						img.src = lsrc;
 						$(img).on('load', function() {
 							this_image.src = this.src;
-							document.getElementById('word_spiral_counter_id').innerHTML = parseInt(document.getElementById('word_spiral_counter_id').innerHTML) + 1;
-							console.log(document.getElementById('word_spiral_counter_id').innerHTML);
 							console.log('All loaded');
 							$('#final_img').css('visibility', 'visible');
 							$('#placeholder_id').css('visibility', 'hidden');
