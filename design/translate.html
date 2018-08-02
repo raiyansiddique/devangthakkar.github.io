@@ -1136,7 +1136,7 @@
 			svg_doc.getElementById(new_image).style.opacity = '1.0';
 		}
 
-		document.onkeyup = function(e) {
+		$(document).on('keyup', function(e) {
 			e = e || window.event;
 			if (e.keyCode == '37') {
 				console.log('left');
@@ -1146,6 +1146,17 @@
 				console.log('right');
 				changeImage('1')
 			}
-		}
+		});
+		// document.onkeyup = function(e) {
+		// 	e = e || window.event;
+		// 	if (e.keyCode == '37') {
+		// 		console.log('left');
+		// 		changeImage('-1') //left <- show Prev image
+		// 	} else if (e.keyCode == '39') {
+		// 		// right -> show next image
+		// 		console.log('right');
+		// 		changeImage('1')
+		// 	}
+		// }
 	</script>
 </body>
