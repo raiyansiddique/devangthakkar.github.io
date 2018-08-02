@@ -121,7 +121,7 @@ dominant-baseline: hanging;
 </g>
 
 
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n1' opacity='0.5' cx='87' cy='50' r='2.5' t='Afrikaans (af)'/>
 <circle class='n' id='n2' opacity='0.5' cx='97' cy='50' r='2.5' t='Albanian (sq)'/>
 <circle class='n' id='n3' opacity='0.5' cx='107' cy='50' r='2.5' t='Amharic (am)'/>
@@ -228,15 +228,15 @@ dominant-baseline: hanging;
 </g>
 
 <g>
-<text x='84' y='660' fill='#781b7a' font-family="'Nunito'" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>Chain length: </text>
+<text x='84' y='660' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>Chain length: </text>
 <circle fill='#f3f' opacity='0.2' stroke='#606' cx='200' cy='655' r='5.5'/>
-<text x='210' y='660' fill='#781b7a' font-family="'Nunito'" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>1</text>
+<text x='210' y='660' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>1</text>
 <circle fill='#c3c' opacity='0.4' stroke='#606' cx='235' cy='655' r='5.5'/>
-<text x='245' y='660' fill='#781b7a' font-family="'Nunito'" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>2</text>
+<text x='245' y='660' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>2</text>
 <circle fill='#707' opacity='0.6' stroke='#606' cx='270' cy='655' r='5.5'/>
-<text x='280' y='660' fill='#781b7a' font-family="'Nunito'" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>3</text>
+<text x='280' y='660' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>3</text>
 <circle fill='#606' opacity='0.8' stroke='#606' cx='305' cy='655' r='5.5'/>
-<text x='315' y='660' fill='#781b7a' font-family="'Nunito'" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>4 or more</text>
+<text x='315' y='660' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>4 or more</text>
 </g><g id='Layer_1' opacity='1.0'>
 <g stroke-width='.44'>
 <g opacity='.2' fill='#f3f'>
@@ -423,17 +423,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n1' opacity='1.0' cx='87' cy='50' r='2.5' t='Afrikaans (af)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Afrikaans [af]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Afrikaans [af]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_2' opacity='0.0'>
@@ -659,17 +659,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n2' opacity='1.0' cx='97' cy='50' r='2.5' t='Albanian (sq)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Albanian [sq]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Albanian [sq]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_3' opacity='0.0'>
@@ -1088,17 +1088,17 @@ dominant-baseline: hanging;
 <circle id='w933' opacity='.8' fill='#606' cx='162.55' cy='499.78' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n3' opacity='1.0' cx='107' cy='50' r='2.5' t='Amharic (am)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Amharic [am]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Amharic [am]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_4' opacity='0.0'>
@@ -1529,17 +1529,17 @@ dominant-baseline: hanging;
 <circle id='w884' cx='230.41' cy='139.02' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n4' opacity='1.0' cx='117' cy='50' r='2.5' t='Arabic (ar)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Arabic [ar]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Arabic [ar]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_5' opacity='0.0'>
@@ -1952,17 +1952,17 @@ dominant-baseline: hanging;
 <circle id='w995' opacity='.8' fill='#606' cx='583.65' cy='402.24' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n5' opacity='1.0' cx='127' cy='50' r='2.5' t='Armenian (hy)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Armenian [hy]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Armenian [hy]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_6' opacity='0.0'>
@@ -2260,17 +2260,17 @@ dominant-baseline: hanging;
 <circle id='w999' opacity='.8' fill='#606' cx='590.04' cy='368.58' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n6' opacity='1.0' cx='137' cy='50' r='2.5' t='Azerbaijani (az)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Azerbaijani [az]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Azerbaijani [az]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_7' opacity='0.0'>
@@ -2548,17 +2548,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n7' opacity='1.0' cx='147' cy='50' r='2.5' t='Basque (eu)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Basque [eu]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Basque [eu]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_8' opacity='0.0'>
@@ -2806,17 +2806,17 @@ dominant-baseline: hanging;
 <circle id='w488' opacity='.8' fill='#606' cx='258.77' cy='493.76' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n8' opacity='1.0' cx='157' cy='50' r='2.5' t='Belarusian (be)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Belarusian [be]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Belarusian [be]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_9' opacity='0.0'>
@@ -3195,17 +3195,17 @@ dominant-baseline: hanging;
 <circle id='w986' cx='552.76' cy='472.68' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n9' opacity='1.0' cx='167' cy='50' r='2.5' t='Bengali (bn)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Bengali [bn]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Bengali [bn]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_10' opacity='0.0'>
@@ -3391,17 +3391,17 @@ dominant-baseline: hanging;
 <circle id='w335' cx='260.86' cy='225.88' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n10' opacity='1.0' cx='177' cy='50' r='2.5' t='Bosnian (bs)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Bosnian [bs]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Bosnian [bs]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_11' opacity='0.0'>
@@ -3613,17 +3613,17 @@ dominant-baseline: hanging;
 <circle id='w398' opacity='.8' fill='#606' cx='481.46' cy='416.18' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n11' opacity='1.0' cx='187' cy='50' r='2.5' t='Bulgarian (bg)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Bulgarian [bg]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Bulgarian [bg]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_12' opacity='0.0'>
@@ -3838,17 +3838,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n12' opacity='1.0' cx='197' cy='50' r='2.5' t='Catalan (ca)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Catalan [ca]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Catalan [ca]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_13' opacity='0.0'>
@@ -4199,17 +4199,17 @@ dominant-baseline: hanging;
 <circle id='w942' cx='220.85' cy='549.94' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n13' opacity='1.0' cx='207' cy='50' r='2.5' t='Cebuano (ceb)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Cebuano [ceb]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Cebuano [ceb]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_14' opacity='0.0'>
@@ -4868,17 +4868,17 @@ dominant-baseline: hanging;
 <circle id='w938' cx='192.95' cy='529.97' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n14' opacity='1.0' cx='217' cy='50' r='2.5' t='Chichewa (ny)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Chichewa [ny]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Chichewa [ny]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_15' opacity='0.0'>
@@ -5148,17 +5148,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n15' opacity='1.0' cx='227' cy='50' r='2.5' t='Chinese Traditional (zh-TW)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Chinese Traditional [zh-TW]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Chinese Traditional [zh-TW]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_16' opacity='0.0'>
@@ -5428,17 +5428,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n16' opacity='1.0' cx='237' cy='50' r='2.5' t='Chinese (zh-CN)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Chinese [zh-CN]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Chinese [zh-CN]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_17' opacity='0.0'>
@@ -5778,17 +5778,17 @@ dominant-baseline: hanging;
 <circle id='w885' cx='222.92' cy='143.21' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n17' opacity='1.0' cx='247' cy='50' r='2.5' t='Corsican (co)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Corsican [co]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Corsican [co]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_18' opacity='0.0'>
@@ -5998,17 +5998,17 @@ dominant-baseline: hanging;
 <circle id='w100' cx='270.24' cy='316.83' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n18' opacity='1.0' cx='257' cy='50' r='2.5' t='Croatian (hr)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Croatian [hr]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Croatian [hr]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_19' opacity='0.0'>
@@ -6211,17 +6211,17 @@ dominant-baseline: hanging;
 <circle id='w433' cx='372.4' cy='182.49' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n19' opacity='1.0' cx='267' cy='50' r='2.5' t='Czech (cs)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Czech [cs]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Czech [cs]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_20' opacity='0.0'>
@@ -6408,17 +6408,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n20' opacity='1.0' cx='277' cy='50' r='2.5' t='Danish (da)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Danish [da]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Danish [da]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_21' opacity='0.0'>
@@ -6598,17 +6598,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n21' opacity='1.0' cx='287' cy='50' r='2.5' t='Dutch (nl)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Dutch [nl]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Dutch [nl]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_22' opacity='0.0'>
@@ -6835,17 +6835,17 @@ dominant-baseline: hanging;
 <circle id='w919' cx='111.08' cy='392.67' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n22' opacity='1.0' cx='297' cy='50' r='2.5' t='Esperanto (eo)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Esperanto [eo]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Esperanto [eo]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_23' opacity='0.0'>
@@ -7312,17 +7312,17 @@ dominant-baseline: hanging;
 <circle id='w491' cx='281.81' cy='505.12' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n23' opacity='1.0' cx='307' cy='50' r='2.5' t='Estonian (et)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Estonian [et]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Estonian [et]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_24' opacity='0.0'>
@@ -7536,17 +7536,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n24' opacity='1.0' cx='317' cy='50' r='2.5' t='Filipino (tl)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Filipino [tl]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Filipino [tl]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_25' opacity='0.0'>
@@ -7773,17 +7773,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n25' opacity='1.0' cx='327' cy='50' r='2.5' t='Finnish (fi)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Finnish [fi]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Finnish [fi]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_26' opacity='0.0'>
@@ -7981,17 +7981,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n26' opacity='1.0' cx='337' cy='50' r='2.5' t='French (fr)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>French [fr]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>French [fr]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_27' opacity='0.0'>
@@ -8245,17 +8245,17 @@ dominant-baseline: hanging;
 <circle id='w832' cx='567.61' cy='312.5' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n27' opacity='1.0' cx='347' cy='50' r='2.5' t='Frisian (fy)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Frisian [fy]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Frisian [fy]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_28' opacity='0.0'>
@@ -8448,17 +8448,17 @@ dominant-baseline: hanging;
 <circle id='w749' cx='129.19' cy='352.56' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n28' opacity='1.0' cx='357' cy='50' r='2.5' t='Galician (gl)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Galician [gl]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Galician [gl]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_29' opacity='0.0'>
@@ -8813,17 +8813,17 @@ dominant-baseline: hanging;
 <circle id='w819' cx='553.48' cy='421.98' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n29' opacity='1.0' cx='367' cy='50' r='2.5' t='Georgian (ka)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Georgian [ka]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Georgian [ka]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_30' opacity='0.0'>
@@ -9058,17 +9058,17 @@ dominant-baseline: hanging;
 <circle id='w613' cx='185.33' cy='455.24' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n30' opacity='1.0' cx='377' cy='50' r='2.5' t='German (de)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>German [de]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>German [de]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_31' opacity='0.0'>
@@ -9337,17 +9337,17 @@ dominant-baseline: hanging;
 <circle id='w107' cx='269.43' cy='375.89' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n31' opacity='1.0' cx='387' cy='50' r='2.5' t='Greek (el)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Greek [el]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Greek [el]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_32' opacity='0.0'>
@@ -9599,17 +9599,17 @@ dominant-baseline: hanging;
 <circle id='w777' cx='255.11' cy='542.72' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n32' opacity='1.0' cx='397' cy='50' r='2.5' t='Gujarati (gu)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Gujarati [gu]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Gujarati [gu]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_33' opacity='0.0'>
@@ -9887,17 +9887,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n33' opacity='1.0' cx='407' cy='50' r='2.5' t='Haitian Creole (ht)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Haitian Creole [ht]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Haitian Creole [ht]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_34' opacity='0.0'>
@@ -10316,17 +10316,17 @@ dominant-baseline: hanging;
 <circle id='w820' cx='556.48' cy='413.94' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n34' opacity='1.0' cx='417' cy='50' r='2.5' t='Hausa (ha)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hausa [ha]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hausa [ha]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_35' opacity='0.0'>
@@ -11095,17 +11095,17 @@ dominant-baseline: hanging;
 <circle id='w989' cx='565.49' cy='450.32' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n35' opacity='1.0' cx='427' cy='50' r='2.5' t='Hawaiian (haw)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hawaiian [haw]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hawaiian [haw]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_36' opacity='0.0'>
@@ -11428,17 +11428,17 @@ dominant-baseline: hanging;
 <circle id='w369' cx='266.16' cy='471.84' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n36' opacity='1.0' cx='437' cy='50' r='2.5' t='Hebrew (iw)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hebrew [iw]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hebrew [iw]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_37' opacity='0.0'>
@@ -11832,17 +11832,17 @@ dominant-baseline: hanging;
 <circle id='w707' cx='361.78' cy='135.25' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n37' opacity='1.0' cx='447' cy='50' r='2.5' t='Hindi (hi)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hindi [hi]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hindi [hi]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_38' opacity='0.0'>
@@ -12355,17 +12355,17 @@ dominant-baseline: hanging;
 <circle id='w967' cx='427.22' cy='571.9' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n38' opacity='1.0' cx='457' cy='50' r='2.5' t='Hmong (hmn)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hmong [hmn]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hmong [hmn]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_39' opacity='0.0'>
@@ -12590,17 +12590,17 @@ dominant-baseline: hanging;
 <circle id='w378' cx='338.94' cy='495.02' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n39' opacity='1.0' cx='467' cy='50' r='2.5' t='Hungarian (hu)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hungarian [hu]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Hungarian [hu]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_40' opacity='0.0'>
@@ -12906,17 +12906,17 @@ dominant-baseline: hanging;
 <circle id='w851' cx='494.22' cy='170.83' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n40' opacity='1.0' cx='477' cy='50' r='2.5' t='Icelandic (is)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Icelandic [is]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Icelandic [is]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_41' opacity='0.0'>
@@ -13488,17 +13488,17 @@ dominant-baseline: hanging;
 <circle id='w79' cx='408.35' cy='319.44' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n41' opacity='1.0' cx='487' cy='50' r='2.5' t='Igbo (ig)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Igbo [ig]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Igbo [ig]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_42' opacity='0.0'>
@@ -13766,17 +13766,17 @@ dominant-baseline: hanging;
 <circle id='w563' cx='356.19' cy='157.1' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n42' opacity='1.0' cx='497' cy='50' r='2.5' t='Indonesian (id)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Indonesian [id]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Indonesian [id]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_43' opacity='0.0'>
@@ -14000,17 +14000,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n43' opacity='1.0' cx='507' cy='50' r='2.5' t='Irish (ga)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Irish [ga]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Irish [ga]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_44' opacity='0.0'>
@@ -14211,17 +14211,17 @@ dominant-baseline: hanging;
 <circle id='w959' cx='360.11' cy='585.14' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n44' opacity='1.0' cx='517' cy='50' r='2.5' t='Italian (it)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Italian [it]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Italian [it]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_45' opacity='0.0'>
@@ -14440,17 +14440,17 @@ dominant-baseline: hanging;
 <circle id='w753' cx='132.89' cy='386.63' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n45' opacity='1.0' cx='527' cy='50' r='2.5' t='Japanese (ja)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Japanese [ja]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Japanese [ja]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_46' opacity='0.0'>
@@ -14736,17 +14736,17 @@ dominant-baseline: hanging;
 <circle id='w837' cx='558.52' cy='270.62' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n46' opacity='1.0' cx='537' cy='50' r='2.5' t='Javanese (jw)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Javanese [jw]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Javanese [jw]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_47' opacity='0.0'>
@@ -15062,17 +15062,17 @@ dominant-baseline: hanging;
 <circle id='w916' cx='107.45' cy='367.2' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n47' opacity='1.0' cx='547' cy='50' r='2.5' t='Kannada (kn)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kannada [kn]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kannada [kn]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_48' opacity='0.0'>
@@ -15433,17 +15433,17 @@ dominant-baseline: hanging;
 <circle id='w156' cx='303.25' cy='254.15' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n48' opacity='1.0' cx='557' cy='50' r='2.5' t='Kazakh (kk)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kazakh [kk]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kazakh [kk]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_49' opacity='0.0'>
@@ -15883,17 +15883,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n49' opacity='1.0' cx='567' cy='50' r='2.5' t='Khmer (km)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Khmer [km]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Khmer [km]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_50' opacity='0.0'>
@@ -16166,17 +16166,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n50' opacity='1.0' cx='577' cy='50' r='2.5' t='Korean (ko)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Korean [ko]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Korean [ko]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_51' opacity='0.0'>
@@ -16900,17 +16900,17 @@ dominant-baseline: hanging;
 <circle id='w973' cx='473.69' cy='549.96' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n51' opacity='1.0' cx='587' cy='50' r='2.5' t='Kurdish (Kurmanji) (ku)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kurdish (Kurmanji) [ku]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kurdish (Kurmanji) [ku]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_52' opacity='0.0'>
@@ -17442,17 +17442,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n52' opacity='1.0' cx='597' cy='50' r='2.5' t='Kyrgyz (ky)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kyrgyz [ky]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Kyrgyz [ky]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_53' opacity='0.0'>
@@ -17835,17 +17835,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n53' opacity='1.0' cx='87' cy='625' r='2.5' t='Lao (lo)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Lao [lo]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Lao [lo]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_54' opacity='0.0'>
@@ -18181,17 +18181,17 @@ dominant-baseline: hanging;
 <circle id='w771' cx='211.31' cy='515.98' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n54' opacity='1.0' cx='97' cy='625' r='2.5' t='Latin (la)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Latin [la]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Latin [la]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_55' opacity='0.0'>
@@ -18631,17 +18631,17 @@ dominant-baseline: hanging;
 <circle id='w907' cx='113.23' cy='290.56' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n55' opacity='1.0' cx='107' cy='625' r='2.5' t='Latvian (lv)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Latvian [lv]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Latvian [lv]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_56' opacity='0.0'>
@@ -19077,17 +19077,17 @@ dominant-baseline: hanging;
 <circle id='w551' cx='451.25' cy='193.81' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n56' opacity='1.0' cx='117' cy='625' r='2.5' t='Lithuanian (lt)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Lithuanian [lt]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Lithuanian [lt]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_57' opacity='0.0'>
@@ -19377,17 +19377,17 @@ dominant-baseline: hanging;
 <circle id='w605' cx='157.38' cy='392.97' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n57' opacity='1.0' cx='127' cy='625' r='2.5' t='Luxembourgish (lb)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Luxembourgish [lb]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Luxembourgish [lb]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_58' opacity='0.0'>
@@ -19591,17 +19591,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n58' opacity='1.0' cx='137' cy='625' r='2.5' t='Macedonian (mk)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Macedonian [mk]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Macedonian [mk]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_59' opacity='0.0'>
@@ -20076,17 +20076,17 @@ dominant-baseline: hanging;
 <circle id='w711' cx='327.49' cy='134.47' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n59' opacity='1.0' cx='147' cy='625' r='2.5' t='Malagasy (mg)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Malagasy [mg]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Malagasy [mg]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_60' opacity='0.0'>
@@ -20379,17 +20379,17 @@ dominant-baseline: hanging;
 <circle id='w800' cx='445.88' cy='539.58' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n60' opacity='1.0' cx='157' cy='625' r='2.5' t='Malay (ms)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Malay [ms]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Malay [ms]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_61' opacity='0.0'>
@@ -20737,17 +20737,17 @@ dominant-baseline: hanging;
 <circle id='w677' cx='541.85' cy='295.39' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n61' opacity='1.0' cx='167' cy='625' r='2.5' t='Malayalam (ml)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Malayalam [ml]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Malayalam [ml]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_62' opacity='0.0'>
@@ -20932,17 +20932,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n62' opacity='1.0' cx='177' cy='625' r='2.5' t='Maltese (mt)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Maltese [mt]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Maltese [mt]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_63' opacity='0.0'>
@@ -21521,17 +21521,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n63' opacity='1.0' cx='187' cy='625' r='2.5' t='Maori (mi)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Maori [mi]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Maori [mi]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_64' opacity='0.0'>
@@ -21877,17 +21877,17 @@ dominant-baseline: hanging;
 <circle id='w813' cx='529.25' cy='467.27' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n64' opacity='1.0' cx='197' cy='625' r='2.5' t='Marathi (mr)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Marathi [mr]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Marathi [mr]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_65' opacity='0.0'>
@@ -22279,17 +22279,17 @@ dominant-baseline: hanging;
 <circle id='w931' cx='151.99' cy='486.27' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n65' opacity='1.0' cx='207' cy='625' r='2.5' t='Mongolian (mn)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Mongolian [mn]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Mongolian [mn]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_66' opacity='0.0'>
@@ -22557,17 +22557,17 @@ dominant-baseline: hanging;
 <circle id='w989' cx='565.49' cy='450.32' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n66' opacity='1.0' cx='217' cy='625' r='2.5' t='Myanmar (Burmese) (my)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Myanmar (Burmese) [my]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Myanmar (Burmese) [my]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_67' opacity='0.0'>
@@ -22939,17 +22939,17 @@ dominant-baseline: hanging;
 <circle id='w612' cx='180.65' cy='448.05' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n67' opacity='1.0' cx='227' cy='625' r='2.5' t='Nepali (ne)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Nepali [ne]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Nepali [ne]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_68' opacity='0.0'>
@@ -23117,17 +23117,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n68' opacity='1.0' cx='237' cy='625' r='2.5' t='Norwegian (no)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Norwegian [no]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Norwegian [no]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_69' opacity='0.0'>
@@ -23645,17 +23645,17 @@ dominant-baseline: hanging;
 <circle id='w992' cx='575.82' cy='426.77' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n69' opacity='1.0' cx='247' cy='625' r='2.5' t='Pashto (ps)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Pashto [ps]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Pashto [ps]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_70' opacity='0.0'>
@@ -24032,17 +24032,17 @@ dominant-baseline: hanging;
 <circle id='w929' cx='142.43' cy='472.05' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n70' opacity='1.0' cx='257' cy='625' r='2.5' t='Persian (fa)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Persian [fa]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Persian [fa]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_71' opacity='0.0'>
@@ -24232,17 +24232,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n71' opacity='1.0' cx='267' cy='625' r='2.5' t='Polish (pl)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Polish [pl]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Polish [pl]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_72' opacity='0.0'>
@@ -24471,17 +24471,17 @@ dominant-baseline: hanging;
 <circle id='w942' cx='220.85' cy='549.94' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n72' opacity='1.0' cx='277' cy='625' r='2.5' t='Portuguese (pt)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Portuguese [pt]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Portuguese [pt]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_73' opacity='0.0'>
@@ -24822,17 +24822,17 @@ dominant-baseline: hanging;
 <circle id='w488' cx='258.77' cy='493.76' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n73' opacity='1.0' cx='287' cy='625' r='2.5' t='Punjabi (pa)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Punjabi [pa]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Punjabi [pa]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_74' opacity='0.0'>
@@ -25061,17 +25061,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n74' opacity='1.0' cx='297' cy='625' r='2.5' t='Romanian (ro)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Romanian [ro]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Romanian [ro]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_75' opacity='0.0'>
@@ -25372,17 +25372,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n75' opacity='1.0' cx='307' cy='625' r='2.5' t='Russian (ru)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Russian [ru]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Russian [ru]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_76' opacity='0.0'>
@@ -25946,17 +25946,17 @@ dominant-baseline: hanging;
 <circle id='w838' cx='555.77' cy='262.5' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n76' opacity='1.0' cx='317' cy='625' r='2.5' t='Samoan (sm)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Samoan [sm]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Samoan [sm]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_77' opacity='0.0'>
@@ -26357,17 +26357,17 @@ dominant-baseline: hanging;
 <circle id='w900' cx='134.66' cy='234.64' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n77' opacity='1.0' cx='327' cy='625' r='2.5' t='Scots Gaelic (gd)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Scots Gaelic [gd]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Scots Gaelic [gd]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_78' opacity='0.0'>
@@ -26704,17 +26704,17 @@ dominant-baseline: hanging;
 <circle id='w885' cx='222.92' cy='143.21' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n78' opacity='1.0' cx='337' cy='625' r='2.5' t='Serbian (sr)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Serbian [sr]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Serbian [sr]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_79' opacity='0.0'>
@@ -27335,17 +27335,17 @@ dominant-baseline: hanging;
 <circle id='w990' cx='569.2' cy='442.59' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n79' opacity='1.0' cx='347' cy='625' r='2.5' t='Sesotho (st)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sesotho [st]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sesotho [st]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_80' opacity='0.0'>
@@ -27857,17 +27857,17 @@ dominant-baseline: hanging;
 <circle id='w509' cx='431.06' cy='496.42' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n80' opacity='1.0' cx='357' cy='625' r='2.5' t='Shona (sn)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Shona [sn]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Shona [sn]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_81' opacity='0.0'>
@@ -28429,17 +28429,17 @@ dominant-baseline: hanging;
 <circle id='w974' cx='480.93' cy='545.38' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n81' opacity='1.0' cx='367' cy='625' r='2.5' t='Sindhi (sd)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sindhi [sd]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sindhi [sd]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_82' opacity='0.0'>
@@ -28859,17 +28859,17 @@ dominant-baseline: hanging;
 <circle id='w963' cx='394.35' cy='580.95' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n82' opacity='1.0' cx='377' cy='625' r='2.5' t='Sinhala (si)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sinhala [si]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sinhala [si]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_83' opacity='0.0'>
@@ -29191,17 +29191,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n83' opacity='1.0' cx='387' cy='625' r='2.5' t='Slovak (sk)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Slovak [sk]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Slovak [sk]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_84' opacity='0.0'>
@@ -29433,17 +29433,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n84' opacity='1.0' cx='397' cy='625' r='2.5' t='Slovenian (sl)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Slovenian [sl]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Slovenian [sl]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_85' opacity='0.0'>
@@ -29904,17 +29904,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n85' opacity='1.0' cx='407' cy='625' r='2.5' t='Somali (so)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Somali [so]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Somali [so]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_86' opacity='0.0'>
@@ -30132,17 +30132,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n86' opacity='1.0' cx='417' cy='625' r='2.5' t='Spanish (es)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Spanish [es]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Spanish [es]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_87' opacity='0.0'>
@@ -30445,17 +30445,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n87' opacity='1.0' cx='427' cy='625' r='2.5' t='Sundanese (su)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sundanese [su]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Sundanese [su]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_88' opacity='0.0'><g stroke-width='.44'>
@@ -30859,17 +30859,17 @@ dominant-baseline: hanging;
 <circle id='w147' cx='378.39' cy='254.99' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n88' opacity='1.0' cx='437' cy='625' r='2.5' t='Swahili (sw)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Swahili [sw]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Swahili [sw]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_89' opacity='0.0'>
@@ -31032,17 +31032,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n89' opacity='1.0' cx='447' cy='625' r='2.5' t='Swedish (sv)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Swedish [sv]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Swedish [sv]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_90' opacity='0.0'>
@@ -31491,17 +31491,17 @@ dominant-baseline: hanging;
 <circle id='w918' cx='109.56' cy='384.22' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n90' opacity='1.0' cx='457' cy='625' r='2.5' t='Tajik (tg)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Tajik [tg]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Tajik [tg]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_91' opacity='0.0'>
@@ -31925,17 +31925,17 @@ dominant-baseline: hanging;
 <circle id='w886' cx='215.59' cy='147.67' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n91' opacity='1.0' cx='467' cy='625' r='2.5' t='Tamil (ta)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Tamil [ta]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Tamil [ta]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_92' opacity='0.0'>
@@ -32230,17 +32230,17 @@ dominant-baseline: hanging;
 <circle id='w465' cx='175.36' cy='326.86' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n92' opacity='1.0' cx='477' cy='625' r='2.5' t='Telugu (te)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Telugu [te]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Telugu [te]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_93' opacity='0.0'>
@@ -32536,17 +32536,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n93' opacity='1.0' cx='487' cy='625' r='2.5' t='Thai (th)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Thai [th]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Thai [th]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_94' opacity='0.0'>
@@ -32796,17 +32796,17 @@ dominant-baseline: hanging;
 <circle id='w948' cx='267.25' cy='571.95' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n94' opacity='1.0' cx='497' cy='625' r='2.5' t='Turkish (tr)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Turkish [tr]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Turkish [tr]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_95' opacity='0.0'>
@@ -33017,17 +33017,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n95' opacity='1.0' cx='507' cy='625' r='2.5' t='Ukrainian (uk)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Ukrainian [uk]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Ukrainian [uk]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_96' opacity='0.0'>
@@ -33399,17 +33399,17 @@ dominant-baseline: hanging;
 <circle id='w460' cx='185.68' cy='285.34' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n96' opacity='1.0' cx='517' cy='625' r='2.5' t='Urdu (ur)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Urdu [ur]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Urdu [ur]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_97' opacity='0.0'>
@@ -33798,17 +33798,17 @@ dominant-baseline: hanging;
 <circle id='w686' cx='511.51' cy='224.89' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n97' opacity='1.0' cx='527' cy='625' r='2.5' t='Uzbek (uz)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Uzbek [uz]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Uzbek [uz]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_98' opacity='0.0'>
@@ -34130,17 +34130,17 @@ dominant-baseline: hanging;
 <circle id='w898' cx='143.34' cy='219.82' r='5.5'/>
 <circle id='w913' cx='106.1' cy='341.52' r='5.5'/></g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n98' opacity='1.0' cx='537' cy='625' r='2.5' t='Vietnamese (vi)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Vietnamese [vi]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Vietnamese [vi]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_99' opacity='0.0'>
@@ -34366,17 +34366,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n99' opacity='1.0' cx='547' cy='625' r='2.5' t='Welsh (cy)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Welsh [cy]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Welsh [cy]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_100' opacity='0.0'>
@@ -34901,17 +34901,17 @@ dominant-baseline: hanging;
 <circle id='w450' cx='235.48' cy='216.64' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n100' opacity='1.0' cx='557' cy='625' r='2.5' t='Xhosa (xh)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Xhosa [xh]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Xhosa [xh]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_101' opacity='0.0'>
@@ -35087,17 +35087,17 @@ dominant-baseline: hanging;
 <g opacity='.8' fill='#606'>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n101' opacity='1.0' cx='567' cy='625' r='2.5' t='Yiddish (yi)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Yiddish [yi]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Yiddish [yi]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_102' opacity='0.0'>
@@ -35571,17 +35571,17 @@ dominant-baseline: hanging;
 <circle id='w970' cx='451.02' cy='562.17' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n102' opacity='1.0' cx='577' cy='625' r='2.5' t='Yoruba (yo)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Yoruba [yo]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Yoruba [yo]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 <g id='Layer_103' opacity='0.0'>
@@ -36048,17 +36048,17 @@ dominant-baseline: hanging;
 <circle id='w979' cx='514.54' cy='518.8' r='5.5'/>
 </g>
 </g>
-<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g fill='#781b7a' stroke='#781b7a' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n103' opacity='1.0' cx='587' cy='625' r='2.5' t='Zulu (zu)'/>
 </g>
-<text x='84' y='90' fill='#781b7a' font-family="'Nunito'" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Zulu [zu]</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='17' stroke='none' stroke-miterlimit='10' id='language'>Zulu [zu]</text>
 <g id='tooltip' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-box'/>
-<text x='4' y='4' id='tooltip-text' font-family="'Nunito'" fill='#ffb'>Tooltip</text>
+<text x='4' y='4' id='tooltip-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip</text>
 </g>
 <g id='tooltip_word' visibility='hidden'>
 <rect width='40' height='24' fill='#781b7a' rx='4' ry='4' id='tooltip-word-box'/>
-<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito'" fill='#ffb'>Tooltip word</text>
+<text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
 </svg>

@@ -1118,7 +1118,7 @@ dominant-baseline: hanging;
 <rect class='r' id='r103' x='582' y='620' width='10' height='10' t='Zulu (zu)'/>
 </g>
 
-<g opacity='0' fill='#ffb' stroke='#ffb' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito'">
+<g opacity='0' fill='#ffb' stroke='#ffb' stroke-miterlimit='10' stroke-width='.5' font-family="'Nunito', sans-serif">
 <circle class='n' id='n1' cx='87' cy='50' r='2.5' t='Afrikaans (af)'/>
 <circle class='n' id='n2' cx='97' cy='50' r='2.5' t='Albanian (sq)'/>
 <circle class='n' id='n3' cx='107' cy='50' r='2.5' t='Amharic (am)'/>
@@ -1226,6 +1226,6 @@ dominant-baseline: hanging;
 
 <g id='tooltip' visibility='hidden' >
 <rect width='40' height='24' fill='#eae' rx='4' ry='4' id='tooltip-box'/>
-<text x='5' y='3' id='tooltip-text' font-family='"Nunito"' fill='#fff'>Tooltip</text>
+<text x='5' y='3' id='tooltip-text' font-family='"Nunito", sans-serif' fill='#fff'>Tooltip</text>
 </g>
 </svg>
