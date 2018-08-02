@@ -1052,11 +1052,11 @@
 			var triggers_rank = svg_rank.getElementsByTagName('line');
 
 			for (var i = 0; i < triggers_rank.length; i++) {
-				triggers_rank[i].addEventListener('mousemove', showTooltip);
-				triggers_rank[i].addEventListener('mouseout', hideTooltip);
+				triggers_rank[i].addEventListener('mousemove', showTooltip_rank);
+				triggers_rank[i].addEventListener('mouseout', hideTooltip_rank);
 			}
 
-			function showTooltip(evt) {
+			function showTooltip_rank(evt) {
 				var CTM_rank = svg_rank.getScreenCTM();
 				var length_rank = rank_tooltipText.getComputedTextLength();
 				var x_rank = (evt.clientX - CTM_rank.e - length_rank/2) / CTM_rank.a;
@@ -1071,7 +1071,7 @@
 				}
 			}
 
-			function hideTooltip(evt) {
+			function hideTooltip_rank(evt) {
 				rank_tooltip.setAttributeNS(null, 'visibility', 'hidden');
 			}
 
@@ -1155,24 +1155,24 @@
 		var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
 
 		var tooltip = svg.getElementById('tooltip');
-		// console.log(svg);
-		// console.log(tooltip);
+		console.log(svg);
+		console.log(tooltip);
 		var tooltipText = tooltip.getElementsByTagName('text')[0];
 
 		var triggers_rect = svg.getElementsByClassName('r');
 		var triggers_dots = svg.getElementsByClassName('n');
 
 		for (var i = 0; i < triggers_rect.length; i++) {
-			triggers_rect[i].addEventListener('mousemove', showTooltip);
-			triggers_rect[i].addEventListener('mouseout', hideTooltip);
+			triggers_rect[i].addEventListener('mousemove', showTooltip_word);
+			triggers_rect[i].addEventListener('mouseout', hideTooltip_word);
 		}
 
 		for (var i = 0; i < triggers_dots.length; i++) {
-			triggers_dots[i].addEventListener('mousemove', showTooltip);
-			triggers_dots[i].addEventListener('mouseout', hideTooltip);
+			triggers_dots[i].addEventListener('mousemove', showTooltip_word);
+			triggers_dots[i].addEventListener('mouseout', hideTooltip_word);
 		}
 
-		function showTooltip(evt) {
+		function showTooltip_word(evt) {
 			var CTM = svg.getScreenCTM();
 			var length = tooltipText.getComputedTextLength();
 			var x = (evt.clientX - CTM.e - length/2) / CTM.a;
@@ -1187,8 +1187,36 @@
 			}
 		}
 
-		function hideTooltip(evt) {
+		function hideTooltip_word(evt) {
 			tooltip.setAttributeNS(null, 'visibility', 'hidden');
 		}
+	</script>
+
+	<script type='text/javascript'>
+
+	// 	// jump to nav dot
+	// 	var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
+	// 	var clickable_rect = svg.getElementsByClassName('r');
+	// 	var clickable_dots = svg.getElementsByClassName('n');
+
+	// 	for(var i=0;i<clickable_rect.length;i++) {
+	// 		clickable_rect[i].addEventListener('click', function() {console.log('rect');console.log(this.id);jump(this.id);});
+	// 	}
+
+	// 	for(var i=0;i<clickable_dots.length;i++) {
+	// 		clickable_dots[i].addEventListener('click', function() {console.log('dots');console.log(this.id);jump(this.id);});
+	// 	}
+
+	// 	function jump(id) {
+
+	// 		var current_image_num = document.getElementById('chain_pointer_id').innerHTML;
+	// 		var current_image = 'img'.concat(current_image_num);
+	// 		document.getElementById(current_image).style.visibility = 'hidden';
+	// 		var new_image_num = id.replace('n', '').replace('r', '');
+
+	// 		document.getElementById('chain_pointer_id').innerHTML = new_image_num;
+	// 		var new_image = 'img'.concat(new_image_num);
+	// 		document.getElementById(new_image).style.visibility = 'visible';
+	// 	}
 	</script>
 </body>
