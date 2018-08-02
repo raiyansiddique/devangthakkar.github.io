@@ -1221,7 +1221,7 @@
 				var new_image_num = id.replace('n', '').replace('r', '');
 
 				document.getElementById('chain_pointer_id').innerHTML = new_image_num;
-				var new_image = 'Layer'.concat(new_image_num);
+				var new_image = 'Layer_'.concat(new_image_num);
 				svg.getElementById(new_image).style.visibility = 'visible';
 			}
 		});
