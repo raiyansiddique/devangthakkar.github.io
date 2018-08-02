@@ -361,7 +361,11 @@
 		}
 
 		.placeholder {
-			background-color: rgba(255, 255, 255, .85);
+			visibility: hidden;
+		}
+
+		.mobile_spiral {
+			visibility: visible;
 			max-width: 100%;
 			position: absolute;
 			top: 0;
@@ -369,23 +373,11 @@
 		}
 
 		.top_image {
-			max-width: 100%;
-			position: absolute;
-			top: 0;
-			left: 0;
-			visibility: visible;
-			z-index: 999;
+			visibility: hidden;
 		}
 
 		.final_image {
-			background-color: rgba(255, 255, 255, .85);
-			max-width: 100%;
-			position: absolute;
-			top: 0;
-			left: 0;
 			visibility: hidden;
-			z-index: 100;
-
 		}
 
 		@media only screen and (min-width: 450px) {
@@ -503,10 +495,36 @@
 			}
 
 			.placeholder {
+				visibility: visible;
+				background-color: rgba(255, 255, 255, .85);
+				max-width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 
+			.mobile_spiral {
+				visibility: hidden;
+			}
+
+			.top_image {
+				visibility: visible;
+				max-width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				visibility: visible;
+				z-index: 999;
+			}
+
 			.final_image {
+				background-color: rgba(255, 255, 255, .85);
+				max-width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 100;
 				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 
@@ -822,6 +840,7 @@
 		<div id='word_spiral' text-align='centre'>
 			<p id='word_spiral_counter_id' class='word_spiral_counter'>1</p>
 			<img class='placeholder' id='placeholder_id' src='assets/chain_temp.svg'/>
+			<img class='mobile_spiral' id='mobile_spiral_id' src='assets/mobile_spiral.png'/>
 			<embed src='assets/chain_invis.svg' class='top_image' id='top_img' type='image/svg+xml'/>
 			<embed src='' class='final_image' id='final_img' type='image/svg+xml' lsrc='assets/chain_blend_final.svg'/>
 		</div>
@@ -845,7 +864,7 @@
 		</div>
 	</div>
 
-	<script type='text/javascript' desc='media queries'>
+	<script type='text/javascript' desc='media queries and load background'>
 
 		// remove br if screen width > 600
 		var jmediaquery1 = window.matchMedia('(min-width: 600px)');
@@ -1043,7 +1062,7 @@
 
 		// add hovering capabilities to rank plot if width > 600
 
-		var jmediaquery3 = window.matchMedia('(min-width: 600px)');
+		var jmediaquery3 = window.matchMedia('(min-width: 768px)');
 		if (jmediaquery3.matches) {
 
 			document.getElementById('rank_caption_id').innerHTML = 'Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for the top 1000 nouns for that language. Choose a family from the dropdown to see where its members stand in this ranking. Hover over the plot to see the language represented by each bar and the corresponding count.';
@@ -1086,26 +1105,29 @@
 	<script type='text/javascript' desc='async load blend svg'>
 
 		// async loading
-		$(window).on('load', function(){
-			$('#final_img').each(function(){
-				console.log("Window loaded; now loading img")
-				var this_image = this;
-				var src = $(this_image).attr('src') || '' ;
-				if(!src.length > 0){
-					var lsrc = $(this_image).attr('lsrc') || '' ;
-					if(lsrc.length > 0){
-						var img = new Image();
-						img.src = lsrc;
-						$(img).on('load', function() {
-							this_image.src = this.src;
-							console.log('All loaded');
-							$('#final_img').css('visibility', 'visible');
-							$('#placeholder_id').css('visibility', 'hidden');
-						});
+		var jmediaquery4 = window.matchMedia('(min-width: 768px)');
+		if (jmediaquery4.matches) {
+			$(window).on('load', function(){
+				$('#final_img').each(function(){
+					console.log("Window loaded; now loading img")
+					var this_image = this;
+					var src = $(this_image).attr('src') || '' ;
+					if(!src.length > 0){
+						var lsrc = $(this_image).attr('lsrc') || '' ;
+						if(lsrc.length > 0){
+							var img = new Image();
+							img.src = lsrc;
+							$(img).on('load', function() {
+								this_image.src = this.src;
+								console.log('All loaded');
+								$('#final_img').css('visibility', 'visible');
+								$('#placeholder_id').css('visibility', 'hidden');
+							});
+						}
 					}
-				}
+				});
 			});
-		});
+		}
 	</script>
 
 	<script type='text/javascript' desc='left right for word spiral svg'>
