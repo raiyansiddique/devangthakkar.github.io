@@ -1197,30 +1197,33 @@
 
 	<script type='text/javascript'>
 
-	// 	// jump to nav dot
-	// 	var svg = document.getElementById('final_img').getSVGDocument().childNodes[1];
-	// 	var svg_invis = document.getElementById('top_img').getSVGDocument().childNodes[1];
-	// 	var clickable_rect = svg_invis.getElementsByClassName('r');
-	// 	var clickable_dots = svg_invis.getElementsByClassName('n');
+		// jump to nav dot
 
-	// 	for(var i=0;i<clickable_rect.length;i++) {
-	// 		clickable_rect[i].addEventListener('click', function() {console.log('rect');console.log(this.id);jump(this.id);});
-	// 	}
+		document.getElementById('final_img').addEventListener('load', function() {
+			var svg = document.getElementById('final_img').getSVGDocument().childNodes[1];
+			var svg_invis = document.getElementById('top_img').getSVGDocument().childNodes[1];
+			var clickable_rect = svg_invis.getElementsByClassName('r');
+			var clickable_dots = svg_invis.getElementsByClassName('n');
 
-	// 	for(var i=0;i<clickable_dots.length;i++) {
-	// 		clickable_dots[i].addEventListener('click', function() {console.log('dots');console.log(this.id);jump(this.id);});
-	// 	}
+			for(var i=0;i<clickable_rect.length;i++) {
+				clickable_rect[i].addEventListener('click', function() {console.log('rect');console.log(this.id);jump(this.id);});
+			}
 
-	// 	function jump(id) {
+			for(var i=0;i<clickable_dots.length;i++) {
+				clickable_dots[i].addEventListener('click', function() {console.log('dots');console.log(this.id);jump(this.id);});
+			}
 
-	// 		var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
-	// 		var current_image = 'Layer_'.concat(current_image_num);
-	// 		svg.getElementById(current_image).style.visibility = 'hidden';
-	// 		var new_image_num = id.replace('n', '').replace('r', '');
+			function jump(id) {
 
-	// 		document.getElementById('chain_pointer_id').innerHTML = new_image_num;
-	// 		var new_image = 'Layer'.concat(new_image_num);
-	// 		svg.getElementById(new_image).style.visibility = 'visible';
-	// 	}
+				var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
+				var current_image = 'Layer_'.concat(current_image_num);
+				svg.getElementById(current_image).style.visibility = 'hidden';
+				var new_image_num = id.replace('n', '').replace('r', '');
+
+				document.getElementById('chain_pointer_id').innerHTML = new_image_num;
+				var new_image = 'Layer'.concat(new_image_num);
+				svg.getElementById(new_image).style.visibility = 'visible';
+			}
+		});
 	</script>
 </body>
