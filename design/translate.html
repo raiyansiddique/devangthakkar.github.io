@@ -1151,7 +1151,7 @@
 
 	<script type='text/javascript'>
 
-		$('final_img').on('load', function() {
+		$('final_img').load("image/svg+xml", function() {
 			// add hovering capabilities to nav dots using opacity 0 of img0
 			console.log(document.getElementById('final_img').getSVGDocument());
 			console.log(document.getElementById('top_img').getSVGDocument());
@@ -1193,7 +1193,7 @@
 			function hideTooltip_word(evt) {
 				tooltip.setAttributeNS(null, 'visibility', 'hidden');
 			}
-		})
+		});
 	</script>
 
 	<script type='text/javascript'>
