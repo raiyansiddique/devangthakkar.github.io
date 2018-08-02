@@ -271,5 +271,5 @@
 <circle cx='590.9' cy='360.04' r='5.5'/>
 </g>
 </g>
-<text x='84' y='75' fill='#781b7a' font-family="'Roboto'" font-size='18' stroke='none' stroke-miterlimit='10' id='language'>Loading images</text>
+<text x='84' y='90' fill='#781b7a' font-family="'Roboto'" font-size='18' stroke='none' stroke-miterlimit='10' id='language'>Loading images</text>
 </svg>
