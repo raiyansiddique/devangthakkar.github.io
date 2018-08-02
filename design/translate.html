@@ -1148,11 +1148,14 @@
 			}
 		});
 
-		$(document).on('click', function() {
+		$("#final_img").click(function() {
 			console.log('Helloo');
-			if (document.activeElement) {
-				document.activeElement.blur();
-			}
-		})
+			var press = jQuery.Event("keyup");
+			press.ctrlKey = false;
+			press.which = 39;
+			press.keyCode = 39;
+			$(document).trigger(press);
+			console.log('Yes KeyUp triggered. ' + press.which);
+		});
 	</script>
 </body>
