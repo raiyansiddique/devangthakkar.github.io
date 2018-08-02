@@ -1136,6 +1136,11 @@
 			svg_doc.getElementById(new_image).style.opacity = '1.0';
 		}
 
+		document.getElementById('word_spiral').onclick = function() {
+			console.log('right');
+			changeImage('1');
+		}
+
 		document.onkeyup = function(e) {
 			e = e || window.event;
 			if (e.keyCode == '37') {
