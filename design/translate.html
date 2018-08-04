@@ -380,6 +380,17 @@
 			visibility: hidden;
 		}
 
+		.word_spiral_caption {
+			background-color: rgba(255, 255, 255, .85);
+			width: 100%;
+			font-family: 'Nunito', sans-serif;
+			font-size: 15px;
+			color: #505;
+			margin: auto;
+			margin-bottom: 20px;
+			line-height: 1.5;
+		}
+
 		@media only screen and (min-width: 450px) {
 			#rank_svg {
 				margin-top: -325px;
@@ -531,6 +542,17 @@
 		}
 	</style>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113623366-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-113623366-2');
+	</script>
+
+
 </head>
 
 <body>
@@ -611,7 +633,7 @@
 			<p class='prose2'>One can see that the translation from English to another language and back to English leads a different word/phrase as compared to the original word. These chains may go on for multiple levels before a stationary translation is found (more about this later). The next step is to analyse the relation between the number of these imperfect circular translations and the characteristics of the language. Germanic languages seem to perform the best with the fewest number of imperfect circular translations whereas languages from the Niger-Congo family dominate the bottom. (In order to ensure that I was not cherry picking the set size, I computed the rankings for the top 500 and 1500 nouns as well. The individual standings of the languages shift slightly, but the overall trend of the families remains the same.)<br/><br/></p>
 		</section>
 
-		<div id='rank_plot' text-align='centre'>
+		<div id='rank_plot' text-align='center'>
 			<p id='rank_plot_counter_id' class='rank_plot_counter'>1</p>
 			<div id='rank_dropdown' class='select' tabindex='1'>
 				<input class='selectopt' name='test' type='radio' id='opt1' checked onclick='setHighlight(this);'>
@@ -837,15 +859,16 @@
 			An interesting feature of imperfect circular translations is that they themselves often go on to have further imperfect translations. These word chains go on for multiple levels before reaching a stationary translation (well, most do<sup>[1]</sup>). Most word chains end after one or two levels but chains of up to 8 levels have been identified as well<sup>[2]</sup>. We plot the chain lengths of the 1000 nouns in 103 languages to obtain a bird’s eye view of these chains. The dots on the spiral below represent the top 1000 nouns along the path, moving outwards from the centre. The presence of a dot at a particular position implies an imperfect circular translation, while its absence implies a perfect circular translation. The colors of the individual dots add another dimension to the plot by denoting the length of the chain for the particular noun in that language.<br/><br/></p>
 		</section>
 
-		<div id='word_spiral' text-align='centre'>
+		<div id='word_spiral' text-align='center'>
 			<p id='word_spiral_counter_id' class='word_spiral_counter'>1</p>
 			<img class='placeholder' id='placeholder_id' src='https://www.devangthakkar.com/design/assets/chain_temp.svg'/>
 			<img class='mobile_spiral' id='mobile_spiral_id' src='https://www.devangthakkar.com/design/assets/mobile_spiral.png'/>
 			<embed src='https://www.devangthakkar.com/design/assets/chain_invis.svg' class='top_image' id='top_img' type='image/svg+xml'/>
 			<embed src='' class='final_image' id='final_img' type='image/svg+xml' lsrc='https://www.devangthakkar.com/design/assets/chain_blend_final.svg'/>
+			<p id='word_spiral_caption_id' class='word_spiral_caption'>Figure 3. The plot shows the top 1000 nouns arranged in order starting from the centre of the spiral. The colour of the dot represents the length of the chain for the word in the mentioned language - Hawaiian in this case. View an interactive version of the plot by visiting the website from a device with a screen wider than 768px.</p>
 		</div>
 
-		<div id='post_spiral' text-align='centre'>
+		<div id='post_spiral' text-align='center'>
 			<section id='footnotes'>
 				<p class='prose3_footnote'>[1] Sometimes, Google Translate happens to go bonkers and decides to send the user on an infinite translation trip. Consider what happens when you attempt to build the chain for the word <i>baseball</i> in Armenian. <br/><br/>
 
@@ -1065,7 +1088,9 @@
 		var jmediaquery3 = window.matchMedia('(min-width: 768px)');
 		if (jmediaquery3.matches) {
 
-			document.getElementById('rank_caption_id').innerHTML = 'Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for the top 1000 nouns for that language. Choose a family from the dropdown to see where its members stand in this ranking. Hover over the plot to see the language represented by each bar and the corresponding count.';
+			document.getElementById('rank_caption_id').innerHTML = 'Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for that language for the top 1000 English nouns. Choose a family from the dropdown to see where its members stand in this ranking. Hover over the plot to see the language represented by each bar and the corresponding count.';
+
+			document.getElementById('word_spiral_caption_id').innerHTML = 'Figure 3. The plot brings together the top 1000 English nouns arranged in order, starting from the centre of the spiral. The colour of the dot represents the length of the chain for the word in the mentioned language. Hover over the dots on the spiral to see the chain for that word. Use the navigation dots to change languages.';
 			var svg_rank = document.getElementById('rank_svg');
 			var rank_tooltip = svg_rank.getElementById('rank_tooltip');
 			var active_lang_id = 'lang'.concat(document.getElementById('rank_plot_counter_id'));
