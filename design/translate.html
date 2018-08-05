@@ -359,8 +359,6 @@
 
 		#post_spiral {
 			position: relative;
-			padding-left: 35px;
-			padding-right: 25px;
 		}
 
 		.placeholder {
@@ -1326,6 +1324,7 @@
 			}
 
 			function showWordChain(evt) {
+				console.log('trigger');
 				hideWordChain();
 				var chain_arr = chain_data[counter-1][evt.target.attr('id')];
 				var chain_str = '';
