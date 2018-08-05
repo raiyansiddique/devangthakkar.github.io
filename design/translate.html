@@ -499,6 +499,7 @@
 			.prose3_footnote {
 				font-size: 15px;
 				margin-top: -10px;
+				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
 			}
 
 			.wc_caption{
@@ -1315,8 +1316,9 @@
 			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
 			// console.log(2*(parseInt(counter)+5));
 			var layer = document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[2*(parseInt(counter)+4)].childNodes[1];
-			// console.log(layer);
+			console.log(layer);
 			var triggers_word = layer.getElementsByTagName('circle');
+			console.log(triggers_word);
 
 			for (var i = 0; i < triggers_word.length; i++) {
 				triggers_word[i].addEventListener('mousemove', showWordChain);
