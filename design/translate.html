@@ -497,7 +497,7 @@
 			.prose3_footnote {
 				font-size: 15px;
 				margin-top: -10px;
-				box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);
+				/*box-shadow: 10px -10px 30px 30px rgba(255, 255, 255,.85);*/
 			}
 
 			.wc_caption{
@@ -1312,7 +1312,6 @@
 			var counter = document.getElementById('word_spiral_counter_id').innerHTML;
 			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
 			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
-			// console.log(2*(parseInt(counter)+5));
 			var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
 
 			console.log(layer);
@@ -1327,18 +1326,20 @@
 			function showWordChain(evt) {
 				console.log('trigger');
 				hideWordChain();
-				var chain_arr = chain_data[counter-1][evt.target.attr('id')];
-				var chain_str = '';
-				for (var l=0;l<chain_arr.length;l++) {
-					if (l==2) {
-						chain_str = chain_str + chain_arr[l];
+				if (chain_data.hasOwnProperty(evt.target.attr('id'))) {
+					console.log('trigger inside');
+					var chain_arr = chain_data[counter-1][evt.target.attr('id')];
+					var chain_str = '';
+					for (var l=0;l<chain_arr.length;l++) {
+						if (l==2) {
+							chain_str = chain_str + chain_arr[l];
+						}
+						if (l>2) {
+							chain_str = chain_str + ' -> ' + chain_arr[l];
+						}
 					}
-					if (l>2) {
-						chain_str = chain_str + ' -> ' + chain_arr[l];
-					}
+					document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ' + chain_str;
 				}
-				document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ' + chain_str;
-
 			}	
 			
 			function hideWordChain(evt) {
