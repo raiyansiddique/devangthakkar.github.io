@@ -395,6 +395,18 @@
 			line-height: 1.5;
 		}
 
+		.word_chain_hover {
+			width: 100%;
+			padding-left: 35px;
+			padding-right: 25px;
+			font-family: 'Nunito', sans-serif;
+			font-size: 15px;
+			color: #505;
+			margin: auto;
+			padding-bottom: 20px;
+			line-height: 1.5;
+		}
+
 		@media only screen and (min-width: 450px) {
 			#rank_svg {
 				margin-top: -325px;
@@ -544,6 +556,11 @@
 			.word_spiral_caption {
 				background-color: rgba(255, 255, 255, .85);
 			}
+
+			.word_chain_hover {
+				background-color: rgba(255, 255, 255, .85);
+			}
+
 
 		}
 	</style>
@@ -874,6 +891,7 @@
 		</div>
 
 		<div id='post_spiral' text-align='center'>
+			<p id='word_chain_hover_id' class='word_chain_hover'></p>
 			<p id='word_spiral_caption_id' class='word_spiral_caption'>Figure 3. The plot shows the top 1000 nouns arranged in order starting from the centre of the spiral. The colour of the dot represents the length of the chain for the word in the mentioned language - Hawaiian in this case. View an interactive version of the plot by visiting the website from a device with a screen wider than 768px.</p>
 			<section id='footnotes'>
 				<p class='prose3_footnote'>[1] Sometimes, Google Translate happens to go bonkers and decides to send the user on an infinite translation trip. Consider what happens when you attempt to build the chain for the word <i>baseball</i> in Armenian. <br/><br/>
@@ -1248,6 +1266,57 @@
 			function hideTooltip_word(evt) {
 				tooltip.setAttributeNS(null, 'visibility', 'hidden');
 			}
+
+			// load minimal chain only if non mobile
+			var chain_data = [];
+			var jmediaquery5 = window.matchMedia('(min-width: 768px)');
+			if (jmediaquery5.matches) {
+				$(document).ready(function() {
+					$.ajax({
+						type: 'GET',
+						url: 'https://www.devangthakkar.com/design/assets/minimal_chain.csv',
+						dataType: 'text',
+						success: function(data) {chain_data=processData(data);}
+					 });
+				});
+
+				function processData(allText) {
+					var allTextLines = allText.split(/\r\n|\n/);
+					var lines = new Object();
+
+					for (var i=1; i<allTextLines.length; i++) {
+						var data = allTextLines[i].split(',');
+
+						var tarr = [];
+						for (var j=0; j<data.length; j++) {
+							tarr.push('e'.concat(j.toString())+':'+data[j]);
+						}
+						lines.num = 'w'.concat(data[1]);
+						lines.val = tarr;
+					}
+					console.log(lines);
+					return(lines);
+				}
+			}
+
+			//word hover
+			var counter = document.getElementById('word_spiral_counter_id');
+			var layer = document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[parseInt(counter)+4].childNodes[1];
+			var triggers_word = layer.getElementsByTagName('circle');
+
+			for (var i = 0; i < triggers_word.length; i++) {
+				triggers_word[i].addEventListener('mousemove', showWordChain);
+				triggers_word[i].addEventListener('mouseout', hideWordChain);
+			}
+
+			function showTooltip_word(evt) {
+
+				document.getElementById('word_chain_hover_id').innerHTML = chain_data[]
+			}	
+			
+			function hideTooltip_word(evt) {
+				
+			}		
 		});
 	</script>
 
@@ -1285,34 +1354,6 @@
 
 	<script desc='load chain data on desktop'>
 
-		// load minimal chain only if non mobile
-
-		var jmediaquery5 = window.matchMedia('(min-width: 768px)');
-		if (jmediaquery5.matches) {
-			$(document).ready(function() {
-				$.ajax({
-					type: 'GET',
-					url: 'https://www.devangthakkar.com/design/assets/minimal_chain.csv',
-					dataType: 'text',
-					success: function(data) {processData(data);}
-				 });
-			});
-
-			function processData(allText) {
-				var allTextLines = allText.split(/\r\n|\n/);
-				var lines = [];
-
-				for (var i=1; i<allTextLines.length; i++) {
-					var data = allTextLines[i].split(',');
-
-					var tarr = [];
-					for (var j=0; j<data.length; j++) {
-						tarr.push('e'.concat(j.toString())+':'+data[j]);
-					}
-					lines.push(tarr);
-				}
-				console.log(lines);
-			}
-		}
+		
 	</script>
 </body>
