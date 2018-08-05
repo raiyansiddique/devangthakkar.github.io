@@ -1298,8 +1298,8 @@
 							}
 							
 							num = 'w'.concat(line[1]);
-							lines.num = tarr;
-							lines.lang_code = line[0];
+							lines['w'.concat(line[1])] = tarr;
+							lines[lang_code] = line[0];
 						}
 
 						lines_arr.push(lines);
@@ -1313,7 +1313,8 @@
 			var counter = document.getElementById('word_spiral_counter_id');
 			console.log(document.getElementById('final_img').getSVGDocument().childNodes);
 			console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
-			var layer = document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[parseInt(counter)+4].childNodes[1];
+			console.log(2*(parseInt(counter)+5));
+			var layer = document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[2*(parseInt(counter)+5)].childNodes[1];
 			var triggers_word = layer.getElementsByTagName('circle');
 
 			for (var i = 0; i < triggers_word.length; i++) {
