@@ -1326,7 +1326,7 @@
 			function showWordChain(evt) {
 				console.log('trigger');
 				hideWordChain();
-				if (chain_data.hasOwnProperty(evt.target.attr('id'))) {
+				if (chain_data.hasOwnProperty(evt.target.id)) {
 					console.log('trigger inside');
 					var chain_arr = chain_data[counter-1][evt.target.attr('id')];
 					var chain_str = '';
