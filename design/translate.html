@@ -1315,6 +1315,7 @@
 			console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
 			console.log(2*(parseInt(counter)+5));
 			var layer = document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[2*(parseInt(counter)+5)].childNodes[1];
+			console.log(layer);
 			var triggers_word = layer.getElementsByTagName('circle');
 
 			for (var i = 0; i < triggers_word.length; i++) {
