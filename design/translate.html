@@ -1310,10 +1310,11 @@
 
 			//word hover
 			var counter = document.getElementById('word_spiral_counter_id').innerHTML;
-			// console.log(document.getElementById('final_img').getSVGDocument().childNodes);
 			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
+			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
 			// console.log(2*(parseInt(counter)+5));
-			var layer = document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[2*(parseInt(counter)+4)].childNodes[1];
+			var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
+
 			console.log(layer);
 			var triggers_word = layer.getElementsByTagName('circle');
 			console.log(triggers_word);
