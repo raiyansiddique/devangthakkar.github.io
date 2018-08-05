@@ -1276,31 +1276,36 @@
 						type: 'GET',
 						url: 'https://www.devangthakkar.com/design/assets/minimal_chain.csv',
 						dataType: 'text',
-						success: function(data) {chain_data=processData(data);}
+						success: function(data) {processData(data);}
 					 });
 				});
 
 				function processData(allText) {
+					console.log(allText);
 					var allTextLines = allText.split(/\r\n|\n/);
-					var lines = new Object();
+					var lines_arr = [];
 
 					for (var i=1; i<allTextLines.length; i++) {
 						var data = allTextLines[i].split(',');
-
+						var lines = new Object();
 						var tarr = [];
+					
 						for (var j=0; j<data.length; j++) {
 							tarr.push('e'.concat(j.toString())+':'+data[j]);
 						}
+
 						lines.num = 'w'.concat(data[1]);
 						lines.val = tarr;
+						lines_arr.push(lines);
 					}
-					console.log(lines);
-					return(lines);
+					console.log(lines_arr);
+					chain_data = lines_arr;
 				}
 			}
 
 			//word hover
 			var counter = document.getElementById('word_spiral_counter_id');
+			console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[parseInt(counter)+4]);
 			var layer = document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[parseInt(counter)+4].childNodes[1];
 			var triggers_word = layer.getElementsByTagName('circle');
 
