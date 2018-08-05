@@ -893,7 +893,10 @@
 		</div>
 	</div>
 
-	<script type='text/javascript' desc='media queries and load background'>
+	<script src='https://www.devangthakkar.com/design/assets/js/jquery-3.3.1.min.js'>
+	</script>
+
+	<script desc='media queries and load background'>
 
 		// remove br if screen width > 600
 		var jmediaquery1 = window.matchMedia('(min-width: 600px)');
@@ -925,7 +928,7 @@
 		}
 	</script>
 
-	<script type='text/javascript' desc='change rank plot based on dropdown'>
+	<script desc='change rank plot based on dropdown'>
 
 		// change highlight on rank plot based on dropdown
 		function setHighlight(select) {
@@ -946,7 +949,7 @@
 		};
 	</script>
 
-	<script type='text/javascript' desc='change word chain on button'>
+	<script desc='change word chain on button'>
 
 		// change image on button press
 		const translations = [
@@ -1089,16 +1092,16 @@
 		};
 	</script>
 
-	<script type='text/javascript' desc='hover over rank plot'>
+	<script desc='load only on desktop and hover over rank plot'>
 
 		// add hovering capabilities to rank plot if width > 600
-
 		var jmediaquery3 = window.matchMedia('(min-width: 768px)');
 		if (jmediaquery3.matches) {
 
 			document.getElementById('rank_caption_id').innerHTML = 'Figure 2. Each of the 103 bars represents a language examined in our study. These are all the languages currently available on Google Translate (besides English). The height of each bar denotes the number of imperfect circular translations for that language for the top 1000 English nouns. Choose a family from the dropdown to see where its members stand in this ranking. Hover over the plot to see the language represented by each bar and the corresponding count.';
 
 			document.getElementById('word_spiral_caption_id').innerHTML = 'Figure 3. The plot brings together the top 1000 English nouns arranged in order, starting from the centre of the spiral. The colour of the dot represents the length of the chain for the word in the mentioned language. Hover over the dots on the spiral to see the chain for that word. Use the navigation dots to change languages.';
+
 			var svg_rank = document.getElementById('rank_svg');
 			var rank_tooltip = svg_rank.getElementById('rank_tooltip');
 			var active_lang_id = 'lang'.concat(document.getElementById('rank_plot_counter_id'));
@@ -1132,10 +1135,7 @@
 		}
 	</script>
 
-	<script src='https://www.devangthakkar.com/design/assets/js/jquery-3.3.1.min.js'>
-	</script>
-
-	<script type='text/javascript' desc='async load blend svg'>
+	<script desc='async load blend svg'>
 
 		// async loading
 		var jmediaquery4 = window.matchMedia('(min-width: 768px)');
@@ -1163,7 +1163,7 @@
 		}
 	</script>
 
-	<script type='text/javascript' desc='left right for word spiral svg'>
+	<script desc='left right for word spiral svg'>
 	
 		// adding left right functionality
 		function changeImage(dir) {
@@ -1205,7 +1205,7 @@
 		});
 	</script>
 
-	<script type='text/javascript' desc='hover over nav dot'>
+	<script desc='hover over nav dot'>
 
 		// add hovering capabilities to nav dots using opacity 0 of img0
 		document.getElementById('final_img').addEventListener('load', function() {
@@ -1251,7 +1251,7 @@
 		});
 	</script>
 
-	<script type='text/javascript' desc='jump to nav dot'>
+	<script desc='jump to nav dot'>
 
 		// jump to nav dot
 
@@ -1281,5 +1281,41 @@
 				svg.getElementById(new_image).style.opacity = '1.0';
 			}
 		});
+	</script>
+
+	<script desc='load chain data on desktop'>
+
+		// load minimal chain only if non mobile
+
+		var jmediaquery5 = window.matchMedia('(min-width: 768px)');
+		if (jmediaquery5.matches) {
+			$(document).ready(function() {
+			    $.ajax({
+			        type: 'GET',
+			        url: 'https://www.devangthakkar.com/design/assets/minimal_chain.csv',
+			        dataType: 'text',
+			        success: function(data) {processData(data);}
+			     });
+			});
+
+			function processData(allText) {
+			    var allTextLines = allText.split(/\r\n|\n/);
+			    var headers = allTextLines[0].split(',');
+			    var lines = [];
+
+			    for (var i=1; i<allTextLines.length; i++) {
+			        var data = allTextLines[i].split(',');
+			        if (data.length == headers.length) {
+
+			            var tarr = [];
+			            for (var j=0; j<headers.length; j++) {
+			                tarr.push(headers[j]+":"+data[j]);
+			            }
+			            lines.push(tarr);
+			        }
+			    }
+			    console.log(lines);
+			}
+		}
 	</script>
 </body>
