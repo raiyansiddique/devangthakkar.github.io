@@ -1319,8 +1319,10 @@
 			console.log(triggers_word);
 
 			for (var i = 0; i < triggers_word.length; i++) {
-				triggers_word[i].addEventListener('mouseover', showWordChain);
-				triggers_word[i].addEventListener('mouseout', hideWordChain);
+				$(document).on('mouseover', triggers_word[i], showWordChain);
+				$(document).on('mouseout', triggers_word[i], hideWordChain);
+				// triggers_word[i].addEventListener('mouseover', showWordChain);
+				// triggers_word[i].addEventListener('mouseout', hideWordChain);
 			}
 
 			function showWordChain(evt) {
