@@ -890,7 +890,7 @@
 		<div id='word_spiral' text-align='center'>
 			<p id='word_spiral_counter_id' class='word_spiral_counter'>1</p>
 			<img class='placeholder' id='placeholder_id' src='https://www.devangthakkar.com/design/assets/chain_temp.svg'/>
-			<img class='mobile_spiral' id='mobile_spiral_id' src='https://www.devangthakkar.com/design/assets/mobile_spiral.png'/>
+			<img class='mobile_spiral' id='mobile_spiral_id' src='' lsrc='https://www.devangthakkar.com/design/assets/mobile_spiral.png'/>
 			<embed src='https://www.devangthakkar.com/design/assets/chain_invis.svg' class='top_image' id='top_img' type='image/svg+xml'/>
 			<embed src='' class='final_image' id='final_img' type='image/svg+xml' lsrc='https://www.devangthakkar.com/design/assets/chain_blend_final.svg'/>
 		</div>
@@ -947,6 +947,12 @@
 	</script>
 
 	<script desc='media queries and load background'>
+
+		// mobile spiral only if max width
+		var jmediaquery0 = window.matchMedia('(max-width: 770px)');
+		if (jmediaquery0.matches) {
+			document.getElementById('mobile_spiral_id').src = document.getElementById('mobile_spiral_id').lsrc;
+		}
 
 		// remove br if screen width > 600
 		var jmediaquery1 = window.matchMedia('(min-width: 600px)');
