@@ -1325,10 +1325,11 @@
 
 			function showWordChain(evt) {
 				console.log('trigger');
+				console.log(evt.target.id);
 				hideWordChain();
 				if (chain_data.hasOwnProperty(evt.target.id)) {
 					console.log('trigger inside');
-					var chain_arr = chain_data[counter-1][evt.target.attr('id')];
+					var chain_arr = chain_data[counter-1][evt.target.id];
 					var chain_str = '';
 					for (var l=0;l<chain_arr.length;l++) {
 						if (l==2) {
