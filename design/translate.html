@@ -915,157 +915,7 @@
 
 	<script desc='hover over nav dot'>
 
-		// add hovering capabilities to nav dots using opacity 0 of img0
-		document.getElementById('final_img').addEventListener('load', function() {
-
-			var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
-
-			var tooltip = svg.getElementById('tooltip');
-			console.log(svg);
-			console.log(tooltip);
-			var tooltipText = tooltip.getElementsByTagName('text')[0];
-
-			var triggers_rect = svg.getElementsByClassName('r');
-			var triggers_dots = svg.getElementsByClassName('n');
-
-			for (var i = 0; i < triggers_rect.length; i++) {
-				triggers_rect[i].addEventListener('mousemove', showTooltip_word);
-				triggers_rect[i].addEventListener('mouseout', hideTooltip_word);
-			}
-
-			for (var i = 0; i < triggers_dots.length; i++) {
-				triggers_dots[i].addEventListener('mousemove', showTooltip_word);
-				triggers_dots[i].addEventListener('mouseout', hideTooltip_word);
-			}
-
-			function showTooltip_word(evt) {
-				var CTM = svg.getScreenCTM();
-				var length = tooltipText.getComputedTextLength();
-				var x = (evt.clientX - CTM.e - length/2) / CTM.a;
-				var y = (evt.clientY - CTM.f - 35) / CTM.d;
-				tooltip.setAttributeNS(null, 'transform', 'translate(' + x + ' ' + y + ')');
-				tooltip.setAttributeNS(null, 'visibility', 'visible');
-				tooltipText.firstChild.data = evt.target.getAttributeNS(null, 't');
-
-				var tooltipRects = tooltip.getElementsByTagName('rect');
-				for (var i = 0; i < tooltipRects.length; i++) {
-					tooltipRects[i].setAttributeNS(null, 'width', length+10);
-				}
-			}
-
-			function hideTooltip_word(evt) {
-				tooltip.setAttributeNS(null, 'visibility', 'hidden');
-			}
-
-			// load minimal chain only if non mobile
-			var chain_data = [];
-			var jmediaquery5 = window.matchMedia('(min-width: 768px)');
-			if (jmediaquery5.matches) {
-				$(document).ready(function() {
-					$.ajax({
-						type: 'GET',
-						url: 'https://www.devangthakkar.com/design/assets/minimal_chain.csv',
-						dataType: 'text',
-						success: function(data) {processData(data);starter();}
-					 });
-				});
-
-				function processData(allText) {
-
-					var allTextLines = allText.split(/\r\n|\n/);
-					var lines_arr = [];
-
-					for (var i=0; i<allTextLines.length; i++) {
-						var lines = new Object();
-						var data = allTextLines[i].split(';');
-						
-						for (var k=0; k<data.length; k++){
-							var line = data[k].split(',');
-							var tarr = [];
-						
-							for (var j=0; j<line.length; j++) {
-								tarr.push(line[j]);
-							}
-							
-							num = 'w'.concat(line[1]);
-							lines['w'.concat(line[1])] = tarr;
-							lines.lang_code = line[0];
-						}
-
-						lines_arr.push(lines);
-					}
-					console.log(lines_arr);
-					chain_data = lines_arr;
-				}
-			}
-
-			function starter() {
-				//word hover
-				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
-				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
-
-				console.log(layer);
-				var triggers_word = layer.getElementsByTagName('circle');
-				console.log(triggers_word);
-
-				for (var i = 0; i < triggers_word.length; i++) {
-
-					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
-					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
-					triggers_word[i].addEventListener('mouseover', showWordChain);
-					triggers_word[i].addEventListener('mouseout', hideWordChain);
-				}
-			}
-
-			function refresher() {
-				//word hover
-
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
-				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
-
-				console.log(layer);
-				var triggers_word = layer.getElementsByTagName('circle');
-				console.log(triggers_word);
-
-				for (var i = 0; i < triggers_word.length; i++) {
-
-					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
-					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
-					triggers_word[i].removeEventListener('mouseover', showWordChain);
-					triggers_word[i].addEventListener('mouseover', showWordChain);
-					triggers_word[i].addEventListener('mouseout', hideWordChain);
-				}
-			}
-
-			function showWordChain(evt) {
-				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
-				console.log('trigger');
-				console.log(evt.target.id);
-				hideWordChain();
-				if (chain_data[counter-1].hasOwnProperty(evt.target.id)) {
-					console.log('trigger inside');
-					console.log(evt.target.id);
-					var chain_arr = chain_data[counter-1][evt.target.id];
-					var chain_str = '';
-					for (var l=0;l<chain_arr.length;l++) {
-						if (l==2) {
-							chain_str = chain_str + chain_arr[l];
-						}
-						if (l>2) {
-							chain_str = chain_str + ' -> ' + chain_arr[l];
-						}
-					}
-					document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ' + chain_str;
-				}
-			}	
-			
-			function hideWordChain(evt) {
-				document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ';
-			}		
-		});
+		
 	</script>
 
 	<script desc='media queries and load background'>
@@ -1378,7 +1228,159 @@
 		});
 	</script>
 
-	<script desc='jump to nav dot'>
+	<script desc='hover over nav and word, load chain file, and jump to nav dot'>
+
+		// add hovering capabilities to nav dots using opacity 0 of img0
+		document.getElementById('final_img').addEventListener('load', function() {
+
+			var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
+
+			var tooltip = svg.getElementById('tooltip');
+			console.log(svg);
+			console.log(tooltip);
+			var tooltipText = tooltip.getElementsByTagName('text')[0];
+
+			var triggers_rect = svg.getElementsByClassName('r');
+			var triggers_dots = svg.getElementsByClassName('n');
+
+			for (var i = 0; i < triggers_rect.length; i++) {
+				triggers_rect[i].addEventListener('mousemove', showTooltip_word);
+				triggers_rect[i].addEventListener('mouseout', hideTooltip_word);
+			}
+
+			for (var i = 0; i < triggers_dots.length; i++) {
+				triggers_dots[i].addEventListener('mousemove', showTooltip_word);
+				triggers_dots[i].addEventListener('mouseout', hideTooltip_word);
+			}
+
+			function showTooltip_word(evt) {
+				var CTM = svg.getScreenCTM();
+				var length = tooltipText.getComputedTextLength();
+				var x = (evt.clientX - CTM.e - length/2) / CTM.a;
+				var y = (evt.clientY - CTM.f - 35) / CTM.d;
+				tooltip.setAttributeNS(null, 'transform', 'translate(' + x + ' ' + y + ')');
+				tooltip.setAttributeNS(null, 'visibility', 'visible');
+				tooltipText.firstChild.data = evt.target.getAttributeNS(null, 't');
+
+				var tooltipRects = tooltip.getElementsByTagName('rect');
+				for (var i = 0; i < tooltipRects.length; i++) {
+					tooltipRects[i].setAttributeNS(null, 'width', length+10);
+				}
+			}
+
+			function hideTooltip_word(evt) {
+				tooltip.setAttributeNS(null, 'visibility', 'hidden');
+			}
+
+			// load minimal chain only if non mobile
+			var chain_data = [];
+			var jmediaquery5 = window.matchMedia('(min-width: 768px)');
+			if (jmediaquery5.matches) {
+				$(document).ready(function() {
+					$.ajax({
+						type: 'GET',
+						url: 'https://www.devangthakkar.com/design/assets/minimal_chain.csv',
+						dataType: 'text',
+						success: function(data) {processData(data);starter();}
+					 });
+				});
+
+				function processData(allText) {
+
+					var allTextLines = allText.split(/\r\n|\n/);
+					var lines_arr = [];
+
+					for (var i=0; i<allTextLines.length; i++) {
+						var lines = new Object();
+						var data = allTextLines[i].split(';');
+						
+						for (var k=0; k<data.length; k++){
+							var line = data[k].split(',');
+							var tarr = [];
+						
+							for (var j=0; j<line.length; j++) {
+								tarr.push(line[j]);
+							}
+							
+							num = 'w'.concat(line[1]);
+							lines['w'.concat(line[1])] = tarr;
+							lines.lang_code = line[0];
+						}
+
+						lines_arr.push(lines);
+					}
+					console.log(lines_arr);
+					chain_data = lines_arr;
+				}
+			}
+
+			function starter() {
+				//word hover
+				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
+				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
+				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
+				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
+
+				console.log(layer);
+				var triggers_word = layer.getElementsByTagName('circle');
+				console.log(triggers_word);
+
+				for (var i = 0; i < triggers_word.length; i++) {
+
+					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
+					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
+					triggers_word[i].addEventListener('mouseover', showWordChain);
+					triggers_word[i].addEventListener('mouseout', hideWordChain);
+				}
+			}
+
+			function refresher() {
+				//word hover
+
+				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
+				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
+				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
+
+				console.log(layer);
+				var triggers_word = layer.getElementsByTagName('circle');
+				console.log(triggers_word);
+
+				for (var i = 0; i < triggers_word.length; i++) {
+
+					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
+					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
+					triggers_word[i].removeEventListener('mouseover', showWordChain);
+					triggers_word[i].addEventListener('mouseover', showWordChain);
+					triggers_word[i].addEventListener('mouseout', hideWordChain);
+				}
+			}
+
+			function showWordChain(evt) {
+				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
+				console.log('trigger');
+				console.log(evt.target.id);
+				hideWordChain();
+				if (chain_data[counter-1].hasOwnProperty(evt.target.id)) {
+					console.log('trigger inside');
+					console.log(evt.target.id);
+					var chain_arr = chain_data[counter-1][evt.target.id];
+					var chain_str = '';
+					for (var l=0;l<chain_arr.length;l++) {
+						if (l==2) {
+							chain_str = chain_str + chain_arr[l];
+						}
+						if (l>2) {
+							chain_str = chain_str + ' -> ' + chain_arr[l];
+						}
+					}
+					document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ' + chain_str;
+				}
+			}	
+			
+			function hideWordChain(evt) {
+				document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ';
+			}		
+		});
 
 		// jump to nav dot
 
