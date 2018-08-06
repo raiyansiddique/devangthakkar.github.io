@@ -1331,7 +1331,7 @@
 
 			function refresher() {
 				//word hover
-				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
+
 				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
 				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
 				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
@@ -1351,6 +1351,7 @@
 			}
 
 			function showWordChain(evt) {
+				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
 				console.log('trigger');
 				console.log(evt.target.id);
 				hideWordChain();
