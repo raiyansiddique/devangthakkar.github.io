@@ -1230,18 +1230,66 @@
 
 	<script desc='hover over nav and word, load chain file, and jump to nav dot'>
 
+		function refresher() {
+			//word hover
+
+			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
+			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
+			var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
+
+			console.log(layer);
+			var triggers_word = layer.getElementsByTagName('circle');
+			console.log(triggers_word);
+
+			for (var i = 0; i < triggers_word.length; i++) {
+
+				// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
+				// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
+				triggers_word[i].removeEventListener('mouseover', showWordChain);
+				triggers_word[i].addEventListener('mouseover', showWordChain);
+				triggers_word[i].addEventListener('mouseout', hideWordChain);
+			}
+		}
+
 		// add hovering capabilities to nav dots using opacity 0 of img0
 		document.getElementById('final_img').addEventListener('load', function() {
 
-			var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
+			// jump to nav dot
 
-			var tooltip = svg.getElementById('tooltip');
-			console.log(svg);
+			var svg = document.getElementById('final_img').getSVGDocument().childNodes[1];
+			var svg_invis = document.getElementById('top_img').getSVGDocument().childNodes[1];
+			var clickable_rect = svg_invis.getElementsByClassName('r');
+			var clickable_dots = svg_invis.getElementsByClassName('n');
+
+			for(var i=0;i<clickable_rect.length;i++) {
+				clickable_rect[i].addEventListener('click', function() {console.log('rect');console.log(this.id);jump(this.id);});
+			}
+
+			for(var i=0;i<clickable_dots.length;i++) {
+				clickable_dots[i].addEventListener('click', function() {console.log('dots');console.log(this.id);jump(this.id);});
+			}
+
+			function jump(id) {
+
+				var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
+				var current_image = 'Layer_'.concat(current_image_num);
+				svg.getElementById(current_image).style.opacity = '0.0';
+				var new_image_num = id.replace('n', '').replace('r', '');
+
+				document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
+				refresher();
+				var new_image = 'Layer_'.concat(new_image_num);
+				svg.getElementById(new_image).style.opacity = '1.0';
+			}
+
+			var svg1 = document.getElementById('top_img').getSVGDocument().childNodes[1];
+			var tooltip = svg1.getElementById('tooltip');
+			console.log(svg1);
 			console.log(tooltip);
 			var tooltipText = tooltip.getElementsByTagName('text')[0];
 
-			var triggers_rect = svg.getElementsByClassName('r');
-			var triggers_dots = svg.getElementsByClassName('n');
+			var triggers_rect = svg1.getElementsByClassName('r');
+			var triggers_dots = svg1.getElementsByClassName('n');
 
 			for (var i = 0; i < triggers_rect.length; i++) {
 				triggers_rect[i].addEventListener('mousemove', showTooltip_word);
@@ -1254,7 +1302,7 @@
 			}
 
 			function showTooltip_word(evt) {
-				var CTM = svg.getScreenCTM();
+				var CTM = svg1.getScreenCTM();
 				var length = tooltipText.getComputedTextLength();
 				var x = (evt.clientX - CTM.e - length/2) / CTM.a;
 				var y = (evt.clientY - CTM.f - 35) / CTM.d;
@@ -1301,8 +1349,7 @@
 							for (var j=0; j<line.length; j++) {
 								tarr.push(line[j]);
 							}
-							
-							num = 'w'.concat(line[1]);
+
 							lines['w'.concat(line[1])] = tarr;
 							lines.lang_code = line[0];
 						}
@@ -1334,27 +1381,6 @@
 				}
 			}
 
-			function refresher() {
-				//word hover
-
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
-				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
-
-				console.log(layer);
-				var triggers_word = layer.getElementsByTagName('circle');
-				console.log(triggers_word);
-
-				for (var i = 0; i < triggers_word.length; i++) {
-
-					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
-					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
-					triggers_word[i].removeEventListener('mouseover', showWordChain);
-					triggers_word[i].addEventListener('mouseover', showWordChain);
-					triggers_word[i].addEventListener('mouseout', hideWordChain);
-				}
-			}
-
 			function showWordChain(evt) {
 				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
 				console.log('trigger');
@@ -1379,36 +1405,6 @@
 			
 			function hideWordChain(evt) {
 				document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ';
-			}		
-		});
-
-		// jump to nav dot
-
-		document.getElementById('final_img').addEventListener('load', function() {
-			var svg = document.getElementById('final_img').getSVGDocument().childNodes[1];
-			var svg_invis = document.getElementById('top_img').getSVGDocument().childNodes[1];
-			var clickable_rect = svg_invis.getElementsByClassName('r');
-			var clickable_dots = svg_invis.getElementsByClassName('n');
-
-			for(var i=0;i<clickable_rect.length;i++) {
-				clickable_rect[i].addEventListener('click', function() {console.log('rect');console.log(this.id);jump(this.id);});
-			}
-
-			for(var i=0;i<clickable_dots.length;i++) {
-				clickable_dots[i].addEventListener('click', function() {console.log('dots');console.log(this.id);jump(this.id);});
-			}
-
-			function jump(id) {
-
-				var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
-				var current_image = 'Layer_'.concat(current_image_num);
-				svg.getElementById(current_image).style.opacity = '0.0';
-				var new_image_num = id.replace('n', '').replace('r', '');
-
-				document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
-				refresher();
-				var new_image = 'Layer_'.concat(new_image_num);
-				svg.getElementById(new_image).style.opacity = '1.0';
 			}
 		});
 	</script>
