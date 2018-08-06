@@ -1227,7 +1227,7 @@
 
 		// add hovering capabilities to nav dots using opacity 0 of img0
 		document.getElementById('final_img').addEventListener('load', function() {
-			
+
 			refresher(document.getElementById('word_spiral_counter_id').innerHTML);
 			var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
 
@@ -1325,8 +1325,8 @@
 
 					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
 					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
-					triggers_word[i].removeEventListener('mouseover', showWordChain(oldCounter));
-					triggers_word[i].addEventListener('mouseover', showWordChain(counter));
+					triggers_word[i].removeEventListener('mouseover', function{showWordChain(this, oldCounter)});
+					triggers_word[i].addEventListener('mouseover', function{showWordChain(this, counter)});
 					triggers_word[i].addEventListener('mouseout', hideWordChain);
 				}
 			}
