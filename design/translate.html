@@ -1230,6 +1230,34 @@
 
 	<script desc='hover over nav and word, load chain file, and jump to nav dot'>
 
+		var chain_data = [];
+
+		function showWordChain(evt) {
+			var counter = document.getElementById('word_spiral_counter_id').innerHTML;
+			console.log('trigger');
+			console.log(evt.target.id);
+			hideWordChain();
+			if (chain_data[counter-1].hasOwnProperty(evt.target.id)) {
+				console.log('trigger inside');
+				console.log(evt.target.id);
+				var chain_arr = chain_data[counter-1][evt.target.id];
+				var chain_str = '';
+				for (var l=0;l<chain_arr.length;l++) {
+					if (l==2) {
+						chain_str = chain_str + chain_arr[l];
+					}
+					if (l>2) {
+						chain_str = chain_str + ' -> ' + chain_arr[l];
+					}
+				}
+				document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ' + chain_str;
+			}
+		}	
+		
+		function hideWordChain(evt) {
+			document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ';
+		}
+
 		function refresher() {
 			//word hover
 
@@ -1321,7 +1349,6 @@
 			}
 
 			// load minimal chain only if non mobile
-			var chain_data = [];
 			var jmediaquery5 = window.matchMedia('(min-width: 768px)');
 			if (jmediaquery5.matches) {
 				$(document).ready(function() {
@@ -1363,7 +1390,7 @@
 
 			function starter() {
 				//word hover
-				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
+				// var counter = document.getElementById('word_spiral_counter_id').innerHTML;
 				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
 				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
 				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
@@ -1379,32 +1406,6 @@
 					triggers_word[i].addEventListener('mouseover', showWordChain);
 					triggers_word[i].addEventListener('mouseout', hideWordChain);
 				}
-			}
-
-			function showWordChain(evt) {
-				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
-				console.log('trigger');
-				console.log(evt.target.id);
-				hideWordChain();
-				if (chain_data[counter-1].hasOwnProperty(evt.target.id)) {
-					console.log('trigger inside');
-					console.log(evt.target.id);
-					var chain_arr = chain_data[counter-1][evt.target.id];
-					var chain_str = '';
-					for (var l=0;l<chain_arr.length;l++) {
-						if (l==2) {
-							chain_str = chain_str + chain_arr[l];
-						}
-						if (l>2) {
-							chain_str = chain_str + ' -> ' + chain_arr[l];
-						}
-					}
-					document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ' + chain_str;
-				}
-			}	
-			
-			function hideWordChain(evt) {
-				document.getElementById('word_chain_hover_id').innerHTML = 'Chain: ';
 			}
 		});
 	</script>
