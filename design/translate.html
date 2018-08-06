@@ -1204,6 +1204,7 @@
 			}
 
 			document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
+			refresher(current_image_num);
 			var new_image = 'Layer_'.concat(new_image_num);
 			console.log(new_image);
 			svg_doc.getElementById(new_image).style.opacity = '1.0';
@@ -1226,7 +1227,8 @@
 
 		// add hovering capabilities to nav dots using opacity 0 of img0
 		document.getElementById('final_img').addEventListener('load', function() {
-
+			
+			refresher(document.getElementById('word_spiral_counter_id').innerHTML);
 			var svg = document.getElementById('top_img').getSVGDocument().childNodes[1];
 
 			var tooltip = svg.getElementById('tooltip');
@@ -1308,24 +1310,28 @@
 				}
 			}
 
-			//word hover
-			var counter = document.getElementById('word_spiral_counter_id').innerHTML;
-			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
-			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
-			var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
+			function refresher(oldCounter) {
+				//word hover
+				var counter = document.getElementById('word_spiral_counter_id').innerHTML;
+				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
+				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
+				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
 
-			console.log(layer);
-			var triggers_word = layer.getElementsByTagName('circle');
-			console.log(triggers_word);
+				console.log(layer);
+				var triggers_word = layer.getElementsByTagName('circle');
+				console.log(triggers_word);
 
-			for (var i = 0; i < triggers_word.length; i++) {
-				$('#top_img').on('mouseover', triggers_word[i], showWordChain);
-				$('#top_img').on('mouseout', triggers_word[i], hideWordChain);
-				// triggers_word[i].addEventListener('mouseover', showWordChain);
-				// triggers_word[i].addEventListener('mouseout', hideWordChain);
+				for (var i = 0; i < triggers_word.length; i++) {
+
+					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
+					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
+					triggers_word[i].removeEventListener('mouseover', showWordChain(oldCounter));
+					triggers_word[i].addEventListener('mouseover', showWordChain(counter));
+					triggers_word[i].addEventListener('mouseout', hideWordChain);
+				}
 			}
 
-			function showWordChain(evt) {
+			function showWordChain(evt, counter) {
 				console.log('trigger');
 				console.log(evt.target.id);
 				hideWordChain();
@@ -1378,6 +1384,7 @@
 				var new_image_num = id.replace('n', '').replace('r', '');
 
 				document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
+				refresher(current_image_num);
 				var new_image = 'Layer_'.concat(new_image_num);
 				svg.getElementById(new_image).style.opacity = '1.0';
 			}
