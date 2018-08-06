@@ -152,6 +152,12 @@
 			transition:.3s;
 		}
 
+		.normal_link {
+			text-decoration: none;
+			font-family: 'Nunito', sans-serif;
+			font-size: 16px;
+		}
+
 		.prose1, .prose2, .prose3, .prose3_footnote, .prose4 {
 			display: inline-block;
 			color: #505;
@@ -563,7 +569,9 @@
 				visibility: visible;
 			}
 
-
+			.normal_link {
+				font-size: 17px;
+			}
 		}
 	</style>
 
@@ -893,13 +901,17 @@
 		</div>
 
 		<div id='post_spiral' text-align='center'>
-			<p id='word_chain_hover_id' class='word_chain_hover'>Chain: </p>
+			<p id='word_chain_hover_id' class='word_chain_hover'></p>
 			<p id='word_spiral_caption_id' class='word_spiral_caption'>Figure 3. The plot shows the top 1000 nouns arranged in order starting from the centre of the spiral. The colour of the dot represents the length of the chain for the word in the mentioned language - Hawaiian in this case. View an interactive version of the plot by visiting the website from a device with a screen wider than 768px.</p>
-			<p class='prose4'>This article intends to bring out the intrinsic non-invertibility of translation between languages. In some cases, the problem seems to stem from the shortcomings of machine translation. However in most cases, the problem us due to the lack of equivalent words between languages. For example, the translation in Hawaiian for multiple words such as color, information, appearance, and contact among 27 other words is 'ike which trannslates back to knowledge. I assume this is a linguistic problem rather than technical because the <a href='http://wehewehe.org/gsdl2.85/cgi-bin/hdict?e=q-11000-00---off-0hdict--00-1----0-10-0---0---0direct-10-ED--4-------0-1lpm--11-en-Zz-1---Zz-1-home-%CA%BBike--00-3-1-00-0--4----0-0-11-00-0utfZz-8-00&amp;a=d&amp;d=D5153'>dictionary translation for 'ike</a> seems to confirm that the word does indeed mean a lot of things. Future extension of this work could involve the use of other languages as the primary source and the comparison of obtained results.</p>
-			<p class='methods_title' style='font-size:20px; font-family:"Nunito", sans-serif;'><b>Methods</b></p>
-			<p class='prose4'>I use the list of the top 1000 nouns in the English language for this study. This list was procured from the Corpus of Contemporary American English available freely <a href='https://www.wordfrequency.info/free.asp?s=y'>here</a><sup>[3]</sup>. I have chosen to restrict the study to nouns because they exist in almost<sup>[4]</sup> every language unlike other parts of speech<sup>[5]</sup>. Considering a pair of languages, one can study the relation between them by carrying out a circular translation<sup>[6]</sup> of each word between the two languages. Google Translate has a limit of free translations of 5000 characters at one time, so the script had to be modified accordingly. You can find the codes <a href='https://github.com/DevangThakkar/Translate/tree/master/python'>here</a>. Some of the resulting data was wrangled manually to obtain the final <a href='https://github.com/DevangThakkar/Translate/tree/master/data/nouns'>data</a>.</p>
+
+			<p class='prose4'>This article intends to bring out the intrinsic non-invertibility of translation between languages. In some cases, the problem seems to stem from the shortcomings of machine translation. However in most cases, the problem us due to the lack of equivalent words between languages. For example, the translation in Hawaiian for multiple words such as color, information, appearance, and contact among 27 other words is 'ike which trannslates back to knowledge. I assume this is a linguistic problem rather than technical because the <a href='http://wehewehe.org/gsdl2.85/cgi-bin/hdict?e=q-11000-00---off-0hdict--00-1----0-10-0---0---0direct-10-ED--4-------0-1lpm--11-en-Zz-1---Zz-1-home-%CA%BBike--00-3-1-00-0--4----0-0-11-00-0utfZz-8-00&amp;a=d&amp;d=D5153' class='normal_link'>dictionary translation for 'ike</a> seems to confirm that the word does indeed mean a lot of things. Future extension of this work could involve the use of other languages as the primary source and the comparison of obtained results.</p>
+			
+			<p class='methods_title' style='font-size:25px; font-family:"Nunito", sans-serif; color:#505'><b>Methods</b></p>
+			
+			<p class='prose4'>I use the list of the top 1000 nouns in the English language for this study. This list was procured from the Corpus of Contemporary American English available freely <a href='https://www.wordfrequency.info/free.asp?s=y'>here</a><sup>[3]</sup>. I have chosen to restrict the study to nouns because they exist in almost<sup>[4]</sup> every language unlike other parts of speech<sup>[5]</sup>. Considering a pair of languages, one can study the relation between them by carrying out a circular translation<sup>[6]</sup> of each word between the two languages. Google Translate has a limit of free translations of 5000 characters at one time, so the script had to be modified accordingly. You can find the codes <a href='https://github.com/DevangThakkar/Translate/tree/master/python' class='normal_link'>here</a>. Some of the resulting data was wrangled manually to obtain the final <a href='https://www.github.com/DevangThakkar/Translate/tree/master/data/nouns' class='normal_link'>data</a>.</p>
 
 			<section id='footnotes'>
+				<p class='methods_title' style='font-size:25px; font-family:"Nunito", sans-serif; color:#505'><b>Footnotes</b></p>
 				<p class='prose3_footnote'>[1] Sometimes, Google Translate happens to go bonkers and decides to send the user on an infinite translation trip. Consider what happens when you attempt to build the chain for the word <i>baseball</i> in Armenian. <br/><br/>
 
 				baseball -> Baseball: Baseball -> Baseball. Baseball: Baseball -> ... ad infinitum <br/><br/>
@@ -912,12 +924,20 @@
 
 				[2] One of the longest sensical chains in this study was built by translating the word <a href="https://translate.google.co.in/#en/bn/tax" style='text-decoration:none;'>tax</a> in Bengali. <br/><br/>
 
-				-> tax - do - be done - will do - will - will power - will have power - have the power <br/>
+				-> tax - do - be done - will do - will - will power - will have power - have the power <br/><br/>
 
-				[3] The data available on this website contains a list of the top 5000 words, along with a specifier that denotes what part of speech they are used as. I had to wrangle the data to exclude all other other parts of speech except nouns.
-				[4] I choose to hedge my statement not only because of my lack of expertise in this area but also to pay my homage to the nounless language of Borges’ Tlon.
-				[5] For example, a lot of Indic/Dravidian languages do not have the definite article ‘the’ while many languages, more commonly Japanese, do not have exclusive personal pronouns.
+				[3] The data available on this website contains a list of the top 5000 words, along with a specifier that denotes what part of speech they are used as. I had to wrangle the data to exclude all other other parts of speech except nouns. <br/><br/>
+
+				[4] I choose to hedge my statement not only because of my lack of expertise in this area but also to pay my homage to the nounless language of Borges’ Tlon. <br/><br/>
+				
+				[5] For example, a lot of Indic/Dravidian languages do not have the definite article 'the' while many languages, more commonly Japanese, do not have exclusive personal pronouns. <br/><br/>
+
 				[6] We start off from English words, translate them to a given language, and them translate the translation back to English - thus completing the circle.</p>
+
+				<p class='methods_title' style='font-size:25px; font-family:"Nunito", sans-serif; color:#505'><b>Acknowledgement</b></p>
+
+				<p class='prose3_footnote'>I would like to dedicate this to <a href='https://www.behance.net/tat_biswas'>Tathagata Biswas</a>, <a href='https://www.p-sem.com'>Pauline Sémon</a>, <a href='https://www.behance.net/shrenidand'>Shreni Dand</a>, and <a href='https://www.behance.net/AnupamaRao'>Anupama Rao</a> - four designers who inspire me to be better. The initial idea to take up this  
+				</p>
 
 			</section>
 		</div>
