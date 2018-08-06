@@ -24929,6 +24929,7 @@ dominant-baseline: hanging;
 <circle id='w535' cx='521.37' cy='308.07' r='5.5'/>
 <circle id='w538' cx='514.77' cy='282.84' r='5.5'/>
 <circle id='w545' cx='487.52' cy='230.1' r='5.5'/>
+<circle id='w533' cx='523.52' cy='325.08' r='5.5'/>
 <circle id='w556' cx='414.3' cy='172.21' r='5.5'/>
 <circle id='w557' cx='406.36' cy='168.96' r='5.5'/>
 <circle id='w559' cx='390.06' cy='163.56' r='5.5'/>
@@ -25055,7 +25056,6 @@ dominant-baseline: hanging;
 <g opacity='.6' fill='#707'>
 <circle id='w158' cx='288.02' cy='262.02' r='5.5'/>
 <circle id='w319' cx='392.06' cy='211.81' r='5.5'/>
-<circle id='w533' cx='523.52' cy='325.08' r='5.5'/>
 <circle id='w570' cx='296.71' cy='161.74' r='5.5'/>
 </g>
 <g opacity='.8' fill='#606'>
@@ -25206,6 +25206,7 @@ dominant-baseline: hanging;
 <circle id='w488' cx='258.77' cy='493.76' r='5.5'/>
 <circle id='w495' cx='314.83' cy='514.55' r='5.5'/>
 <circle id='w496' cx='323.15' cy='516.15' r='5.5'/>
+<circle id='w498' cx='340.26' cy='517.67' r='5.5'/>
 <circle id='w502' cx='374.44' cy='515.66' r='5.5'/>
 <circle id='w503' cx='382.89' cy='514.11' r='5.5'/>
 <circle id='w506' cx='407.6' cy='507.03' r='5.5'/>
@@ -25366,7 +25367,6 @@ dominant-baseline: hanging;
 <circle id='w118' cx='342.55' cy='427.45' r='5.5'/>
 <circle id='w433' cx='372.4' cy='182.49' r='5.5'/>
 <circle id='w497' cx='331.68' cy='517.12' r='5.5'/>
-<circle id='w498' cx='340.26' cy='517.67' r='5.5'/>
 <circle id='w571' cx='288.42' cy='163.92' r='5.5'/>
 </g>
 <g opacity='.8' fill='#606'>
