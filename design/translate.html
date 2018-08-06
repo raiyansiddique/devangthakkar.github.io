@@ -1325,8 +1325,8 @@
 
 					// $('#top_img').on('mouseover', triggers_word[i], showWordChain());
 					// $('#top_img').on('mouseout', triggers_word[i], hideWordChain);
-					triggers_word[i].removeEventListener('mouseover', function{showWordChain(this, oldCounter)});
-					triggers_word[i].addEventListener('mouseover', function{showWordChain(this, counter)});
+					triggers_word[i].removeEventListener('mouseover', function(){showWordChain(this, oldCounter)});
+					triggers_word[i].addEventListener('mouseover', function(){showWordChain(this, counter)});
 					triggers_word[i].addEventListener('mouseout', hideWordChain);
 				}
 			}
