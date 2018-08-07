@@ -931,7 +931,7 @@
 
 				<p class='methods_title' style='font-size:25px; font-family:"Nunito", sans-serif; color:#505'><b>Acknowledgements</b></p>
 
-				<p class='prose3_footnote'>I would like to dedicate this to <a href='https://www.behance.net/tat_biswas'>Tathagata Biswas</a>, <a href='https://www.p-sem.com'>Pauline Sémon</a>, <a href='https://www.behance.net/shrenidand'>Shreni Dand</a>, and <a href='https://www.behance.net/AnupamaRao'>Anupama Rao</a> - four designers who've greatly inspired me. I was motivated to take up this project after I checked out Nadieh Bremer's <a href='https://www.visualcinnamon.com/portfolio/beautiful-in-english'>Beautiful in English</a>. The spiral plot was inspired by Nick Rougeux's <a href='https://www.c82.net/work/?id=370'>Spacewalking</a>. The spiral was created using a script from <a href='http://shanfan.github.io/Illustrator-Scripts-Archive'>here.</a><br/><br/>You may reach me via Twitter <a href='https://www.twitter.com/devangvang'>@devangvang</a> or drop me a mail at [firstname] dot [lastname] at duke dot edu. This site uses Google Analytics to collect anonymized data about visitors.
+				<p class='prose3_footnote'>I would like to dedicate this project to <a href='https://www.behance.net/tat_biswas'>Tathagata Biswas</a>, <a href='https://www.p-sem.com'>Pauline Sémon</a>, <a href='https://www.behance.net/shrenidand'>Shreni Dand</a>, and <a href='https://www.behance.net/AnupamaRao'>Anupama Rao</a> - four designers who've greatly inspired me. The primary inspiration for this undertaking was Nadieh Bremer's <a href='https://www.visualcinnamon.com/portfolio/beautiful-in-english'>Beautiful in English</a>. The spiral plot was inspired by Nick Rougeux's <a href='https://www.c82.net/work/?id=370'>Spacewalking</a>. The spiral was created using a script from <a href='http://shanfan.github.io/Illustrator-Scripts-Archive'>here.</a><br/><br/>You may reach me via Twitter <a href='https://www.twitter.com/devangvang'>@devangvang</a> or drop me a mail at [firstname] (dot) [lastname] (at) duke (dot) edu. This site uses Google Analytics to collect anonymized data about visitors.
 				</p>
 
 			</section>
@@ -951,7 +951,22 @@
 		// mobile spiral only if max width
 		var jmediaquery0 = window.matchMedia('(max-width: 770px)');
 		if (jmediaquery0.matches) {
-			document.getElementById('mobile_spiral_id').src = document.getElementById('mobile_spiral_id').lsrc;
+			$(window).on('load', function(){
+				$('#mobile_spiral_id').each(function(){
+					var this_image = this;
+					var src = $(this_image).attr('src') || '' ;
+					if(!src.length > 0){
+						var lsrc = $(this_image).attr('lsrc') || '' ;
+						if(lsrc.length > 0){
+							var img = new Image();
+							img.src = lsrc;
+							$(img).on('load', function() {
+								this_image.src = this.src;
+							});
+						}
+					}
+				});
+			});
 		}
 
 		// remove br if screen width > 600
@@ -989,17 +1004,13 @@
 		// change highlight on rank plot based on dropdown
 		function setHighlight(select) {
 			var selected=select.id;
-			console.log(selected);
 
 			var previous_rank=document.getElementById('rank_plot_counter_id').innerHTML;
-			console.log(previous_rank);
 
 			var sel_num=selected.replace('opt', '');
-			console.log(sel_num);
 			document.getElementById('rank_plot_counter_id').innerHTML=sel_num;
 			
 			document.getElementById('lang'.concat(previous_rank)).style.stroke='#747';
-			console.log('lang'.concat(sel_num.toString()))
 			
 			document.getElementById('lang'.concat(sel_num.toString())).style.stroke='#505';
 		};
@@ -1052,7 +1063,6 @@
 
 			var selected = translations[counter];
 			var chain = selected['chain'];
-			console.log(chain);
 			var chain_length = chain.length;
 
 			document.getElementById('c1').style.display = 'block';
@@ -1079,7 +1089,6 @@
 
 			var combo = selected['lang'].concat('('.concat(selected['lang_code'].concat(')')))
 			combo = combo.concat(': '.concat(selected['chain'][0]));
-			console.log(combo);
 
 			document.getElementById('lang_text').textContent = combo;
 
@@ -1198,7 +1207,6 @@
 		if (jmediaquery4.matches) {
 			$(window).on('load', function(){
 				$('#final_img').each(function(){
-					console.log("Window loaded; now loading img")
 					var this_image = this;
 					var src = $(this_image).attr('src') || '' ;
 					if(!src.length > 0){
@@ -1208,7 +1216,6 @@
 							img.src = lsrc;
 							$(img).on('load', function() {
 								this_image.src = this.src;
-								console.log('All loaded');
 								$('#final_img').css('visibility', 'visible');
 								$('#placeholder_id').css('visibility', 'hidden');
 							});
@@ -1226,10 +1233,7 @@
 
 			var current_image_num = document.getElementById('word_spiral_counter_id').innerHTML;
 			var current_image = 'Layer_'.concat(current_image_num);
-			console.log(current_image);
-			console.log(document.getElementById('final_img').getSVGDocument().childNodes[1]);
 			var svg_doc = document.getElementById('final_img').getSVGDocument().childNodes[1];
-			console.log(svg_doc.getElementById(current_image));
 			svg_doc.getElementById(current_image).style.opacity = '0.0';
 			var new_image_num = 1;
 			if (current_image == 'Layer_1' && dir == '-1') {
@@ -1245,18 +1249,14 @@
 			document.getElementById('word_spiral_counter_id').innerHTML = new_image_num;
 			refresher();
 			var new_image = 'Layer_'.concat(new_image_num);
-			console.log(new_image);
 			svg_doc.getElementById(new_image).style.opacity = '1.0';
 		}
 
 		$(document).on('keyup', function(e) {
 			e = e || window.event;
 			if (e.keyCode == '37') {
-				console.log('left');
-				changeImage('-1') //left <- show Prev image
+				changeImage('-1')
 			} else if (e.keyCode == '39') {
-				// right -> show next image
-				console.log('right');
 				changeImage('1')
 			}
 		});
@@ -1268,12 +1268,8 @@
 
 		function showWordChain(evt) {
 			var counter = document.getElementById('word_spiral_counter_id').innerHTML;
-			console.log('trigger');
-			console.log(evt.target.id);
 			hideWordChain();
 			if (chain_data[counter-1].hasOwnProperty(evt.target.id)) {
-				console.log('trigger inside');
-				console.log(evt.target.id);
 				var chain_arr = chain_data[counter-1][evt.target.id];
 				var chain_str = '';
 				for (var l=0;l<chain_arr.length;l++) {
@@ -1295,13 +1291,9 @@
 		function refresher() {
 			//word hover
 
-			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
-			// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
 			var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
 
-			console.log(layer);
 			var triggers_word = layer.getElementsByTagName('circle');
-			console.log(triggers_word);
 
 			for (var i = 0; i < triggers_word.length; i++) {
 
@@ -1324,11 +1316,11 @@
 			var clickable_dots = svg_invis.getElementsByClassName('n');
 
 			for(var i=0;i<clickable_rect.length;i++) {
-				clickable_rect[i].addEventListener('click', function() {console.log('rect');console.log(this.id);jump(this.id);});
+				clickable_rect[i].addEventListener('click', function() {jump(this.id);});
 			}
 
 			for(var i=0;i<clickable_dots.length;i++) {
-				clickable_dots[i].addEventListener('click', function() {console.log('dots');console.log(this.id);jump(this.id);});
+				clickable_dots[i].addEventListener('click', function() {jump(this.id);});
 			}
 
 			function jump(id) {
@@ -1346,8 +1338,6 @@
 
 			var svg1 = document.getElementById('top_img').getSVGDocument().childNodes[1];
 			var tooltip = svg1.getElementById('tooltip');
-			console.log(svg1);
-			console.log(tooltip);
 			var tooltipText = tooltip.getElementsByTagName('text')[0];
 
 			var triggers_rect = svg1.getElementsByClassName('r');
@@ -1417,7 +1407,6 @@
 
 						lines_arr.push(lines);
 					}
-					console.log(lines_arr);
 					chain_data = lines_arr;
 				}
 			}
@@ -1425,13 +1414,9 @@
 			function starter() {
 				//word hover
 				// var counter = document.getElementById('word_spiral_counter_id').innerHTML;
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes);
-				// console.log(document.getElementById('final_img').getSVGDocument().childNodes[1].childNodes[3]);
 				var layer = document.getElementById('top_img').getSVGDocument().childNodes[1].childNodes[3];
 
-				console.log(layer);
 				var triggers_word = layer.getElementsByTagName('circle');
-				console.log(triggers_word);
 
 				for (var i = 0; i < triggers_word.length; i++) {
 
