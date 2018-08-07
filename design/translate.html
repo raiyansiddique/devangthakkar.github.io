@@ -916,12 +916,12 @@
 
 			<p class='prose4'>This article intends to bring out the intrinsic non-invertibility of translation between languages. In some cases, the problem seems to stem from the shortcomings of machine translation. However in most cases, the problem us due to the lack of equivalent words between languages. For example, the translation in Hawaiian for multiple words such as color, information, appearance, and contact among 27 other words is 'ike which trannslates back to knowledge. I assume this is a linguistic problem rather than technical because the <a href='http://wehewehe.org/gsdl2.85/cgi-bin/hdict?e=q-11000-00---off-0hdict--00-1----0-10-0---0---0direct-10-ED--4-------0-1lpm--11-en-Zz-1---Zz-1-home-%CA%BBike--00-3-1-00-0--4----0-0-11-00-0utfZz-8-00&amp;a=d&amp;d=D5153' class='normal_link'>dictionary translation for 'ike</a> seems to confirm that the word does indeed mean a lot of things. Future extension of this work could involve the use of other languages as the primary source and the comparison of obtained results.</p>
 			
-			<p class='methods_title' style='padding-left:35px;font-size:25px; font-family:"Nunito", sans-serif; color:#505'><b>Methods</b></p>
+			<p class='methods_title' style='padding-left:15px;font-size:25px; font-family:"Nunito", sans-serif; color:#505'><b>Methods</b></p>
 			
 			<p class='prose4'>I use the list of the top 1000 nouns in the English language for this study. This list was procured from the Corpus of Contemporary American English available freely <a href='https://www.wordfrequency.info/free.asp?s=y'>here</a><sup>[3]</sup>. I have chosen to restrict the study to nouns because they exist in almost<sup>[4]</sup> every language unlike other parts of speech<sup>[5]</sup>. Considering a pair of languages, one can study the relation between them by carrying out a circular translation<sup>[6]</sup> of each word between the two languages. Google Translate has a limit of free translations of 5000 characters at one time, so the script had to be modified accordingly. You can find the codes <a href='https://github.com/DevangThakkar/Translate/tree/master/python' class='normal_link'>here</a>. Some of the resulting data was wrangled manually to obtain the final <a href='https://www.github.com/DevangThakkar/Translate/tree/master/data/nouns' class='normal_link'>data</a>.</p>
 
 			<section id='footnotes'>
-				<p class='methods_title' style='padding-left:35px;font-size:25px; font-family:"Nunito", sans-serif; color:#505; margin-left:20px;'><b>Footnotes</b></p>
+				<p class='methods_title' style='padding-left:15px;font-size:25px; font-family:"Nunito", sans-serif; color:#505; margin-left:20px;'><b>Footnotes</b></p>
 				<p class='prose3_footnote'>[1] Sometimes, Google Translate happens to go bonkers and decides to send the user on an infinite translation trip. Consider what happens when you attempt to build the chain for the word <i>baseball</i> in Armenian. <br/><br/>
 
 				baseball -> Baseball: Baseball -> Baseball. Baseball: Baseball -> ... ad infinitum <br/><br/>
@@ -944,7 +944,7 @@
 
 				[6] We start off from English words, translate them to a given language, and them translate the translation back to English - thus completing the circle.</p>
 
-				<p class='methods_title' style='padding-left:35px;font-size:25px; font-family:"Nunito", sans-serif; color:#505; margin-left:20px;'><b>Acknowledgements</b></p>
+				<p class='methods_title' style='padding-left:15px;font-size:25px; font-family:"Nunito", sans-serif; color:#505; margin-left:20px;'><b>Acknowledgements</b></p>
 
 				<p class='prose3_footnote'>I would like to dedicate this project to <a href='https://www.behance.net/tat_biswas'>Tathagata Biswas</a>, <a href='https://www.p-sem.com'>Pauline Sémon</a>, <a href='https://www.behance.net/shrenidand'>Shreni Dand</a>, and <a href='https://www.behance.net/AnupamaRao'>Anupama Rao</a> - four designers who've greatly inspired me. The primary inspiration for this undertaking was Nadieh Bremer's <a href='https://www.visualcinnamon.com/portfolio/beautiful-in-english'>Beautiful in English</a>. The spiral plot was inspired by Nick Rougeux's <a href='https://www.c82.net/work/?id=370'>Spacewalking</a>. The spiral was created using a script from <a href='http://shanfan.github.io/Illustrator-Scripts-Archive'>here.</a><br/><br/>You may reach me via Twitter <a href='https://www.twitter.com/devangvang'>@devangvang</a> or drop me a mail at [firstname] (dot) [lastname] (at) duke (dot) edu. This site uses Google Analytics to collect anonymized data about visitors.
 				</p>
