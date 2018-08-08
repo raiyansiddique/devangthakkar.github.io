@@ -237,7 +237,8 @@ dominant-baseline: hanging;
 <text x='280' y='660' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>3</text>
 <circle fill='#606' opacity='0.8' stroke='#606' cx='305' cy='655' r='5.5'/>
 <text x='315' y='660' fill='#781b7a' font-family="'Nunito', sans-serif" font-size='16' stroke='none' stroke-miterlimit='10' id='language'>4 or more</text>
-</g><g id='Layer_1' opacity='1.0'>
+</g>
+<g id='Layer_1' opacity='0.0'>
 <g stroke-width='.44'>
 <g opacity='.2' fill='#f3f'>
 <circle id='w20' cx='310.04' cy='340.25' r='5.5'/>
@@ -34379,7 +34380,7 @@ dominant-baseline: hanging;
 <text x='3' y='6' id='tooltip-word-text' font-family="'Nunito', sans-serif" fill='#ffb'>Tooltip word</text>
 </g>
 </g>
-<g id='Layer_100' opacity='0.0'>
+<g id='Layer_100' opacity='1.0'>
 <g stroke-width='.44'>
 <g opacity='.2' fill='#f3f'>
 <circle id='w3' cx='334.66' cy='338.82' r='5.5'/>
