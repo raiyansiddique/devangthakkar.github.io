@@ -1,0 +1,4 @@
+.disableLink {
+   pointer-events: none;
+   cursor: default;
+}
