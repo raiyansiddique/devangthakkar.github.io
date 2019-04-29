@@ -6984,6 +6984,9 @@ a.panel-block:hover,label.panel-block:hover{
         margin-left:100%
     }
 }
+.frame{
+    margin-bottom: 1.75rem;
+}
 .columns{
     margin-left:-.75rem;
     margin-right:-.75rem;
@@ -6993,7 +6996,7 @@ a.panel-block:hover,label.panel-block:hover{
     margin-bottom:-.75rem
 }
 .columns:not(:last-child){
-    margin-bottom:1.75rem
+    margin-bottom:0.75rem
 }
 .columns.is-centered{
     justify-content:center
