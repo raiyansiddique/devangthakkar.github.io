@@ -6985,12 +6985,12 @@ a.panel-block:hover,label.panel-block:hover{
     }
 }
 .frame{
-    margin-bottom: 1.75rem;
+    margin-bottom: 1rem;
 }
 .columns{
     margin-left:-.75rem;
     margin-right:-.75rem;
-    margin-top:-.75rem
+    margin-top:0rem
 }
 .columns:last-child{
     margin-bottom:-.75rem
