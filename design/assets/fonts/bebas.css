@@ -5,7 +5,8 @@
 @font-face {
     font-family: 'bebas';
     src: url('https://www.devangthakkar.com/design/assets/fonts/bebas-webfont.woff2') format('woff2'),
-         url('https://www.devangthakkar.com/design/assets/fonts/bebas-webfont.woff') format('woff');
+         url('https://www.devangthakkar.com/design/assets/fonts/bebas-webfont.woff') format('woff'),
+         url('https://www.devangthakkar.com/design/assets/fonts/bebas-webfont.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
 
